@@ -1,0 +1,70 @@
+#########################################
+# Sukka's Ruleset - Reject Domains
+# Last Updated: 2024-05-18T20:29:11.856Z
+# Size: 59
+# License: AGPL 3.0
+# Homepage: https://ruleset.skk.moe
+# GitHub: https://github.com/SukkaW/Surge
+#
+# The ruleset supports AD blocking, tracking protection, privacy protection, anti-phishing, anti-mining
+#########################################
+DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+DOMAIN,stun.smartgslb.com
+DOMAIN,this_rule_set_is_made_by_sukkaw.skk.moe
+DOMAIN-SUFFIX,notifysrv.com
+DOMAIN-SUFFIX,notify6.com
+DOMAIN-SUFFIX,net.mydays.de
+DOMAIN-SUFFIX,advertising.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,crazyegg.com
+DOMAIN-SUFFIX,openx.net
+DOMAIN-KEYWORD,wxsnsdy
+DOMAIN-KEYWORD,-tracker.biliapi.net
+DOMAIN-KEYWORD,-spiky.clevertap-prod.com
+DOMAIN-KEYWORD,-s2s.sensic.net
+DOMAIN-KEYWORD,-launches.appsflyersdk.com
+DOMAIN-KEYWORD,-logging.nextmedia.com
+DOMAIN-KEYWORD,_vmind.qqvideo.tc.qq.com
+DOMAIN-KEYWORD,umeng
+DOMAIN-KEYWORD,telemetry.officeapps.live.com
+DOMAIN-KEYWORD,track.tiara
+DOMAIN-KEYWORD,cp-home-pl-
+DOMAIN-KEYWORD,pancakeswap
+DOMAIN-KEYWORD,dnserror
+DOMAIN-KEYWORD,doubleclick.
+DOMAIN-KEYWORD,dubester.
+DOMAIN-KEYWORD,appsflyer
+DOMAIN-KEYWORD,adwords
+DOMAIN-KEYWORD,adktrack
+DOMAIN-KEYWORD,adjust.
+DOMAIN-KEYWORD,advertmarket
+DOMAIN-KEYWORD,admob
+DOMAIN-KEYWORD,admaster
+DOMAIN-KEYWORD,adsyndication
+DOMAIN-KEYWORD,adspace
+DOMAIN-KEYWORD,adserver
+DOMAIN-KEYWORD,adserve2
+DOMAIN-KEYWORD,adsdk
+DOMAIN-KEYWORD,adsby
+DOMAIN-KEYWORD,anybest.
+DOMAIN-KEYWORD,smetrics.marketing.
+DOMAIN-KEYWORD,sunnimiq
+DOMAIN-KEYWORD,nimiqpool
+DOMAIN-KEYWORD,marketing.net
+DOMAIN-KEYWORD,mighbest
+DOMAIN-KEYWORD,gettate
+DOMAIN-KEYWORD,zymerget
+DOMAIN-KEYWORD,fb-business-appeal
+DOMAIN-KEYWORD,fb-community-standards
+DOMAIN-KEYWORD,fb-restriction-appeal
+DOMAIN-KEYWORD,fb-restriction-case
+DOMAIN-KEYWORD,flightsy
+DOMAIN-KEYWORD,hostingcloud
+DOMAIN-KEYWORD,jshosting
+DOMAIN-KEYWORD,.zooplus.
+DOMAIN-KEYWORD,.net.daraz.
+DOMAIN-KEYWORD,.nimiq.
+DOMAIN-KEYWORD,.freecontent.
+DOMAIN-KEYWORD,.engage.3m.
+DOMAIN-KEYWORD,.estream.
+################## EOF ##################

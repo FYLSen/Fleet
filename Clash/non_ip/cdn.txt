@@ -1,0 +1,17 @@
+#########################################
+# Sukka's Ruleset - CDN Domains
+# Last Updated: 2024-04-20T13:42:27.848Z
+# Size: 6
+# License: AGPL 3.0
+# Homepage: https://ruleset.skk.moe
+# GitHub: https://github.com/SukkaW/Surge
+#
+# This file contains object storage and static assets CDN domains.
+#########################################
+DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+DOMAIN-KEYWORD,dsn.algolia.net
+DOMAIN-KEYWORD,web-assets.zendesk
+DOMAIN-KEYWORD,vod-adaptive.akamaized.net
+DOMAIN-KEYWORD,-res.cloudinary.com
+DOMAIN-KEYWORD,-files.gitbook.io
+################## EOF ##################
