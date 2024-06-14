@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Stream Services: Japan
-# Last Updated: 2024-06-02T13:44:39.812Z
+# Last Updated: 2024-06-13T14:22:55.853Z
 # Size: 26
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -13,29 +13,29 @@
 # - encoreTVB JP
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
-DOMAIN-SUFFIX,tver.jp
-DOMAIN-SUFFIX,socdm.com
-DOMAIN-SUFFIX,nimg.jp
-DOMAIN-SUFFIX,nicovideo.jp
-DOMAIN-SUFFIX,winticket.jp
-DOMAIN-SUFFIX,hulu.jp
-DOMAIN-SUFFIX,hjholdings.jp
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hayabusa.media
-DOMAIN-SUFFIX,hayabusa.io
-DOMAIN-SUFFIX,hayabusa.dev
-DOMAIN-SUFFIX,ameblo.jp
-DOMAIN-SUFFIX,amebaowndme.com
-DOMAIN-SUFFIX,amebaownd.com
-DOMAIN-SUFFIX,amebame.com
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm-extension.com
+DOMAIN-KEYWORD,abematv.akamaized.net
+DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,abema-tv.com
-DOMAIN-SUFFIX,abema.tv
-DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,hayabusa.dev
+DOMAIN-SUFFIX,hayabusa.io
+DOMAIN-SUFFIX,hayabusa.media
+DOMAIN-SUFFIX,amebame.com
+DOMAIN-SUFFIX,amebaownd.com
+DOMAIN-SUFFIX,amebaowndme.com
+DOMAIN-SUFFIX,ameblo.jp
 DOMAIN-SUFFIX,dokusho-ojikan.jp
+DOMAIN-SUFFIX,winticket.jp
 DOMAIN-SUFFIX,dmc.nico
-DOMAIN-SUFFIX,dmm-extension.com
-DOMAIN-SUFFIX,dmm.com
-DOMAIN-SUFFIX,dmm.co.jp
-DOMAIN-KEYWORD,abematv.akamaized.net
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,socdm.com
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hjholdings.jp
+DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,tver.jp
 ################## EOF ##################

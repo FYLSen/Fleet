@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Sogou Input
-# Last Updated: 2024-03-08T08:50:38.723Z
+# Last Updated: 2024-06-13T14:22:56.437Z
 # Size: 13
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -9,16 +9,16 @@
 # This file contains rules for Sogou Input.
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
-DOMAIN,oth.str.mdt.qq.com
-DOMAIN,otheve.beacon.qq.com
-DOMAIN-SUFFIX,macime.sogou.com
-DOMAIN-SUFFIX,ime.sogou.com
-DOMAIN-SUFFIX,pinyin.sogou.com
-DOMAIN-SUFFIX,account.sogou.com
-DOMAIN-SUFFIX,sginput.qq.com
-DOMAIN-SUFFIX,shouji.sogou.com
-DOMAIN-SUFFIX,get.sogou.com
+PROCESS-NAME,SogouInput
 PROCESS-NAME,SOgouTaskManager
 PROCESS-NAME,SogouServices
-PROCESS-NAME,SogouInput
+DOMAIN-SUFFIX,get.sogou.com
+DOMAIN-SUFFIX,shouji.sogou.com
+DOMAIN-SUFFIX,account.sogou.com
+DOMAIN-SUFFIX,pinyin.sogou.com
+DOMAIN-SUFFIX,ime.sogou.com
+DOMAIN-SUFFIX,macime.sogou.com
+DOMAIN-SUFFIX,sginput.qq.com
+DOMAIN,otheve.beacon.qq.com
+DOMAIN,oth.str.mdt.qq.com
 ################## EOF ##################

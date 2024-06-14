@@ -1,34 +1,34 @@
 #########################################
 # Sukka's Ruleset - Proxy
-# Last Updated: 2024-03-08T08:50:38.725Z
+# Last Updated: 2024-06-13T14:22:56.440Z
 # Size: 25
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
-DOMAIN,ip.cn
-DOMAIN,vscodeexperiments.azureedge.net
-DOMAIN-SUFFIX,dnsleaktest.com
-DOMAIN-SUFFIX,azure-mobile.net
-DOMAIN-SUFFIX,azurewebsites.net
-DOMAIN-SUFFIX,azurecontainer.io
-DOMAIN-SUFFIX,visualstudio.com
-DOMAIN-SUFFIX,edns.ip-api.com
-DOMAIN-SUFFIX,elasticbeanstalk.com
-DOMAIN-SUFFIX,exp-tas.com
-DOMAIN-SUFFIX,wakatime.com
-DOMAIN-SUFFIX,influxdata.com
-DOMAIN-SUFFIX,cloudapp.net
-DOMAIN-SUFFIX,compute-1.amazonaws.com
-DOMAIN-SUFFIX,compute.amazonaws.com
-DOMAIN-SUFFIX,coveralls.io
-DOMAIN-SUFFIX,surge-activation.com
-DOMAIN-SUFFIX,services.mozilla.com
-DOMAIN-SUFFIX,services.googleapis.cn
-DOMAIN-SUFFIX,nextdns.io
-DOMAIN-SUFFIX,firefox.com
-DOMAIN-SUFFIX,fork.dev
-DOMAIN-SUFFIX,mikuclub.cn
 DOMAIN-SUFFIX,mikuclub.xyz
+DOMAIN-SUFFIX,mikuclub.cn
+DOMAIN-SUFFIX,fork.dev
+DOMAIN-SUFFIX,nextdns.io
+DOMAIN-SUFFIX,services.googleapis.cn
+DOMAIN-SUFFIX,coveralls.io
+DOMAIN-SUFFIX,influxdata.com
+DOMAIN-SUFFIX,services.mozilla.com
+DOMAIN-SUFFIX,wakatime.com
+DOMAIN-SUFFIX,surge-activation.com
+DOMAIN-SUFFIX,exp-tas.com
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,azurecontainer.io
+DOMAIN-SUFFIX,azurewebsites.net
+DOMAIN-SUFFIX,azure-mobile.net
+DOMAIN-SUFFIX,cloudapp.net
+DOMAIN-SUFFIX,elasticbeanstalk.com
+DOMAIN-SUFFIX,compute.amazonaws.com
+DOMAIN-SUFFIX,compute-1.amazonaws.com
+DOMAIN,vscodeexperiments.azureedge.net
+DOMAIN-SUFFIX,edns.ip-api.com
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN,ip.cn
 ################## EOF ##################

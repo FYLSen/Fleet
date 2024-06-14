@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Stream Services: Taiwan
-# Last Updated: 2024-03-08T08:50:32.716Z
+# Last Updated: 2024-06-13T14:22:55.853Z
 # Size: 45
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -15,48 +15,48 @@
 # - Bilibili International
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
-DOMAIN,upos-bstar-mirrorakam.akamaized.net
-DOMAIN,upos-bstar1-mirrorakam.akamaized.net
-DOMAIN,apm-misaka.biliapi.net
+DOMAIN-SUFFIX,kk.stream
+DOMAIN-SUFFIX,kktv.com.tw
+DOMAIN-SUFFIX,kktv.me
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+DOMAIN-SUFFIX,litv.tv
+DOMAIN-SUFFIX,4gtv.tv
+DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
+DOMAIN,d3c7rimkq79yfu.cloudfront.net
+DOMAIN-SUFFIX,linetv.tw
+PROCESS-NAME,com.linecorp.linetv
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogoasia.com
+DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN-KEYWORD,.hbogoasia.
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+DOMAIN,bcbolthboa-a.akamaihd.net
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+DOMAIN,dai3fd1oh325y.cloudfront.net
+DOMAIN,hboasia1-i.akamaihd.net
+DOMAIN,hboasia2-i.akamaihd.net
+DOMAIN,hboasia3-i.akamaihd.net
+DOMAIN,hboasia4-i.akamaihd.net
+DOMAIN,hboasia5-i.akamaihd.net
+DOMAIN,hbogoprod-vod.akamaized.net
+DOMAIN,manifest.prod.boltdns.net
+DOMAIN,players.brightcove.net
+DOMAIN,s3-ap-southeast-1.amazonaws.com
+DOMAIN,hboasialive.akamaized.net
+DOMAIN,hbounify-prod.evergent.com
+DOMAIN,hbolb.onwardsmg.com
+DOMAIN,bahamut.akamaized.net
 DOMAIN,gamer-cds.cdn.hinet.net
 DOMAIN,gamer2-cds.cdn.hinet.net
-DOMAIN,s3-ap-southeast-1.amazonaws.com
-DOMAIN,p-bstarstatic.akamaized.net
-DOMAIN,p.bstarstatic.com
-DOMAIN,players.brightcove.net
-DOMAIN,manifest.prod.boltdns.net
-DOMAIN,hbolb.onwardsmg.com
-DOMAIN,hbounify-prod.evergent.com
-DOMAIN,hbogoprod-vod.akamaized.net
-DOMAIN,hboasialive.akamaized.net
-DOMAIN,hboasia5-i.akamaihd.net
-DOMAIN,hboasia4-i.akamaihd.net
-DOMAIN,hboasia3-i.akamaihd.net
-DOMAIN,hboasia2-i.akamaihd.net
-DOMAIN,hboasia1-i.akamaihd.net
-DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
-DOMAIN,bahamut.akamaized.net
-DOMAIN,bcbolthboa-a.akamaihd.net
-DOMAIN,dai3fd1oh325y.cloudfront.net
-DOMAIN,d3c7rimkq79yfu.cloudfront.net
-DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
-DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
-DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
-DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,biliintl.com
-DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,viblast.com
-DOMAIN-SUFFIX,hbogoasia.hk
-DOMAIN-SUFFIX,hbogoasia.com
-DOMAIN-SUFFIX,hboasia.com
-DOMAIN-SUFFIX,linetv.tw
-DOMAIN-SUFFIX,litv.tv
-DOMAIN-SUFFIX,kktv.me
-DOMAIN-SUFFIX,kktv.com.tw
-DOMAIN-SUFFIX,kk.stream
-DOMAIN-SUFFIX,4gtv.tv
-DOMAIN-KEYWORD,.hbogoasia.
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,biliintl.com
+DOMAIN,apm-misaka.biliapi.net
+DOMAIN,p.bstarstatic.com
+DOMAIN,p-bstarstatic.akamaized.net
+DOMAIN,upos-bstar-mirrorakam.akamaized.net
+DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,bilibili.tv
 PROCESS-NAME,com.bstar.intl
-PROCESS-NAME,com.linecorp.linetv
 ################## EOF ##################

@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Stream Services: North America
-# Last Updated: 2024-06-02T13:44:39.811Z
+# Last Updated: 2024-06-13T14:22:55.853Z
 # Size: 36
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -17,39 +17,39 @@
 # - Peacock
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
-DOMAIN,link.theplatform.com
-DOMAIN,cbsservice.aws.syncbak.com
-DOMAIN,cbsplaylistserver.aws.syncbak.com
-DOMAIN,cbsi.live.ott.irdeto.com
-DOMAIN,edge.api.brightcove.com
-DOMAIN,bcbolt446c5271-a.akamaihd.net
-DOMAIN,staticasiafox.akamaized.net
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,uplynk.com
 DOMAIN,dashasiafox.akamaized.netflix
-DOMAIN-SUFFIX,peacocktv.com
-DOMAIN-SUFFIX,paramountplus.com
+DOMAIN,staticasiafox.akamaized.net
+DOMAIN-SUFFIX,foxplus.com
+DOMAIN-SUFFIX,theplatform.com
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,hulu.tv
+DOMAIN-SUFFIX,hulu.us
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+PROCESS-NAME,com.hulu.plus
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hjholdings.jp
+DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,sho.com
+DOMAIN-SUFFIX,showtime.com
+DOMAIN,bcbolt446c5271-a.akamaihd.net
+DOMAIN,edge.api.brightcove.com
+DOMAIN-SUFFIX,encoretvb.com
+DOMAIN-SUFFIX,disco-api.com
+DOMAIN-SUFFIX,discoveryplus.co.uk
+DOMAIN-SUFFIX,discoveryplus.com
+DOMAIN-SUFFIX,discoveryplus.in
+DOMAIN-SUFFIX,dnitv.com
+DOMAIN-SUFFIX,cbsi.com
 DOMAIN-SUFFIX,cbsaavideo.com
 DOMAIN-SUFFIX,cbsivideo.com
-DOMAIN-SUFFIX,cbsi.com
-DOMAIN-SUFFIX,dnitv.com
-DOMAIN-SUFFIX,discoveryplus.in
-DOMAIN-SUFFIX,discoveryplus.com
-DOMAIN-SUFFIX,discoveryplus.co.uk
-DOMAIN-SUFFIX,disco-api.com
-DOMAIN-SUFFIX,encoretvb.com
-DOMAIN-SUFFIX,showtime.com
-DOMAIN-SUFFIX,sho.com
-DOMAIN-SUFFIX,hjholdings.jp
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hulustream.com
-DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,hulu.jp
-DOMAIN-SUFFIX,hulu.us
-DOMAIN-SUFFIX,hulu.tv
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,theplatform.com
-DOMAIN-SUFFIX,uplynk.com
-DOMAIN-SUFFIX,foxplus.com
-DOMAIN-SUFFIX,foxdcg.com
-DOMAIN-SUFFIX,fox.com
-PROCESS-NAME,com.hulu.plus
+DOMAIN-SUFFIX,paramountplus.com
+DOMAIN,cbsi.live.ott.irdeto.com
+DOMAIN,cbsplaylistserver.aws.syncbak.com
+DOMAIN,cbsservice.aws.syncbak.com
+DOMAIN,link.theplatform.com
+DOMAIN-SUFFIX,peacocktv.com
 ################## EOF ##################
