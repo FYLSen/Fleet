@@ -1,0 +1,609 @@
+dns:
+  nameserver-policy:
+    +.uc.cn: quic://dns.alidns.com:853
+    +.ucweb.com: quic://dns.alidns.com:853
+    +.alibaba.com: quic://dns.alidns.com:853
+    +.alicdn.com: quic://dns.alidns.com:853
+    +.ialicdn.com: quic://dns.alidns.com:853
+    +.myalicdn.com: quic://dns.alidns.com:853
+    +.alidns.com: quic://dns.alidns.com:853
+    +.aliimg.com: quic://dns.alidns.com:853
+    +.aliyun.com: quic://dns.alidns.com:853
+    +.aliyuncs.com: quic://dns.alidns.com:853
+    +.alikunlun.com: quic://dns.alidns.com:853
+    +.alikunlun.net: quic://dns.alidns.com:853
+    +.cdngslb.com: quic://dns.alidns.com:853
+    +.alipay.com: quic://dns.alidns.com:853
+    +.alipay.cn: quic://dns.alidns.com:853
+    +.alipay.com.cn: quic://dns.alidns.com:853
+    +.alipayobjects.com: quic://dns.alidns.com:853
+    +.alibaba-inc.com: quic://dns.alidns.com:853
+    +.alibabausercontent.com: quic://dns.alidns.com:853
+    +.alicloudccp.com: quic://dns.alidns.com:853
+    +.alipan.com: quic://dns.alidns.com:853
+    +.aliyundrive.com: quic://dns.alidns.com:853
+    +.aliyundrive.net: quic://dns.alidns.com:853
+    +.cainiao.com: quic://dns.alidns.com:853
+    +.cainiao.com.cn: quic://dns.alidns.com:853
+    +.cainiaoyizhan.com: quic://dns.alidns.com:853
+    +.guoguo-app.com: quic://dns.alidns.com:853
+    +.etao.com: quic://dns.alidns.com:853
+    +.1688.com: quic://dns.alidns.com:853
+    +.16888.com: quic://dns.alidns.com:853
+    +.amap.com: quic://dns.alidns.com:853
+    +.gaode.com: quic://dns.alidns.com:853
+    +.autonavi.com: quic://dns.alidns.com:853
+    +.dingtalk.com: quic://dns.alidns.com:853
+    +.mxhichina.com: quic://dns.alidns.com:853
+    +.soku.com: quic://dns.alidns.com:853
+    +.tb.cn: quic://dns.alidns.com:853
+    +.taobao.com: quic://dns.alidns.com:853
+    +.taobaocdn.com: quic://dns.alidns.com:853
+    +.tbcache.com: quic://dns.alidns.com:853
+    +.tmall.com: quic://dns.alidns.com:853
+    +.tmall.hk: quic://dns.alidns.com:853
+    +.xiami.com: quic://dns.alidns.com:853
+    +.xiami.net: quic://dns.alidns.com:853
+    +.ykimg.com: quic://dns.alidns.com:853
+    +.youku.com: quic://dns.alidns.com:853
+    +.tudou.com: quic://dns.alidns.com:853
+    +.cibntv.net: quic://dns.alidns.com:853
+    +.ele.me: quic://dns.alidns.com:853
+    +.elemecdn.com: quic://dns.alidns.com:853
+    +.feizhu.com: quic://dns.alidns.com:853
+    +.taopiaopiao.com: quic://dns.alidns.com:853
+    +.fliggy.com: quic://dns.alidns.com:853
+    +.koubei.com: quic://dns.alidns.com:853
+    +.mybank.cn: quic://dns.alidns.com:853
+    +.mmstat.com: quic://dns.alidns.com:853
+    +.uczzd.cn: quic://dns.alidns.com:853
+    +.iconfont.cn: quic://dns.alidns.com:853
+    +.freshhema.com: quic://dns.alidns.com:853
+    +.hemamax.com: quic://dns.alidns.com:853
+    +.hemaos.com: quic://dns.alidns.com:853
+    +.hemashare.cn: quic://dns.alidns.com:853
+    +.shyhhema.com: quic://dns.alidns.com:853
+    +.sm.cn: quic://dns.alidns.com:853
+    +.npmmirror.com: quic://dns.alidns.com:853
+    +.alios.cn: quic://dns.alidns.com:853
+    +.wandoujia.com: quic://dns.alidns.com:853
+    +.aliapp.org: quic://dns.alidns.com:853
+    +.tanx.com: quic://dns.alidns.com:853
+    +.hellobike.com: quic://dns.alidns.com:853
+    +.hichina.com: quic://dns.alidns.com:853
+    +.dns.pub: https://doh.pub/dns-query
+    +.doh.pub: https://doh.pub/dns-query
+    +.qcloud.com: https://doh.pub/dns-query
+    +.gtimg.cn: https://doh.pub/dns-query
+    +.gtimg.com: https://doh.pub/dns-query
+    +.gtimg.com.cn: https://doh.pub/dns-query
+    +.gdtimg.com: https://doh.pub/dns-query
+    +.idqqimg.com: https://doh.pub/dns-query
+    +.igamecj.com: https://doh.pub/dns-query
+    +.myapp.com: https://doh.pub/dns-query
+    +.myqcloud.com: https://doh.pub/dns-query
+    +.dnspod.com: https://doh.pub/dns-query
+    +.qpic.cn: https://doh.pub/dns-query
+    +.qlogo.cn: https://doh.pub/dns-query
+    +.qq.com: https://doh.pub/dns-query
+    +.qq.com.cn: https://doh.pub/dns-query
+    +.qq.wang: https://doh.pub/dns-query
+    +.qqmail.cn: https://doh.pub/dns-query
+    +.qqmail.com: https://doh.pub/dns-query
+    +.qzone.com: https://doh.pub/dns-query
+    +.tencent-cloud.net: https://doh.pub/dns-query
+    +.tencent.com: https://doh.pub/dns-query
+    +.tencent.com.cn: https://doh.pub/dns-query
+    +.tencentmusic.com: https://doh.pub/dns-query
+    +.weixinbridge.com: https://doh.pub/dns-query
+    +.weixin.com: https://doh.pub/dns-query
+    +.wechat.com: https://doh.pub/dns-query
+    +.weiyun.com: https://doh.pub/dns-query
+    +.soso.com: https://doh.pub/dns-query
+    +.sogo.com: https://doh.pub/dns-query
+    +.sogou.com: https://doh.pub/dns-query
+    +.sogoucdn.com: https://doh.pub/dns-query
+    +.roblox.cn: https://doh.pub/dns-query
+    +.robloxdev.cn: https://doh.pub/dns-query
+    +.wegame.com: https://doh.pub/dns-query
+    +.wegame.com.cn: https://doh.pub/dns-query
+    +.wegameplus.com: https://doh.pub/dns-query
+    +.cdn-go.cn: https://doh.pub/dns-query
+    +.tencentcs.cn: https://doh.pub/dns-query
+    +.tencent-coud.cn: https://doh.pub/dns-query
+    +.qcloudimg.com: https://doh.pub/dns-query
+    +.dnspod.cn: https://doh.pub/dns-query
+    +.yunos.com: https://doh.pub/dns-query
+    +.yitao.com: https://doh.pub/dns-query
+    +.anticheatexpert.com: https://doh.pub/dns-query
+    +.url.cn: https://doh.pub/dns-query
+    +.qlivecdn.com: https://doh.pub/dns-query
+    +.tcdnlive.com: https://doh.pub/dns-query
+    +.dnsv1.com: https://doh.pub/dns-query
+    +.upos-sz-mirrorali.bilivideo.com: quic://dns.alidns.com:853
+    +.upos-sz-mirrorbos.bilivideo.com: 180.76.76.76
+    +.upos-sz-mirrorcoso1.bilivideo.com: https://doh.pub/dns-query
+    +.acg.tv: https://doh.pub/dns-query
+    +.b23.tv: https://doh.pub/dns-query
+    +.acgvideo.com: https://doh.pub/dns-query
+    +.bilibili.cn: https://doh.pub/dns-query
+    +.bilibili.com: https://doh.pub/dns-query
+    +.bilibili.tv: https://doh.pub/dns-query
+    +.bilivideo.com: https://doh.pub/dns-query
+    +.bilivideo.cn: https://doh.pub/dns-query
+    +.bilivideo.net: https://doh.pub/dns-query
+    +.hdslb.com: https://doh.pub/dns-query
+    +.biliimg.com: https://doh.pub/dns-query
+    +.biliapi.com: https://doh.pub/dns-query
+    +.biliapi.net: https://doh.pub/dns-query
+    +.biligame.cn: https://doh.pub/dns-query
+    +.biligame.com: https://doh.pub/dns-query
+    +.biligame.net: https://doh.pub/dns-query
+    +.bilicomics.com: https://doh.pub/dns-query
+    +.bilibilipay.cn: https://doh.pub/dns-query
+    +.bilibilipay.com: https://doh.pub/dns-query
+    +.bilicdn1.com: https://doh.pub/dns-query
+    +.mi.com: https://doh.pub/dns-query
+    +.duokan.com: https://doh.pub/dns-query
+    +.mi-img.com: https://doh.pub/dns-query
+    +.mifile.cn: https://doh.pub/dns-query
+    +.miui.com: https://doh.pub/dns-query
+    +.xiaomi.com: https://doh.pub/dns-query
+    +.xiaomi.cn: https://doh.pub/dns-query
+    +.xiaomi.net: https://doh.pub/dns-query
+    +.xiaomiyoupin.com: https://doh.pub/dns-query
+    +.saxyit.com: https://doh.pub/dns-query
+    +.bytecdn.cn: 180.184.2.2
+    +.toutiaoimg.com: 180.184.2.2
+    +.toutiaoimg.cn: 180.184.2.2
+    +.toutiaostatic.com: 180.184.2.2
+    +.toutiaovod.com: 180.184.2.2
+    +.toutiaocloud.com: 180.184.2.2
+    +.toutiaopage.com: 180.184.2.2
+    +.feiliao.com: 180.184.2.2
+    +.iesdouyin.com: 180.184.2.2
+    +.pstatp.com: 180.184.2.2
+    +.snssdk.com: 180.184.2.2
+    +.bytegoofy.com: 180.184.2.2
+    +.toutiao.com: 180.184.2.2
+    +.feishu.cn: 180.184.2.2
+    +.feishu.net: 180.184.2.2
+    +.feishucdn.com: 180.184.2.2
+    +.feishupkg.com: 180.184.2.2
+    +.douyin.com: 180.184.2.2
+    +.douyinpic.com: 180.184.2.2
+    +.douyinstatic.com: 180.184.2.2
+    +.douyincdn.com: 180.184.2.2
+    +.douyinliving.com: 180.184.2.2
+    +.douyinvod.com: 180.184.2.2
+    +.huoshan.com: 180.184.2.2
+    +.huoshanstatic.com: 180.184.2.2
+    +.huoshanzhibo.com: 180.184.2.2
+    +.ixigua.com: 180.184.2.2
+    +.ixiguavideo.com: 180.184.2.2
+    +.ixgvideo.com: 180.184.2.2
+    +.volccdn.com: 180.184.2.2
+    +.byted-static.com: 180.184.2.2
+    +.volces.com: 180.184.2.2
+    +.baike.com: 180.184.2.2
+    +.zjcdn.com: 180.184.2.2
+    +.zijieapi.com: 180.184.2.2
+    +.91.com: 180.76.76.76
+    +.hao123.com: 180.76.76.76
+    +.baidu.cn: 180.76.76.76
+    +.baidu.com: 180.76.76.76
+    +.iqiyi.com: 180.76.76.76
+    +.iqiyipic.com: 180.76.76.76
+    +.baidubce.com: 180.76.76.76
+    +.bcelive.com: 180.76.76.76
+    +.baiducontent.com: 180.76.76.76
+    +.baidustatic.com: 180.76.76.76
+    +.bdstatic.com: 180.76.76.76
+    +.bdimg.com: 180.76.76.76
+    +.bcebos.com: 180.76.76.76
+    +.baidupcs.com: 180.76.76.76
+    +.baidubcr.com: 180.76.76.76
+    +.yunjiasu-cdn.net: 180.76.76.76
+    +.tieba.com: 180.76.76.76
+    +.xiaodutv.com: 180.76.76.76
+    +.shifen.com: 180.76.76.76
+    +.jomodns.com: 180.76.76.76
+    +.bdydns.com: 180.76.76.76
+    +.jomoxc.com: 180.76.76.76
+    +.duapp.com: 180.76.76.76
+    +.qhimg.com: https://dns.360.net/dns-query
+    +.qhimgs0.com: https://dns.360.net/dns-query
+    +.qhimgs1.com: https://dns.360.net/dns-query
+    +.qhimgs2.com: https://dns.360.net/dns-query
+    +.qhimgs3.com: https://dns.360.net/dns-query
+    +.qhimgs4.com: https://dns.360.net/dns-query
+    +.qhimgs5.com: https://dns.360.net/dns-query
+    +.qhimgs6.com: https://dns.360.net/dns-query
+    +.qhres.com: https://dns.360.net/dns-query
+    +.qhres0.com: https://dns.360.net/dns-query
+    +.qhres1.com: https://dns.360.net/dns-query
+    +.qhres2.com: https://dns.360.net/dns-query
+    +.qhres3.com: https://dns.360.net/dns-query
+    +.qhres4.com: https://dns.360.net/dns-query
+    +.qhres5.com: https://dns.360.net/dns-query
+    +.qhres6.com: https://dns.360.net/dns-query
+    +.qhmsg.com: https://dns.360.net/dns-query
+    +.qhstatic.com: https://dns.360.net/dns-query
+    +.qhupdate.com: https://dns.360.net/dns-query
+    +.qihucdn.com: https://dns.360.net/dns-query
+    +.360.com: https://dns.360.net/dns-query
+    +.360.cn: https://dns.360.net/dns-query
+    +.360.net: https://dns.360.net/dns-query
+    +.360safe.com: https://dns.360.net/dns-query
+    +.360tpcdn.com: https://dns.360.net/dns-query
+    +.360os.com: https://dns.360.net/dns-query
+    +.360webcache.com: https://dns.360.net/dns-query
+    +.360kuai.com: https://dns.360.net/dns-query
+    +.so.com: https://dns.360.net/dns-query
+    +.haosou.com: https://dns.360.net/dns-query
+    +.yunpan.cn: https://dns.360.net/dns-query
+    +.yunpan.com: https://dns.360.net/dns-query
+    +.yunpan.com.cn: https://dns.360.net/dns-query
+    +.qh-cdn.com: https://dns.360.net/dns-query
+    +.baomitu.com: https://dns.360.net/dns-query
+    +.instant.arubanetworks.com:
+      - system://
+      - system
+      - dhcp://system
+    +.setmeup.arubanetworks.com:
+      - system://
+      - system
+      - dhcp://system
+    +.router.asus.com:
+      - system://
+      - system
+      - dhcp://system
+    +.repeater.asus.com:
+      - system://
+      - system
+      - dhcp://system
+    +.asusrouter.com:
+      - system://
+      - system
+      - dhcp://system
+    +.routerlogin.net:
+      - system://
+      - system
+      - dhcp://system
+    +.tendawifi.com:
+      - system://
+      - system
+      - dhcp://system
+    +.tplinkwifi.net:
+      - system://
+      - system
+      - dhcp://system
+    +.tplogin.cn:
+      - system://
+      - system
+      - dhcp://system
+    +.tplinkap.net:
+      - system://
+      - system
+      - dhcp://system
+    +.tplinkeap.net:
+      - system://
+      - system
+      - dhcp://system
+    +.tplinkmodem.net:
+      - system://
+      - system
+      - dhcp://system
+    +.tplinkplclogin.net:
+      - system://
+      - system
+      - dhcp://system
+    +.tplinkrepeater.net:
+      - system://
+      - system
+      - dhcp://system
+    +.miwifi.com:
+      - system://
+      - system
+      - dhcp://system
+    +.zte.home:
+      - system://
+      - system
+      - dhcp://system
+    +.ui.direct:
+      - system://
+      - system
+      - dhcp://system
+    +.unifi:
+      - system://
+      - system
+      - dhcp://system
+    +.amplifi.lan:
+      - system://
+      - system
+      - dhcp://system
+    +.hiwifi.com:
+      - system://
+      - system
+      - dhcp://system
+    +.huaweimobilewifi.com:
+      - system://
+      - system
+      - dhcp://system
+    +.my.router:
+      - system://
+      - system
+      - dhcp://system
+    +.phicomm.me:
+      - system://
+      - system
+      - dhcp://system
+    +.router.ctc:
+      - system://
+      - system
+      - dhcp://system
+    +.peiluyou.com:
+      - system://
+      - system
+      - dhcp://system
+    +.airbox.home:
+      - system://
+      - system
+      - dhcp://system
+    +.arcor.easybox:
+      - system://
+      - system
+      - dhcp://system
+    +.aterm.me:
+      - system://
+      - system
+      - dhcp://system
+    +.bthub.home:
+      - system://
+      - system
+      - dhcp://system
+    +.bthomehub.home:
+      - system://
+      - system
+      - dhcp://system
+    +.congstar.box:
+      - system://
+      - system
+      - dhcp://system
+    +.connect.box:
+      - system://
+      - system
+      - dhcp://system
+    +.console.gl-inet.com:
+      - system://
+      - system
+      - dhcp://system
+    +.easy.box:
+      - system://
+      - system
+      - dhcp://system
+    +.etxr:
+      - system://
+      - system
+      - dhcp://system
+    +.fritz.box:
+      - system://
+      - system
+      - dhcp://system
+    +.fritz.nas:
+      - system://
+      - system
+      - dhcp://system
+    +.fritz.repeater:
+      - system://
+      - system
+      - dhcp://system
+    +.giga.cube:
+      - system://
+      - system
+      - dhcp://system
+    +.hi.link:
+      - system://
+      - system
+      - dhcp://system
+    +.hitronhub.home:
+      - system://
+      - system
+      - dhcp://system
+    +.homerouter.cpe:
+      - system://
+      - system
+      - dhcp://system
+    +.myfritz.box:
+      - system://
+      - system
+      - dhcp://system
+    +.mobile.hotspot:
+      - system://
+      - system
+      - dhcp://system
+    +.ntt.setup:
+      - system://
+      - system
+      - dhcp://system
+    +.pi.hole:
+      - system://
+      - system
+      - dhcp://system
+    +.plex.direct:
+      - system://
+      - system
+      - dhcp://system
+    +.app.plex.tv:
+      - system://
+      - system
+      - dhcp://system
+    +.routerlogin.com:
+      - system://
+      - system
+      - dhcp://system
+    +.samsung.router:
+      - system://
+      - system
+      - dhcp://system
+    +.speedport.ip:
+      - system://
+      - system
+      - dhcp://system
+    +.steamloopback.host:
+      - system://
+      - system
+      - dhcp://system
+    +.web.setup:
+      - system://
+      - system
+      - dhcp://system
+    +.web.setup.home:
+      - system://
+      - system
+      - dhcp://system
+    +._hotspot_.m2m:
+      - system://
+      - system
+      - dhcp://system
+    +.hotspot.cslwifi.com:
+      - system://
+      - system
+      - dhcp://system
+    +.ts.net:
+      - system://
+      - system
+      - dhcp://system
+    +.injections.adguard.org:
+      - system://
+      - system
+      - dhcp://system
+    +.local.adguard.org:
+      - system://
+      - system
+      - dhcp://system
+    +.lan:
+      - system://
+      - system
+      - dhcp://system
+    +.localhost:
+      - system://
+      - system
+      - dhcp://system
+    +.localdomain:
+      - system://
+      - system
+      - dhcp://system
+    +.home.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.10.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.16.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.17.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.18.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.19.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.20.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.21.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.22.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.23.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.24.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.25.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.26.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.27.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.28.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.29.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.30.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.31.172.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.168.192.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+    +.254.169.in-addr.arpa:
+      - system://
+      - system
+      - dhcp://system
+hosts:
+  dns.alidns.com:
+    - 223.5.5.5
+    - 223.6.6.6
+    - 2400:3200:baba::1
+    - 2400:3200::1
+  dot.pub:
+    - 120.53.53.53
+    - 1.12.12.12
+  doh.pub:
+    - 120.53.53.53
+    - 1.12.12.12
+  dns.pub:
+    - 162.14.21.178
+    - 162.14.21.56
+  doh.360.cn:
+    - 101.198.198.198
+    - 101.198.199.200
+  dot.360.cn:
+    - 101.198.198.198
+    - 101.198.199.200
+  dns.360.cn:
+    - 101.198.198.198
+    - 101.198.199.200
+  doh.360.net:
+    - 101.198.198.198
+    - 101.198.199.200
+  dot.360.net:
+    - 101.198.198.198
+    - 101.198.199.200
+  dns.360.net:
+    - 101.198.198.198
+    - 101.198.199.200
