@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-06-16T12:19:35.840Z
-# Size: 1080
+# Last Updated: 2024-06-17T12:21:13.473Z
+# Size: 1082
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -105,6 +105,7 @@ speedtest.w-net.us
 speedtest-intl.xl.co.id
 mycuspeed.169ol.com
 speedtest.39d.co.uk
+ookla.aghost.uk
 speedtest1.ah163.com
 speedtest.apnic.net
 speedperf.axione.fr
@@ -513,6 +514,7 @@ speedtest.polycomm.net
 postapps.com
 speedtest.rrhosting.eu
 st1.scaleway.com
+fra1speedtest01.skylogic.com
 par1speedtest01.skylogic.com
 speedtest.skynetcom.ru
 kami.smartone.com
