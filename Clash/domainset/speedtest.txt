@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-06-18T12:21:07.699Z
+# Last Updated: 2024-06-19T12:21:23.183Z
 # Size: 1085
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -381,7 +381,6 @@ speedtest-c.netgear.com
 speed.netlara.com
 speedtest.nexicom.net
 speedtest.noone.co.uk
-speedtest.nunline.com
 speedtest.octaplus.uk
 speedtest-bursa.olfe.net.tr
 speedtestlon.orbital.net
@@ -544,6 +543,7 @@ trtspeedtest.altimatel.com
 vanspeedtest.altimatel.com
 sp1.asthriona.com
 speedtest.beanfield.com
+speedtest-tor.beanfield.com
 sp1.burstfire.net
 dallas1.cabospeed.com
 teste.cdanet.com.br
