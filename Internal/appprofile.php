@@ -1,6 +1,6 @@
 <?php
 
-// # Build 2024-06-19T12:21:18.363Z
+// # Build 2024-06-19T15:37:14.311Z
 
 declare(strict_types=1);
 
@@ -1154,6 +1154,9 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,windowsazure.com,Microsoft & Apple',
         'DOMAIN-SUFFIX,windowsupdate.com,Microsoft & Apple',
         'DOMAIN-SUFFIX,wunderlist.com,Microsoft & Apple',
+        'DOMAIN-SUFFIX,xbox.com,Microsoft & Apple',
+        'DOMAIN-SUFFIX,xboxlive.com,Microsoft & Apple',
+        'DOMAIN-SUFFIX,xboxservices.com,Microsoft & Apple',
         'DOMAIN-SUFFIX,yammer.com,Microsoft & Apple',
         'DOMAIN-SUFFIX,yammerusercontent.com,Microsoft & Apple',
         'DOMAIN-SUFFIX,aaplimg.com,Microsoft & Apple',
@@ -4441,6 +4444,7 @@ $_ENV['Clash_Group_Config'] = [
         'IP-CIDR,122.119.224.0/22,Domestic',
         'IP-CIDR,122.119.232.0/23,Domestic',
         'IP-CIDR,122.119.236.0/24,Domestic',
+        'IP-CIDR,122.119.253.0/24,Domestic',
         'IP-CIDR,122.136.0.0/13,Domestic',
         'IP-CIDR,122.144.128.0/17,Domestic',
         'IP-CIDR,122.152.192.0/18,Domestic',

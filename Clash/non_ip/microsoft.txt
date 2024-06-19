@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Microsoft Domains
-# Last Updated: 2024-06-19T12:21:18.961Z
-# Size: 85
+# Last Updated: 2024-06-19T02:17:29.919Z
+# Size: 88
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -91,6 +91,9 @@ DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windowsazure.com
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,wunderlist.com
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxservices.com
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
 ################## EOF ##################
