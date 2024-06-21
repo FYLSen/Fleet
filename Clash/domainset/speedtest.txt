@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-06-20T12:20:56.257Z
-# Size: 1086
+# Last Updated: 2024-06-21T06:59:05.653Z
+# Size: 1089
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -422,10 +422,12 @@ aus-nperf.verizon.net
 sgn-nperf.verizon.net
 tstarkh1.vibo.net.tw
 stmsk.volga-ix.ru
+speedtest.srv-uk01.edge.voltcorp.uk
 speedtest-lon06.vorboss.net
 speedtest.vt-build.ru
 speedtestac.vtal.net.br
 speedtestam.vtal.net.br
+speedtestap.vtal.net.br
 speedtestrr.vtal.net.br
 de-bln2-ookla-01.wemacom.net
 de-ffm1-ookla-01.wemacom.net
@@ -542,6 +544,7 @@ speedtest01.srv.hcvlny.alticeusa.net
 speedtest03.srv.whplny.alticeusa.net
 trtspeedtest.altimatel.com
 vanspeedtest.altimatel.com
+ookla.asanet.tec.br
 sp1.asthriona.com
 speedtest.beanfield.com
 speedtest-tor.beanfield.com
