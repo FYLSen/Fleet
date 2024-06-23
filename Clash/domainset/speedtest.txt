@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-06-22T12:19:15.144Z
-# Size: 1088
+# Last Updated: 2024-06-23T12:19:46.722Z
+# Size: 1095
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -235,6 +235,7 @@ muglaspeedtest.posive.net
 edirnespeedtest.posive.net
 manisaspeedtest.posive.net
 bilecikspeedtest.posive.net
+cankirispeedtest.posive.net
 kocaelispeedtest.posive.net
 kutahyaspeedtest.posive.net
 sakaryaspeedtest.posive.net
@@ -655,6 +656,7 @@ hizaydin.durunet.com.tr
 hizbursa.durunet.com.tr
 hizduzce.durunet.com.tr
 hizizmir.durunet.com.tr
+hizsamsun.durunet.com.tr
 hizkutahya.durunet.com.tr
 hizsakarya.durunet.com.tr
 hizbalikesir.durunet.com.tr
@@ -756,6 +758,7 @@ speedtest.xcdtelecom.com
 speedtest.yless4u.com.au
 speedtest.airfiber.com.tr
 speedtest.airlink.network
+ourtestisbest.brolve.net:8080
 speedtest.cclnetworks.com
 +.speedtest.centurylink.net
 speedtest.hk.chinamobile.com
@@ -839,11 +842,13 @@ izmir.verinomidns.com
 istanbul.verinomidns.com
 +.speedtest.vodafone.com.au
 speedtest3.vodafone.com.tr
+speedtest8.vodafone.com.tr
 speedtest2.voicehost.co.uk
 speedtest.webdiscount.net
 speedtestmacapa.webflash.net.br
 speedtest.webturbo.net.br
 speedtest.wifitelekom.com
+speedtest.yesilnet.com.tr
 speedtest.actelecom.com.br
 speedtest-lax.advinservers.com
 speed.amazonett.com.br
@@ -988,6 +993,7 @@ esk1speedtest.turktelekom.com.tr
 gay1speedtest.turktelekom.com.tr
 geb1speedtest.turktelekom.com.tr
 gun1speedtest.turktelekom.com.tr
+sam1speedtest.turktelekom.com.tr
 umr1speedtest.turktelekom.com.tr
 speedtest.unlimitedfiber.com
 speedtest.upwirefibra.com.br
@@ -1011,6 +1017,7 @@ nyc01.screenshot.download
 +.speedtestcustom.com
 st-atakoy-1.turksatkablo.com.tr
 st-manisa-1.turksatkablo.com.tr
+st-samsun-1.turksatkablo.com.tr
 st-yalova-1.turksatkablo.com.tr
 st-balikesir-1.turksatkablo.com.tr
 st-eskisehir-1.turksatkablo.com.tr
