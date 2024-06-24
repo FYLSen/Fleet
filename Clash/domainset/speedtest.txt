@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-06-23T12:19:46.722Z
-# Size: 1095
+# Last Updated: 2024-06-24T12:21:35.440Z
+# Size: 1096
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -261,6 +261,7 @@ stguelph.rogers.com
 stlondon.rogers.com
 stmilton.rogers.com
 sttoronto.rogers.com
+stvaughan.rogers.com
 stbrampton.rogers.com
 sthamilton.rogers.com
 stkingcity.rogers.com
