@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - AIGC Domains
-# Last Updated: 2024-06-27T12:21:10.799Z
+# Last Updated: 2024-06-29T02:03:11.365Z
 # Size: 26
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
