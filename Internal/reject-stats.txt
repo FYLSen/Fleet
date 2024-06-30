@@ -27,7 +27,6 @@ playmetrics.com                                                                 
 plus.com                                                                                            51
 youku.com                                                                                           51
 dramaririnaldi.com                                                                                  50
-on-fleek.app                                                                                        49
 wpenginepowered.com                                                                                 49
 79j68qav2.com                                                                                       48
 experian.com                                                                                        47
@@ -136,7 +135,6 @@ walmart.com                                                                     
 y2sysv81v.com                                                                                       21
 adpinfo.com                                                                                         20
 aon.com                                                                                             20
-dnsfordomains.ru                                                                                    20
 equifax.com                                                                                         20
 globaltradruv.com                                                                                   20
 hsbc.com                                                                                            20
@@ -149,7 +147,6 @@ builder-preview.com                                                             
 clead.xyz                                                                                           19
 gamemods.com.tr                                                                                     19
 informa.com                                                                                         19
-miracle-chain.com                                                                                   19
 pwc.com                                                                                             19
 univer.se                                                                                           19
 vercel.app                                                                                          19
