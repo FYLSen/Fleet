@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-06-30T14:28:23.701Z
-# Size: 910
+# Last Updated: 2024-07-01T12:28:08.643Z
+# Size: 907
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -179,7 +179,6 @@ speedtest-thn.krystal.uk
 speedtest.lla-cr.com
 speedtest.luminet.cr
 netservice01.ber01.lwlcom.net
-netservice01.fra02.lwlcom.net
 speedtest.macpaw.com
 speedtest.maryno.net
 speedtest-stf.megafon.ru
@@ -352,8 +351,8 @@ tstarkh1.vibo.net.tw
 stmsk.volga-ix.ru
 speedtest.srv-uk01.edge.voltcorp.uk
 speedtest-lon06.vorboss.net
-speedtestac.vtal.net.br
 speedtestam.vtal.net.br
+speedtestap.vtal.net.br
 speedtestrr.vtal.net.br
 de-bln2-ookla-01.wemacom.net
 de-ffm1-ookla-01.wemacom.net
@@ -364,7 +363,6 @@ speed1.wirsnet.com
 de-speedtest.woks.com.tr
 speedtest01.wowrack.com
 speedtest.lax01.xfernet.net
-velocidade-mns.4wnet.net.br
 speedtest.aeza.network
 speedtest.amnet.net.br
 speedtest.thn.lon.network.as201838.net
@@ -379,7 +377,6 @@ open.cachefly.net
 mtcspeedtest.catskill.net
 speedtest.clarkson.edu
 spd33.claro.com.br
-spd49.claro.com.br
 hiztesti.codit.com.tr
 hiztesti-ist.codit.com.tr
 +.ookla.ddnsgeek.com
@@ -402,7 +399,6 @@ mars-speedtest.guzel.net.tr
 speedtest.helpmert.com
 speedtest.hostabil.com
 speedtest-ist.hostifox.com
-speedtest.idnet.net.br
 speedtest.inet-isp.com
 speedtest.syd.infininet.au
 speedtest.ixirhost.com
@@ -456,6 +452,7 @@ speedtest01.srv.hcvlny.alticeusa.net
 speedtest03.srv.whplny.alticeusa.net
 trtspeedtest.altimatel.com
 ookla.asanet.tec.br
+ookla-ita.asanet.tec.br
 sp1.asthriona.com
 speedtest-tor.beanfield.com
 sp1.burstfire.net
@@ -465,7 +462,6 @@ speedtest.cdmsfirst.com
 mensura.cdn-apple.com
 +.speedtest.clouvider.net
 +.speedtest.comnet.com.tr
-sp1.contilnet.net
 askeycsit.dyndns-ip.com
 speedtest.qld.edgeix.net.au
 +.speedtest.exetel.com.au
@@ -480,8 +476,6 @@ speedtest.thn.uk.hso-group.net
 mns.i-systems.com
 speedtest.i4networks.nl
 speedtest.inforr.com.br
-speedtest.inovewifi.com
-speedtest-eqx-sg1.ixtelecom.net
 speedtest.jbarbieri.net
 kadoshspeed.kadoshnet.com
 speedtest16.lintas.net.id
@@ -513,7 +507,6 @@ hoshiyomi.ratatoskr.org
 speedtest1.net.rochester.edu
 +.speedtest.sbcglobal.net
 speedtest.scotnet.co.uk
-speed.sdmnet.com.br
 speedtest.seaside.ns.ca
 ookla.la.ca.sharktech.net
 speedtest.ams.sharktech.net
@@ -534,7 +527,6 @@ speed-test.ukservers.com
 speedtest-lon.veloxserv.net
 speedtest.viberlink.net
 velocimetro-mns.virtua.com.br
-velocimetro-rbo.virtua.com.br
 speed-test.westelcom.com
 speedtest.astralnode.com
 speedtest.baiconnect.com
@@ -601,6 +593,7 @@ speedtest.syd01.launtel.net.au
 speedtest.meerfarbig.net
 speedtest.nl3.mirhosting.net
 sig-speedtest.moratelindo.io
+veloteste.mrjomar.com.br
 speedtest.netcalibre.net
 f1.netfast.com.br
 hkspeedtest.netvigator.com
@@ -611,7 +604,6 @@ speednld.phoenixnap.com
 speedsin.phoenixnap.com
 speedtest.pilotfiber.com
 lg.mia.plasmarack.com
-sp01.rbfibra.net.br
 speedtest.redactus.co.uk
 speed.rnp-net.com.br
 speedtest.sewan-group.de
@@ -630,6 +622,7 @@ speedtest-syd.thecore.net.au
 dal-speedtest.transtelco.net
 speedtest.vanciscloud.nl
 speedtest.dc3.vmvault.com.au
+btestmcp.vocetelecom.vc
 speedtest-london-east.vodafone.co.uk
 +.speedtest.windstream.net
 teste.wsfibra.com.br
@@ -645,7 +638,6 @@ ldn.speedtest.cmcnetworks.net
 pauseq4vost1.datamossa.cloud
 speedtest.dongfong.com.tw
 speedtest.fra.ewgmedianet.com
-spd.fibranet.srv.br
 speedtest-nxtb2.fsg-hosting.com
 speedtest-nxts1.fsg-hosting.com
 speedtest-eqxae1.fsg-hosting.com
@@ -681,7 +673,6 @@ spedvae.lodosnet.com.tr
 speedtest.lodosnet.com.tr
 sp1.logicpro.com.br
 speed.mpvnetworks.com
-speedtest.omegasul.com.br
 +.ooklaserver.net
 speedtest-adl.optusnet.com.au
 speedtest-bla.optusnet.com.au
@@ -692,8 +683,11 @@ speedtest-darwin-nt.optusnet.com.au
 speedtest-marion-sa.optusnet.com.au
 speedtest-townsville-qld.optusnet.com.au
 speedtest-limestonecoast-sa.optusnet.com.au
+speedtest.orixinet.com.br
 speedtest.packetworks.net
+speedtest.portalnt.com.br
 ooklaspeedtest-cdb.quebeccloud.com
+speedtest-obd.redeconecta.com
 speedtest.rekornet.com.tr
 speed.lax-1.serverforge.org
 speedtest.softether.co.jp
@@ -712,6 +706,7 @@ istanbul.verinomidns.com
 speedtest8.vodafone.com.tr
 speedtest2.voicehost.co.uk
 speedtest.webdiscount.net
+speedtest.webturbo.net.br
 speedtest.wifitelekom.com
 speedtest.yesilnet.com.tr
 speedtest-lax.advinservers.com
@@ -721,12 +716,11 @@ speedtest.axclusive.com.sg
 miaspeedtest.blackburn-pr.com
 speedtest.bouwhuis.network
 speedtest.brightstar.cloud
+speednet.brsserver.com.br
 sp1.campanaworks.com
 speedtest.cyberline.com.br
 speedtest.cyberlink.net.br
 speedtestuk1.cybersmart.co.za
-dsteste.dstelecom.net.br
-speedtest.embrasnet.com.br
 speedtest.empireaccess.com
 velocimetro.esolution.srv.br
 velocidad.fiberlink.com.pa
@@ -735,7 +729,6 @@ speedtest.fiberlink.net.ua
 speedtest1.flashwifi.com.br
 speedtest.global-layer.com
 speedtest.singapore.globalxtreme.net
-velocimetro.govistabr.com.br
 speedtestldn.grainconnect.com
 stdal.highlinefast.com
 +.hizinitestet.com
@@ -751,6 +744,7 @@ speedtest.lightsource1.com
 speedtest.markahost.com.tr
 miami-speedtest.reliablesite.net
 los-angeles-speedtest.reliablesite.net
+teste.routinger.com.br
 speedtest.routinger.com.br
 speedtest.rvconnect.com.br
 speedtest3.rvconnect.com.br
@@ -784,7 +778,6 @@ speedtest.asimonetworks.com
 nl.blackhost.network
 speed.ccspublichost.com
 speedtest.cenosnetworks.net
-speedtest.connectbv8.com.br
 speedtest.creolineserver.de
 speedtest.csmtelecom.net.br
 teste.diotelecom.com.br
@@ -823,7 +816,9 @@ teste.linkonfibra.com.br
 +.measurementlab.net
 speedtest.newberlinfiber.net
 speedtest.phoenixsunucum.com
+ooklatins.redeconexaonet.com
 speedtest.redrawinternet.com
+velocidade.softtelecom.net.br
 +.speedtestkorea.com
 ber.wsqm.telekom-dienste.de
 ffm.wsqm.telekom-dienste.de
@@ -839,9 +834,9 @@ speedtest.unlimitedfiber.com
 speedtest.upwirefibra.com.br
 speedtest.voip-unlimited.net
 teste.wificonnect.com.br
+velocimetro.wiretelecom.com.br
 speedtest03.bluestreamfiber.net
 velocimetro.fibernetwork.com.br
-speed.fptecnologia.com.br
 east-speedtest.frontiernetworks.ca
 velocimetro.infinitemais.com.br
 +.measurement-lab.org
@@ -864,6 +859,7 @@ miami.getstreamhosting.com
 amsterdam.getstreamhosting.com
 speedtest.getstreamhosting.com
 velocidade.idnetttelecom.com.br
+speedtest.infowayconect.com.br
 speedtest-sydney.macquarietelecom.com
 speedtest-brisbane.macquarietelecom.com
 speedtest-melbourne.macquarietelecom.com
@@ -877,8 +873,6 @@ suntechspeedtest.com
 teste.suprainternet.com.br
 teste.tstelecomltda.com.br
 speedtest.visiontelecom.com.br
-sgspeed.chinaunicomglobal.com
-cugspeed.chinaunicomglobal.com
 fraspeed.chinaunicomglobal.com
 tyospeed.chinaunicomglobal.com
 velocidade.conectstelecom.com.br
@@ -895,6 +889,7 @@ speedteste.newsolutionnet.com.br
 speedtest.absolutevalidation.com
 speedtest.sea.accretive-networks.net
 speedtest.albatroznetwork.com.br
+ookla-itacoatiara.amazoniasat-isp.com.br
 velocidade.amazoniatelecom.com.br
 speed.ade.aussiebroadband.com.au
 speed.bne.aussiebroadband.com.au
@@ -909,13 +904,15 @@ speedtest-binghamton.greenlightnetworks.com
 +.netspeedtestmaster.com
 speed.newclicktelecom.com.br
 ookla.playmaisreverso.net.br
-speed1.portonettelecom.com.br
 +.speedtestunonet.com.br
 speedtest.webfibertelecom.com.br
+speedtest-tesa.coelhotecnologia.com.br
 velocidade.impertechtelecom.com.br
 +.linknetspeedtest.net.br
 speedtest.mirror.serversaustralia.com.au
 speedtest.globalfiberbrasil.com.br
-speedtesteamconnect.com.br
+teste.mundialnettelecom.com.br
+test.infoconnecttelecom.com.br
+ookla.jgainterlinktelecom.com.br
 serviciospablomella3.com.do
 ################## EOF ##################
