@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-07-01T12:28:08.643Z
-# Size: 907
+# Last Updated: 2024-07-02T12:24:38.570Z
+# Size: 906
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -275,7 +275,6 @@ spt-nyc.as13786.net
 speedtest1-sttlwawb.as20055.net
 speedtest-ookla-par.as62000.net
 speedtest1.axes.com.br
-speedtest.bmcc.com.cn
 spt1.bsnlive.net
 speedtest-1.compute.dc1.cilix.cloud
 speedtest.claranet.nl
