@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-07-04T01:04:54.768Z
+# Last Updated: 2024-07-04T12:26:11.579Z
 # Size: 906
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -373,6 +373,7 @@ sp5.atcc-gns.net
 sp7.atcc-gns.net
 speedtest.beyondair.ca
 open.cachefly.net
+speedtest.capti.com.au
 mtcspeedtest.catskill.net
 speedtest.clarkson.edu
 spd33.claro.com.br
@@ -417,6 +418,7 @@ speedtest.micron21.com
 speed.navegalo.com
 speedtest.hk212.hkg.cn.nerocloud.io
 speedtest.netflash.net
+speedtest.syd.netsg.net.au
 speedtest.dal1.nitelusa.net
 speedtest.lax1.nitelusa.net
 speedtest.sea1.nitelusa.net
@@ -680,7 +682,6 @@ speedtest-bri.optusnet.com.au
 speedtest-ebw.optusnet.com.au
 speedtest-syd.optusnet.com.au
 speedtest-darwin-nt.optusnet.com.au
-speedtest-marion-sa.optusnet.com.au
 speedtest-townsville-qld.optusnet.com.au
 speedtest-limestonecoast-sa.optusnet.com.au
 speedtest.orixinet.com.br
@@ -890,7 +891,6 @@ speedtest.sea.accretive-networks.net
 speedtest.albatroznetwork.com.br
 ookla-itacoatiara.amazoniasat-isp.com.br
 velocidade.amazoniatelecom.com.br
-speed.ade.aussiebroadband.com.au
 speed.bne.aussiebroadband.com.au
 speed.mel.aussiebroadband.com.au
 speed.syd.aussiebroadband.com.au
