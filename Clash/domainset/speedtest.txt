@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-07-05T12:25:36.231Z
-# Size: 906
+# Last Updated: 2024-07-06T12:23:55.818Z
+# Size: 911
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -108,6 +108,7 @@ speed.udx.icscoe.jp
 ookla.idnet.net
 speedtest1.innsys.ca
 velocidade.ip.eti.br
+speedtest.kairun.jp
 speedtest-fra-11.kemmit.de
 perf.keyyo.net
 speedtest.b2.mhn.cloud
@@ -139,7 +140,6 @@ nyc1-speedtest.webnx.com
 lax1a-speedtest.webnx.com
 speedtest.miam.fl.wtsky.net
 speedtest1.xbase.com
-yyz-speedtest.xplore.ca
 speedtest.xsnews.nl
 speedtest-yoncudc.yoncu.com
 speedtest-sjc.acreto.net
@@ -190,23 +190,24 @@ sp-de.nuxt.cloud
 speedtest3.dal.nxlink.com
 speedtest-lhr-01.pdx.net.uk
 boluspeedtest.posive.net
+aydinspeedtest.posive.net
 bursaspeedtest.posive.net
 duzcespeedtest.posive.net
+izmirspeedtest.posive.net
 edirnespeedtest.posive.net
 manisaspeedtest.posive.net
 bilecikspeedtest.posive.net
-cankirispeedtest.posive.net
 kocaelispeedtest.posive.net
 kutahyaspeedtest.posive.net
 sakaryaspeedtest.posive.net
 istanbulspeedtest.posive.net
 balikesirspeedtest.posive.net
 canakkalespeedtest.posive.net
-kastamonuspeedtest.posive.net
 kirklarelispeedtest.posive.net
 speedtest-ca.pq.hosting
 speedtest-de.pq.hosting
 speedtest-ru.pq.hosting
+speedtest-tr.pq.hosting
 pr-speedtest.qonzer.net
 speedtest.quadro.net
 speedtest2.rhitcr.com
@@ -265,6 +266,7 @@ speedtest02a.web.zen.net.uk
 speedtest.139play.com
 speedtest.5x5tele.com
 velocimetro-spt.akto.com.br
+speedtest.alastyr.com
 speedtest.anksoft.net
 speedtest_antalpha_sc7_hk.antalpha.io
 +.speedtest.aptg.com.tw
@@ -278,6 +280,7 @@ stosat-rvlt-01.sys.comcast.net
 +.speedtest.contabo.net
 msk-speedtest2.corbina.net
 speedtest1.net.cornell.edu
+speedtest.cubedns.com
 speedtest.dcsi.net.au
 speedtest.ffm.dynamic.icu
 spt-ist.edgeuno.com
@@ -302,7 +305,9 @@ speedtest.la.macarne.com
 speedtest.fra.macarne.com
 speedtest.lon.macarne.com
 speedtest.sv5.macarne.com
+speedtest.tokyo.macarne.com
 ookla.mbspeed.net
+ookla2.mbspeed.net
 speedtest.mhcable.com
 speedtest.mitsupp.com
 speedtest-c.netgear.com
@@ -393,8 +398,8 @@ speed.golddata.net
 speedtest-miami.grupogtd.com
 mars-speedtest.guzel.net.tr
 speedtest.helpmert.com
-speedtest.hostabil.com
 speedtest-ist.hostifox.com
+speedtest.hostopya.com
 speedtest.inet-isp.com
 speedtest.syd.infininet.au
 speedtest.ixirhost.com
@@ -460,12 +465,14 @@ speedtest.cdmsfirst.com
 mensura.cdn-apple.com
 +.speedtest.clouvider.net
 +.speedtest.comnet.com.tr
+speedtest1.mia.fl.us.convergia.net
 askeycsit.dyndns-ip.com
 speedtest.qld.edgeix.net.au
 +.speedtest.exetel.com.au
 st-1.fibrenest.net
 speedtest.fixnet.com.tr
 bursaspeedtest.fixnet.com.tr
+izmirspeedtest.fixnet.com.tr
 istanbulspeedtest.fixnet.com.tr
 balikesirspeedtest.fixnet.com.tr
 speedtest-la.getonward.com
@@ -529,16 +536,17 @@ speedtest.viberlink.net
 velocimetro-mns.virtua.com.br
 speed-test.westelcom.com
 speedtest.astralnode.com
+speedtest.baanthaispa.eu
 speedtest.baiconnect.com
 speedtest.brooketel.coop
 lon-hex-speedtest.cloudconnx.net
 +.speed.cloudflare.com
 sg.cloudhost.asia
 speedtest.datafex.com.tr
-hizbolu.durunet.com.tr
+hizaydin.durunet.com.tr
 hizbursa.durunet.com.tr
 hizduzce.durunet.com.tr
-hizsamsun.durunet.com.tr
+hizizmir.durunet.com.tr
 hizkutahya.durunet.com.tr
 hizsakarya.durunet.com.tr
 hizbalikesir.durunet.com.tr
@@ -604,7 +612,6 @@ ookla.opticaltel.com
 speednld.phoenixnap.com
 speedsin.phoenixnap.com
 speedtest.pilotfiber.com
-lg.mia.plasmarack.com
 speedtest.redactus.co.uk
 speed.rnp-net.com.br
 speedtest.sewan-group.de
@@ -636,6 +643,7 @@ ourtestisbest.brolve.net:8080
 speedtest.hk.chinamobile.com
 speedtestbb.hk.chinamobile.com
 ldn.speedtest.cmcnetworks.net
+speedtestookla.datahost.net.tr
 pauseq4vost1.datamossa.cloud
 speedtest.dongfong.com.tw
 speedtest.fra.ewgmedianet.com
@@ -670,10 +678,10 @@ de-fra2-lg1.level66.network
 speedtest.linkamos.com.br
 montsouris3.d2m.c2d.liveservices.fr
 speed.lodosnet.com.tr
-spedvae.lodosnet.com.tr
 speedtest.lodosnet.com.tr
 sp1.logicpro.com.br
 speed.mpvnetworks.com
+stizmir.netspeed.net.tr
 +.ooklaserver.net
 speedtest-adl.optusnet.com.au
 speedtest-bla.optusnet.com.au
@@ -703,7 +711,7 @@ speedtest.vareshcloud.com
 izmir.verinomidns.com
 istanbul.verinomidns.com
 +.speedtest.vodafone.com.au
-speedtest8.vodafone.com.tr
+speedtest3.vodafone.com.tr
 speedtest2.voicehost.co.uk
 speedtest.webdiscount.net
 speedtest.webturbo.net.br
@@ -741,6 +749,7 @@ toronto-speedtest-1.hostingswift.com
 frankfurt-speedtest-1.hostingswift.com
 speedtest.lightsource1.com
 speedtest.markahost.com.tr
+sp.merkurnet.com.tr
 miami-speedtest.reliablesite.net
 los-angeles-speedtest.reliablesite.net
 teste.routinger.com.br
@@ -814,7 +823,6 @@ speedtest.linkbroadbands.com
 teste.linkonfibra.com.br
 +.measurementlab.net
 speedtest.newberlinfiber.net
-speedtest.phoenixsunucum.com
 ooklatins.redeconexaonet.com
 speedtest.redrawinternet.com
 velocidade.softtelecom.net.br
@@ -824,11 +832,9 @@ ber.wsqm.telekom-dienste.de
 ffm.wsqm.telekom-dienste.de
 tkconnectrr.com.br
 bur1speedtest.turktelekom.com.tr
-esk1speedtest.turktelekom.com.tr
 gay1speedtest.turktelekom.com.tr
 geb1speedtest.turktelekom.com.tr
 gun1speedtest.turktelekom.com.tr
-sam1speedtest.turktelekom.com.tr
 umr1speedtest.turktelekom.com.tr
 speedtest.unlimitedfiber.com
 speedtest.upwirefibra.com.br
@@ -849,14 +855,13 @@ nyc01.screenshot.download
 +.speedtestcustom.com
 st-atakoy-1.turksatkablo.com.tr
 st-manisa-1.turksatkablo.com.tr
-st-samsun-1.turksatkablo.com.tr
 st-yalova-1.turksatkablo.com.tr
 st-balikesir-1.turksatkablo.com.tr
-st-eskisehir-1.turksatkablo.com.tr
 speedtest.turnkeyinternet.net
 stest.ultraconnect.com.br
 ookla.araujotelecom.com.br
 speedtest-us.chainlinkhosting.com
+speedtest-ger.chainlinkhosting.com
 miami.getstreamhosting.com
 amsterdam.getstreamhosting.com
 speedtest.getstreamhosting.com
