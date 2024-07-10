@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-07-09T12:27:41.892Z
-# Size: 907
+# Last Updated: 2024-07-10T12:27:09.436Z
+# Size: 906
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -101,13 +101,13 @@ kh1.chtm.hinet.net
 tc1.chtm.hinet.net
 tn1.chtm.hinet.net
 tp1.chtm.hinet.net
+ty1.chtm.hinet.net
 ntp1.chtm.hinet.net
 hytron-hk.hytron.io
 speed.udx.icscoe.jp
 ookla.idnet.net
 speedtest1.innsys.ca
 velocidade.ip.eti.br
-speedtest.kairun.jp
 speedtest-fra-11.kemmit.de
 speedtest.b2.mhn.cloud
 speedtest.mel.mhn.cloud
@@ -139,6 +139,7 @@ lax1a-speedtest.webnx.com
 speedtest.miam.fl.wtsky.net
 speedtest1.xbase.com
 speedtest.xsnews.nl
+speedtest-kix.xtom.info
 speedtest-yoncudc.yoncu.com
 speedtest-sjc.acreto.net
 +.speedtest.alagas.net
@@ -307,7 +308,6 @@ speedtest.lon.macarne.com
 speedtest.sv5.macarne.com
 speedtest.tokyo.macarne.com
 ookla.mbspeed.net
-ookla2.mbspeed.net
 speedtest.mhcable.com
 speedtest.mitsupp.com
 speedtest-c.netgear.com
@@ -318,11 +318,9 @@ speedtest-bursa.olfe.net.tr
 speedtestlon.orbital.net
 ldnspeedtest.rackdog.com
 sydspeedtest.rackdog.com
-tpe01.speedtest.rfchost.com
 dal-speedtest.net.sangoma.net
 sea-speedtest.net.sangoma.net
 tor-speedtest.net.sangoma.net
-fetnt1.seed.net.tw
 fetyl1.seed.net.tw
 fetzl1.seed.net.tw
 seednet-ty1.seed.net.tw
@@ -498,7 +496,6 @@ stetobicoke.netcrawler.ca
 stnorthyork.netcrawler.ca
 stmississauga.netcrawler.ca
 stscarborough.netcrawler.ca
-netgearsj.com
 speedtest-syr.northland.net
 speedtest-utc.northland.net
 speedtest.us.openinfra.com
@@ -613,6 +610,7 @@ speed.rnp-net.com.br
 speedtest.sewan-group.de
 speedtest.singnet.com.sg
 speedtest.solutechzk.com
+osk.speedtest.love
 speedtest01.syd1.spintel.net.au
 speed1.spitfireuk.net
 speedtest.sugiartana.net
@@ -740,6 +738,7 @@ london-speedtest-1.hostingswift.com
 moscow-speedtest-1.hostingswift.com
 newyork-speedtest-1.hostingswift.com
 toronto-speedtest-1.hostingswift.com
+amsterdam-speedtest-1.hostingswift.com
 frankfurt-speedtest-1.hostingswift.com
 speedtest.lightsource1.com
 speedtest.markahost.com.tr
