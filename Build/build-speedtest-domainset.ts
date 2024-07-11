@@ -11,7 +11,6 @@ import { SHARED_DESCRIPTION } from './lib/constants';
 import picocolors from 'picocolors';
 import { readFileIntoProcessedArray } from './lib/fetch-text-by-line';
 import { TTL, deserializeArray, fsFetchCache, serializeArray } from './lib/cache-filesystem';
-import { createMemoizedPromise } from './lib/memo-promise';
 
 import { createTrie } from './lib/trie';
 
@@ -60,9 +59,10 @@ const querySpeedtestApi = async (keyword: string): Promise<Array<string | null>>
         retry: {
           retries: 2
         }
-      })).then(r => r.json() as any).then((data: Array<{ url: string }>) => data.reduce<string[]>(
+      })).then(r => r.json() as any).then((data: Array<{ url: string, host: string }>) => data.reduce<string[]>(
         (prev, cur) => {
-          const hn = getHostname(cur.url, { detectIp: false });
+          const line = cur.host || cur.url;
+          const hn = getHostname(line, { detectIp: false, validateHostname: true });
           if (hn) {
             prev.push(hn);
           }
@@ -80,14 +80,6 @@ const querySpeedtestApi = async (keyword: string): Promise<Array<string | null>>
     return [];
   }
 };
-
-const getPreviousSpeedtestDomainsPromise = createMemoizedPromise(async () => {
-  try {
-    return await readFileIntoProcessedArray(path.resolve(import.meta.dir, '../List/domainset/speedtest.conf'));
-  } catch {
-    return [];
-  }
-});
 
 export const buildSpeedtestDomainSet = task(import.meta.main, import.meta.path)(async (span) => {
   const domainTrie = createTrie(
@@ -155,6 +147,8 @@ export const buildSpeedtestDomainSet = task(import.meta.main, import.meta.path)(
       '.speedtest.com.sg',
       '.ookla.ddnsgeek.com',
       '.speedtest.pni.tw',
+      '.speedtest.cmcnetworks.net',
+      '.speedtestwnet.com.br',
       // Cloudflare
       '.speed.cloudflare.com',
       // Wi-Fi Man
@@ -185,8 +179,18 @@ export const buildSpeedtestDomainSet = task(import.meta.main, import.meta.path)(
 
   await span.traceChildAsync(
     'fetch previous speedtest domainset',
-    () => getPreviousSpeedtestDomainsPromise()
-      .then(prevDomains => prevDomains.forEach(domainTrie.add))
+    async () => {
+      try {
+        (
+          await readFileIntoProcessedArray(path.resolve(import.meta.dir, '../List/domainset/speedtest.conf'))
+        ) .forEach(line => {
+          const hn = getHostname(line, { detectIp: false, validateHostname: true });
+          if (hn) {
+            domainTrie.add(hn);
+          }
+        });
+      } catch { }
+    }
   );
 
   await new Promise<void>((resolve, reject) => {
