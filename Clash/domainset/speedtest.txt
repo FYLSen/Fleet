@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-07-13T12:23:50.588Z
-# Size: 938
+# Last Updated: 2024-07-14T12:35:43.997Z
+# Size: 962
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -31,7 +31,9 @@ speedtest2.cln.net
 speed.data.cr
 speedtest.ddps.jp
 +.ookla-speedtest.fsr.com
+speedtest.hay.net
 +.speedtest.i3d.net
+st2a.les.net
 speedtest.link.bm
 speed.uk.lon.m247.ro
 ookla.moji.fr
@@ -68,6 +70,7 @@ speedtest12.hkbn.net
 speedtest1c.hkix.net
 st1.htva.net
 speedtest.inoc.net
+speedtest.itel.com
 akrd-speedtest.loni.org
 40gspeedtest.mnsi.net
 clg-105-sptest.ncri.com
@@ -165,6 +168,7 @@ speedtest.us310.lax.us.ctcsci.com
 +.speedtest.dchost.com
 speed2.dg-sys.net
 speedtest01.dns-net.de
+speedtest.eidnet.org
 ffm-01-ovpn.vpn.eseven.net
 +.speedtest.faelix.net
 speed2.flawcra.cc
@@ -195,7 +199,6 @@ mirror.nforce.com
 sp-de.nuxt.cloud
 speedtest3.dal.nxlink.com
 speedtest-lhr-01.pdx.net.uk
-boluspeedtest.posive.net
 aydinspeedtest.posive.net
 bursaspeedtest.posive.net
 duzcespeedtest.posive.net
@@ -238,20 +241,32 @@ stguelphwireless.rogers.com
 stlondonwireless.rogers.com
 stmiltonwireless.rogers.com
 stsarniawireless.rogers.com
+stsurreywireless.rogers.com
+stcalgarywireless.rogers.com
 stchathamwireless.rogers.com
+stkelownawireless.rogers.com
+stnanaimowireless.rogers.com
+streddeerwireless.rogers.com
 sttorontowireless.rogers.com
 stwindsorwireless.rogers.com
+stedmontonwireless.rogers.com
 sthamiltonwireless.rogers.com
 ststthomaswireless.rogers.com
+stvictoriawireless.rogers.com
+stwinnipegwireless.rogers.com
 stbrantfordwireless.rogers.com
 stkitchenerwireless.rogers.com
 stnorthyorkwireless.rogers.com
 ststratfordwireless.rogers.com
+stvancouverwireless.rogers.com
 stwoodstockwireless.rogers.com
 stgeorgetownwireless.rogers.com
 stleamingtonwireless.rogers.com
+stlethbridgewireless.rogers.com
+stthunderbaywireless.rogers.com
 stmississaugawireless.rogers.com
 ststcatharineswireless.rogers.com
+stsaultstemariewireless.rogers.com
 stwellandpelhamwireless.rogers.com
 dalspeedtest.rtatel.com
 speedtest-server-lax.starry.com
@@ -321,7 +336,9 @@ ookla.mbspeed.net
 ookla2.mbspeed.net
 speedtest.mhcable.com
 speedtest.mitsupp.com
+speedtest.myaccess.ca
 speedtest-c.netgear.com
+network.netlara.com
 speedtest.nexicom.net
 speedtest.noone.co.uk
 speedtest.octaplus.uk
@@ -371,6 +388,7 @@ speedtest.westcall.ru
 speedtest.wifi.net.tr
 +.wifiman.com
 de-speedtest.woks.com.tr
+speedtest.wolfpaw.net
 speedtest01.wowrack.com
 speedtest.lax01.xfernet.net
 velocidade-mns.4wnet.net.br
@@ -495,7 +513,6 @@ mns.i-systems.com
 speedtest.i4networks.nl
 speedtest.inforr.com.br
 hiztesti.isimkayit.com
-speedtest-eqx-sg1.ixtelecom.net
 speedtest.jbarbieri.net
 kadoshspeed.kadoshnet.com
 speedtest16.lintas.net.id
@@ -532,6 +549,11 @@ speed.sdmnet.com.br
 speedtest.seaside.ns.ca
 ookla.la.ca.sharktech.net
 speedtest.ams.sharktech.net
+speedtest.cg.shawcable.net
+speedtest.ed.shawcable.net
+speedtest.gv.shawcable.net
+speedtest.vc.shawcable.net
+speedtest.wp.shawcable.net
 +.speedtest.net
 qld-speedtest.spirit.com.au
 vic-speedtest.spirit.com.au
@@ -578,6 +600,7 @@ lg-lon.fdcservers.net
 lg-mia.fdcservers.net
 lg-nyc.fdcservers.net
 lg-sea.fdcservers.net
+lg-sin.fdcservers.net
 lg-syd.fdcservers.net
 lg-tok.fdcservers.net
 lg-tor.fdcservers.net
@@ -654,7 +677,7 @@ speedtest.xcdtelecom.com
 speedtest.yless4u.com.au
 speedtest.airfiber.com.tr
 speedtest.airlink.network
-ourtestisbest.brolve.net:8080
+speedtest.bursabil.com.tr
 +.speedtest.centurylink.net
 speedtest.hk.chinamobile.com
 speedtestbb.hk.chinamobile.com
@@ -868,6 +891,7 @@ speedtest03.bluestreamfiber.net
 ookla-london.briantbroadband.com
 velocimetro.fibernetwork.com.br
 east-speedtest.frontiernetworks.ca
+west-speedtest.frontiernetworks.ca
 velocimetro.infinitemais.com.br
 +.measurement-lab.org
 speedtest.naturalwireless.com
