@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - General Global Services
-# Last Updated: 2024-06-13T14:22:56.448Z
+# Last Updated: 2024-07-16T12:27:31.821Z
 # Size: 569
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
