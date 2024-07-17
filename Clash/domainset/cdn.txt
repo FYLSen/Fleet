@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-07-16T12:27:31.508Z
-# Size: 2082
+# Last Updated: 2024-07-16T14:14:20.827Z
+# Size: 2083
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -20,6 +20,7 @@ s3.acg.mn
 lain.bgm.tv
 registry.api.cnn.io
 ipfs.d.tube
+media.dev.to
 static.dw.com
 pl.ea.com
 cdn.mcr.ea.com
@@ -1005,7 +1006,6 @@ img.perfops.net
 +.permaweb.io
 cdn.pixabay.com
 www.pngmart.com
-+.polyfill.io
 +.pornimg.xyz
 +.pravatar.cc
 +.pstatic.net
@@ -1032,7 +1032,7 @@ sdk.snapkit.com
 static.snaptube.in
 +.sqspcdn.com
 static.srcspot.com
-cdn.sstatic.net
++.sstatic.net
 assets.st-note.com
 +.stripst.com
 wpmedia.tealium.com
@@ -2012,6 +2012,7 @@ images.opencollective.com
 next-images.opencollective.com
 +.gateway.originprotocol.com
 web-assets.otogi-frontier.com
++.polyfill-fastly.io
 api.pwnedpasswords.com
 +.safebrowsing.apple
 image.theblockbeats.info

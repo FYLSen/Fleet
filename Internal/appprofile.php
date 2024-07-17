@@ -1,6 +1,6 @@
 <?php
 
-// # Build 2024-07-16T12:27:31.824Z
+// # Build 2024-07-17T03:56:59.778Z
 
 declare(strict_types=1);
 
@@ -1870,6 +1870,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,exhentai.org,Global',
         'DOMAIN-SUFFIX,etsy.com,Global',
         'DOMAIN-SUFFIX,euronews.com,Global',
+        'DOMAIN-SUFFIX,fanbox.cc,Global',
         'DOMAIN-SUFFIX,fastly.net,Global',
         'DOMAIN-SUFFIX,fc2.com,Global',
         'DOMAIN-SUFFIX,feedly.com,Global',
@@ -2035,6 +2036,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,theguardian.com,Global',
         'DOMAIN-SUFFIX,thetvdb.com,Global',
         'DOMAIN-SUFFIX,thepiratebay.org,Global',
+        'DOMAIN-SUFFIX,theverge.com,Global',
         'DOMAIN-SUFFIX,thisav.com,Global',
         'DOMAIN-SUFFIX,time.com,Global',
         'DOMAIN-SUFFIX,tineye.com,Global',
@@ -2907,7 +2909,6 @@ $_ENV['Clash_Group_Config'] = [
         'IP-CIDR,59.80.0.0/17,Domestic',
         'IP-CIDR,59.81.8.0/23,Domestic',
         'IP-CIDR,59.81.20.0/23,Domestic',
-        'IP-CIDR,59.81.24.0/23,Domestic',
         'IP-CIDR,59.81.36.0/23,Domestic',
         'IP-CIDR,59.81.40.0/23,Domestic',
         'IP-CIDR,59.81.46.0/24,Domestic',
@@ -3106,7 +3107,7 @@ $_ENV['Clash_Group_Config'] = [
         'IP-CIDR,103.1.168.0/22,Domestic',
         'IP-CIDR,103.2.108.0/22,Domestic',
         'IP-CIDR,103.2.208.0/22,Domestic',
-        'IP-CIDR,103.3.96.0/22,Domestic',
+        'IP-CIDR,103.3.96.0/21,Domestic',
         'IP-CIDR,103.3.112.0/20,Domestic',
         'IP-CIDR,103.3.128.0/22,Domestic',
         'IP-CIDR,103.3.136.0/21,Domestic',
@@ -3209,6 +3210,7 @@ $_ENV['Clash_Group_Config'] = [
         'IP-CIDR,103.39.232.0/22,Domestic',
         'IP-CIDR,103.40.12.0/22,Domestic',
         'IP-CIDR,103.40.192.0/22,Domestic',
+        'IP-CIDR,103.40.212.0/22,Domestic',
         'IP-CIDR,103.40.232.0/22,Domestic',
         'IP-CIDR,103.40.240.0/20,Domestic',
         'IP-CIDR,103.41.0.0/23,Domestic',
@@ -4046,7 +4048,7 @@ $_ENV['Clash_Group_Config'] = [
         'IP-CIDR,116.132.0.0/15,Domestic',
         'IP-CIDR,116.135.0.0/16,Domestic',
         'IP-CIDR,116.136.0.0/13,Domestic',
-        'IP-CIDR,116.147.0.0/16,Domestic',
+        'IP-CIDR,116.144.0.0/14,Domestic',
         'IP-CIDR,116.148.0.0/15,Domestic',
         'IP-CIDR,116.153.0.0/16,Domestic',
         'IP-CIDR,116.154.0.0/15,Domestic',
