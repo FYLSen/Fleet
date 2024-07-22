@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2024-07-22T05:09:19.248Z
-# Size: 125764
+# Last Updated: 2024-07-22T12:27:50.180Z
+# Size: 125768
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -5390,6 +5390,7 @@ live.tvpot.daum.net
 +.dfg6.top
 +.dfile.su
 +.dfjd.xyz
++.dgkhj.ru
 +.d.dgzj.com
 +.data-1842699cc4.dialo.de
 +.click.dice.com
@@ -5892,7 +5893,6 @@ live.tvpot.daum.net
 +.halal.ad
 +.halct.cn
 +.info.halo.com
-+.by.haory.cn
 +.haree.cn
 +.data-162d89b6ce.haufe.de
 +.stats.hauke.me
@@ -7969,7 +7969,6 @@ g.tbcdn.cn
 +.app.vahak.in
 +.marketing.valv.com
 +.hi.vani.ovh
-+.lon.vani.ovh
 +.scallop.vav.link
 +.log.vava.com
 +.vay6.com
@@ -11411,6 +11410,7 @@ adeng.hpplay.cn
 +.hrtyc.com
 +.hrtye.com
 +.dlink.hsdyn.com
++.hseda.com
 +.hsi2i.fun
 +.app.response.hslda.org
 +.ads2.hsoub.com
@@ -13096,6 +13096,7 @@ nmbr.info
 +.pps-log.op-mobile.opera.com
 +.smetrics.opnme.com
 +.tcbtus.opodo.com
++.opolis.io
 +.stats.opoloo.de
 +.opoxv.com
 +.oppuz.com
@@ -15452,7 +15453,6 @@ mopnativeadv.037201.com
 +.150075.com
 +.156fd4.xyz
 +.tracking.196189.com
-+.dl.198424.com
 +.1990tu.com
 +.1a1fb6.xyz
 +.a.1appup.com
@@ -21106,6 +21106,7 @@ events.jianshu.io
 +.marketing.meetac.com
 +.cattle.meets.beer
 +.analytics-tracking.meetup.com
++.meeweb.com
 +.mega-ad.de
 +.collector.megaxh.com
 +.meghis.com
@@ -22257,7 +22258,6 @@ adres.myaora.net
 +.data-c5925d7d99.pcgames.de
 +.btn.pchome.net
 +.pchznf.xyz
-+.p-lux1.pcloud.com
 +.omnis.pcmall.com
 +.pctlwm.com
 +.pctsrv.com
@@ -27215,7 +27215,6 @@ hydra.alibaba.com
 +.analytics.archive.org
 +.ia800400.us.archive.org
 +.ia803402.us.archive.org
-+.ia803405.us.archive.org
 +.ia903207.us.archive.org
 +.analytics.us.archive.org
 +.marketing.arcsona.com
@@ -27931,7 +27930,6 @@ thirdparty.biliapi.net
 +.cai75tp.com
 +.download.caihong.com
 +.cajggfj.com
-+.cajgtus.com
 +.tracker.calameo.com
 +.calcpol.com
 +.smetrics.caleres.com
@@ -30271,6 +30269,7 @@ log-sdk.gifshow.com
 +.trk.hawbeez.com
 +.analytics.haworth.com
 +.haxsite.com
++.hb-drye.com
 +.hb94dnbe.de
 +.hbagency.it
 +.hbeuwgqt.ru
@@ -32176,6 +32175,7 @@ wmlog.meituan.com
 +.mismaum.com
 +.misspkl.com
 +.misszuo.xyz
++.mistitis.ug
 +.misyuni.com
 +.b.mitrust.com
 +.mitself.net
@@ -33145,7 +33145,6 @@ ad.bn.netease.com
 +.files.pbgiris.com
 +.pbterra.com
 +.pccasia.xyz
-+.down.pcclear.com
 +.pcgamez.net
 +.pcmclks.com
 +.m.pcmobile.ca
@@ -33770,6 +33769,7 @@ zzy1.quyaoya.com
 +.qwandly.top
 +.qwerfdx.com
 +.qwerioy.top
++.qwertasd.ru
 +.qwiklnk.com
 +.qwjsame.com
 +.qwkmiot.com
@@ -36808,6 +36808,7 @@ feedback.windows.com
 +.plausibleio.workers.dev
 +.adinplay-venatus.workers.dev
 +.dust-0001.delorazahnow.workers.dev
++.mimikatz-tech.stevenyu1132284389.workers.dev
 +.world-ad.jp
 +.vttics.world.co.jp
 +.partneri.worldee.com
@@ -43696,7 +43697,6 @@ pushapi.lenovomm.com
 +.hiuplq.livesport.cz
 +.livestat.com
 +.livestats.fr
-+.livetrack.in
 +.app.link.livibank.com
 +.mosvnx.livup.com.br
 +.liximomo.fun
@@ -47138,7 +47138,6 @@ click.qianqian.com
 +.sitealyse.de
 +.siteapps.com
 +.solutions.sitech-wc.ca
-+.sitefind.top
 +.sitegoto.com
 +.shield.sitelock.com
 +.sitemaji.com
@@ -47974,6 +47973,7 @@ inte.sogoucdn.com
 +.stat.tildacdn.com
 +.ns1.tilmloek.xyz
 +.ns2.tilmloek.xyz
++.timebound.ug
 +.timecrom.com
 +.tracking.times247.com
 +.ddlbr.timesclub.co
@@ -51705,6 +51705,7 @@ ad.caiyunapp.com
 +.cheatsnew.com
 +.cheatspot.net
 +.chechawia.com
++.check-time.ru
 +.checkcsgo.com
 +.page.checkdeep.com
 +.reply.checkdeep.com
@@ -52519,6 +52520,7 @@ grs.platform.dbankcloud.ru
 +.doublebtc.win
 +.doublemax.net
 +.ad.douga-kan.com
++.download.doumaibiji.cn
 +.doumuleet.net
 +.down1oads.com
 +.download4.cfd
@@ -53250,6 +53252,7 @@ v2.fm.n.duokanbox.com
 +.connect.flowroute.com
 +.ftm.fluencyinc.co
 +.fluxtowed.com
++.fluyearte.com
 +.flvvcqfmw.com
 +.weblog.flyasiana.com
 +.flyercase.fun
@@ -54213,7 +54216,6 @@ v2.fm.n.duokanbox.com
 +.hitgelsin.com
 +.hitman-pro.ru
 +.links.hitrecord.org
-+.hitstation.nl
 +.hitstatus.com
 +.tracking.hivecloud.net
 +.partner.hizeromop.com
@@ -55650,6 +55652,7 @@ s.maketheweb.io
 +.profile.marketone.com
 +.tracking.marketone.com
 +.preferences.marketone.com
++.marksidfgs.ug
 +.a.markstube.com
 +.track.marktoget.com
 +.marphezis.com
@@ -55935,6 +55938,7 @@ i1.services.social.microsoft.com
 +.trk.miltonroy.com
 +.marketing.mimakiusa.com
 +.infoaction.mimakiusa.com
++.mimikatz.tech
 +.a8cv.minana-jp.com
 +.invitation.mindbliss.com
 +.mindlytix.com
@@ -56997,6 +57001,7 @@ i1.services.social.microsoft.com
 +.parklogic.com
 +.ablink.mail.parkmobile.io
 +.parsiheep.net
++.partaususd.ru
 +.partnermax.de
 +.marketing.partnerrc.com
 +.partsbury.com
@@ -59179,6 +59184,7 @@ strip.taobaocdn.com
 +.time4swap.com
 +.time4swap.fun
 +.timedirect.ru
++.timekeeper.ug
 +.data.promo.timhortons.ca
 +.ablink.info.timhortons.ca
 +.ablink.loyal.timhortons.ca
@@ -62053,6 +62059,7 @@ ad.winrar.com.cn
 +.knopnf.asambeauty.com
 +.www.net.asambeauty.com
 +.csr11.net.asambeauty.com
++.asdsadasrdc.ug
 +.www.aservice.tools
 +.feed.aservice.tools
 +.asespeonom.com
@@ -69820,6 +69827,7 @@ ivy.pchouse.com.cn
 +.qusfmaxgfa.xyz
 +.quxtpanaxd.com
 +.quxuejhcaz.com
++.qwerty12346.ru
 +.qwyoxrmhep.com
 +.qxdownload.com
 +.qxlwpaxlwg.com
@@ -73220,6 +73228,7 @@ app-ad.variflight.com
 +.anytimesand.com
 +.anyuazfpjzj.com
 +.links.aopcongress.com
++.aosafrica.co.za
 +.apaboqrqbpa.com
 +.apartsermon.com
 +.info.apbspeakers.com
@@ -77103,7 +77112,6 @@ material.istreamsche.com
 +.legalavouch.com
 +.legeignstrk.com
 +.stats.legendofnom.com
-+.legendsworld.in
 +.leggraduate.com
 +.legitcheats.com
 +.tagging.lei-manager.com
@@ -86692,7 +86700,6 @@ ssl.360antivirus.org
 +.link.never-missed.com
 +.metrics.newbalance.co.uk
 +.newclashgems.com
-+.newdomain.africa
 +.newdomain.center
 +.imk.neweggimages.com
 +.metrics.newequipment.com
@@ -87133,7 +87140,6 @@ ssl.360antivirus.org
 +.pannamdashee.com
 +.pannumregnal.com
 +.pansymerbaby.com
-+.pantherropes.com
 +.papiostanner.top
 +.parallelbulb.com
 +.parasolsever.com
@@ -87787,7 +87793,6 @@ ssl.360antivirus.org
 +.redansediles.com
 +.reddsdainful.com
 +.redetaailsh.info
-+.redirectdata.com
 +.redirectlock.com
 +.a.redpathmedia.com
 +.s.redpathmedia.com
@@ -88915,7 +88920,6 @@ ssl.360antivirus.org
 +.stats.tedserbinski.com
 +.teenyvolcano.com
 +.tefaighecmoa.com
-+.tejarat-gram.com
 +.revive.teknikveckan.com
 +.telecharger1.com
 +.telecharger24.fr
@@ -91136,7 +91140,6 @@ stat.zuimeitianqi.com
 +.lvh.anesthetics.biomedzglobal.com
 +.snu.anesthetics.biomedzglobal.com
 +.uop.anesthetics.biomedzglobal.com
-+.xod.anesthetics.biomedzglobal.com
 +.iaue.anesthetics.biomedzglobal.com
 +.icul.anesthetics.biomedzglobal.com
 +.ourq.anesthetics.biomedzglobal.com
@@ -91146,7 +91149,6 @@ stat.zuimeitianqi.com
 +.hfpuc.anesthetics.biomedzglobal.com
 +.lbndf.anesthetics.biomedzglobal.com
 +.ppoil.anesthetics.biomedzglobal.com
-+.sapxk.anesthetics.biomedzglobal.com
 +.teypf.anesthetics.biomedzglobal.com
 +.bional-dested.icu
 +.biopicfumer.space
@@ -92318,7 +92320,6 @@ stat.zuimeitianqi.com
 +.downloadhacks.org
 +.downloadshort.com
 +.downloadshout.com
-+.downloadwasabi.is
 +.dozenactually.com
 +.dqeiooxvtbiyl.com
 +.dqnxkfbhreaas.com
@@ -93455,6 +93456,7 @@ collect.foresightnews.pro
 +.hay-day-hacks.com
 +.haydayhackers.com
 +.haymowsrakily.com
++.hazemagcanada.com
 +.hbeipcdntijpb.com
 +.hbhtpuvjpqsmf.com
 +.connect.cap.hcahealthcare.com
@@ -96592,6 +96594,7 @@ collect.foresightnews.pro
 +.souvenirsflex.com
 +.souvlatraffic.com
 +.sozzlypeavies.com
++.spaceframe.mobi.space-frame.co.za
 +.sparidssimps.life
 +.sparkleagings.com
 +.somni.sparrowhotels.com
@@ -101237,7 +101240,6 @@ collect.foresightnews.pro
 +.ztqnls.lojasrenner.com.br
 +.lokalleads-cci.com
 +.t.longbeachstate.com
-+.longboothcant.site
 +.longeargloving.com
 +.longestsundays.com
 +.longinglettuce.com
@@ -104039,6 +104041,7 @@ collect.foresightnews.pro
 +.wimplesbooklet.com
 +.winaffiliates1.com
 +.windowmentaria.com
++.windowshealth.link
 +.smetrics.winfieldunited.com
 +.wingerssetiger.com
 +.alpaca.wingmantracker.com
@@ -104611,7 +104614,6 @@ collect.foresightnews.pro
 +.arlydsdibnjrvby.com
 +.armamentsummary.com
 +.arnepurxlbsjiih.xyz
-+.zqp.register.arpsychotherapy.com
 +.rxfh.register.arpsychotherapy.com
 +.arrangementhang.com
 +.marketing.arrayasolutions.com
@@ -104797,6 +104799,7 @@ collect.foresightnews.pro
 +.bineukdwithmef.info
 +.bingdianhuanyuan.cn
 +.ogb2.biopur-leanature.fr
++.birthingamerica.com
 +.bitcoin-cashcard.de
 +.bitcoin-cashcard.eu
 +.open.bitcoinmagazine.app
@@ -114427,6 +114430,7 @@ display.360totalsecurity.com
 +.putrid-experience.pro
 +.puzzlementangrily.com
 +.pyrincelewasgild.info
++.qd34gf23ewrfsd1233.ru
 +.qualienquan-trian.com
 +.qualifyundeniable.com
 +.tr.qualitaetsumfrage.com
@@ -115572,7 +115576,6 @@ display.360totalsecurity.com
 +.closed-consequence.com
 +.cloudflareinsights.com
 +.cloudlessjimarmpit.com
-+.cloudnetworkverify.com
 +.cloudypotsincluded.com
 +.clownunknownaffect.com
 +.clubpenguincheatsv.com
@@ -120616,6 +120619,7 @@ samsungcloudsolution.net
 +.eqht.award.vuheritagefoundation.org
 +.swuz.award.vuheritagefoundation.org
 +.ymxzm.award.vuheritagefoundation.org
++.zcmkd.award.vuheritagefoundation.org
 +.zropx.award.vuheritagefoundation.org
 +.wantopticalfreelance.com
 +.warofmercenarieshack.net
@@ -123531,6 +123535,7 @@ samsungcloudsolution.net
 +.utorrent-backup-server3.top
 +.utorrent-backup-server4.top
 +.utorrent-backup-server5.top
++.vacationstoresouthbeach.com
 +.vaccineconvictedseafood.com
 +.vandalismundermineshock.com
 +.variationsreviewmocking.com
@@ -123555,7 +123560,6 @@ samsungcloudsolution.net
 +.smetric.volkswagen-nutzfahrzeuge.de
 +.votinginvolvingeyesight.com
 +.vulnerablebreakerstrong.com
-+.wealthconsultantmanager.com
 +.weatherpeanutnegligence.com
 +.webestablishedsunflower.com
 +.seniorliving.welcometomonarchlanding.com

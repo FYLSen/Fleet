@@ -73,7 +73,6 @@ microcloud360.com                                                               
 np6.com                                                                                             18
 omniture.com                                                                                        18
 pwc.com                                                                                             18
-biomedzglobal.com                                                                                   17
 blackboard.com                                                                                      17
 equifax.com                                                                                         17
 market-search.online                                                                                17
@@ -92,6 +91,7 @@ zing.vn                                                                         
 adp.com                                                                                             15
 akadns.net                                                                                          15
 bestinterestings.com                                                                                15
+biomedzglobal.com                                                                                   15
 cisco.com                                                                                           15
 flourishpath.online                                                                                 15
 hotdoc.com.au                                                                                       15
