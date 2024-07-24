@@ -1,5 +1,8 @@
 import { task } from './trace';
 import path from 'path';
+import fs from 'fs';
+import { Readable } from 'stream';
+import { pipeline } from 'stream/promises';
 import { fetchWithRetry } from './lib/fetch-retry';
 
 const ASSETS_LIST = {
@@ -10,10 +13,21 @@ const ASSETS_LIST = {
   'amazon-adsystem-com_amazon-apstag.js': 'https://raw.githubusercontent.com/AdguardTeam/Scriptlets/master/dist/redirect-files/amazon-apstag.js'
 } as const;
 
-const mockDir = path.resolve(import.meta.dir, '../Mock');
+const mockDir = path.resolve(__dirname, '../Mock');
 
-export const downloadMockAssets = task(import.meta.main, import.meta.path)((span) => Promise.all(Object.entries(ASSETS_LIST).map(
+export const downloadMockAssets = task(typeof Bun !== 'undefined' ? Bun.main === __filename : require.main === module, __filename)((span) => Promise.all(Object.entries(ASSETS_LIST).map(
   ([filename, url]) => span
     .traceChild(url)
-    .traceAsyncFn(() => fetchWithRetry(url).then(res => Bun.write(path.join(mockDir, filename), res)))
+    .traceAsyncFn(() => fetchWithRetry(url).then(res => {
+      const src = path.join(mockDir, filename);
+      if (!res.body) {
+        throw new Error(`Empty body from ${url}`);
+      }
+
+      const writeStream = fs.createWriteStream(src, { encoding: 'utf-8' });
+      return pipeline(
+        Readable.fromWeb(res.body),
+        writeStream
+      );
+    }))
 )));

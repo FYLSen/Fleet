@@ -1,32 +1,28 @@
 // @ts-check
-import { readFileByLine } from './fetch-text-by-line';
 import { surgeDomainsetToClashDomainset, surgeRulesetToClashClassicalTextRuleset } from './clash';
 import picocolors from 'picocolors';
 import type { Span } from '../trace';
 import path from 'path';
+import fs from 'fs';
 import { sort } from './timsort';
 import { fastStringArrayJoin } from './misc';
+import { readFileByLine } from './fetch-text-by-line';
+import { writeFile } from './bun';
 
 export async function compareAndWriteFile(span: Span, linesA: string[], filePath: string) {
   let isEqual = true;
-  const file = Bun.file(filePath);
-
   const linesALen = linesA.length;
 
-  if (!(await file.exists())) {
+  if (!fs.existsSync(filePath)) {
     console.log(`${filePath} does not exists, writing...`);
     isEqual = false;
   } else if (linesALen === 0) {
     console.log(`Nothing to write to ${filePath}...`);
     isEqual = false;
   } else {
-    /* The `isEqual` variable is used to determine whether the content of a file is equal to the
-    provided lines or not. It is initially set to `true`, and then it is updated based on different
-    conditions: */
     isEqual = await span.traceChildAsync(`comparing ${filePath}`, async () => {
       let index = 0;
-
-      for await (const lineB of readFileByLine(file)) {
+      for await (const lineB of readFileByLine(filePath)) {
         const lineA = linesA[index] as string | undefined;
         index++;
 
@@ -70,7 +66,7 @@ export async function compareAndWriteFile(span: Span, linesA: string[], filePath
 
   await span.traceChildAsync(`writing ${filePath}`, async () => {
     // if (linesALen < 10000) {
-    return Bun.write(file, fastStringArrayJoin(linesA, '\n') + '\n');
+    return writeFile(filePath, fastStringArrayJoin(linesA, '\n') + '\n');
     // }
     // const writer = file.writer();
 

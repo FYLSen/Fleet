@@ -1,4 +1,6 @@
 import path from 'path';
+import fs from 'fs';
+import fsp from 'fs/promises';
 import { task } from './trace';
 import { treeDir } from './lib/tree-dir';
 import type { TreeType, TreeTypeArray } from './lib/tree-dir';
@@ -6,9 +8,10 @@ import { fdir as Fdir } from 'fdir';
 import { sort } from './lib/timsort';
 
 import Trie from 'mnemonist/trie';
+import { writeFile } from './lib/bun';
 
-const rootPath = path.resolve(import.meta.dir, '../');
-const publicPath = path.resolve(import.meta.dir, '../public');
+const rootPath = path.resolve(__dirname, '../');
+const publicPath = path.resolve(__dirname, '../public');
 
 const folderAndFilesToBeDeployed = [
   `Mock${path.sep}`,
@@ -20,7 +23,9 @@ const folderAndFilesToBeDeployed = [
   'LICENSE'
 ];
 
-export const buildPublic = task(import.meta.main, import.meta.path)(async (span) => {
+export const buildPublic = task(typeof Bun !== 'undefined' ? Bun.main === __filename : require.main === module, __filename)(async (span) => {
+  fs.mkdirSync(publicPath, { recursive: true });
+
   await span
     .traceChild('copy public files')
     .traceAsyncFn(async () => {
@@ -41,7 +46,16 @@ export const buildPublic = task(import.meta.main, import.meta.path)(async (span)
         const src = path.join(rootPath, file);
         const dest = path.join(publicPath, file);
 
-        return Bun.write(dest, Bun.file(src));
+        const destParen = path.dirname(dest);
+        if (!fs.existsSync(destParen)) {
+          fs.mkdirSync(destParen, { recursive: true });
+        }
+
+        return fsp.copyFile(
+          src,
+          dest,
+          fs.constants.COPYFILE_FICLONE
+        );
       }));
     });
 
@@ -49,7 +63,7 @@ export const buildPublic = task(import.meta.main, import.meta.path)(async (span)
     .traceChild('generate index.html')
     .traceAsyncFn(() => treeDir(publicPath).then(generateHtml));
 
-  return Bun.write(path.join(publicPath, 'index.html'), html);
+  return writeFile(path.join(publicPath, 'index.html'), html);
 });
 
 const priorityOrder: Record<'default' | string & {}, number> = {

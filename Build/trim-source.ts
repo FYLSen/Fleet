@@ -1,8 +1,9 @@
 import path from 'path';
+import fsp from 'fs/promises';
 import { fdir as Fdir } from 'fdir';
 import { readFileByLine } from './lib/fetch-text-by-line';
 
-const sourceDir = path.resolve(import.meta.dir, '../Source');
+const sourceDir = path.resolve(__dirname, '../Source');
 
 (async () => {
   const promises: Array<Promise<unknown>> = [];
@@ -43,5 +44,5 @@ async function trimFileLines(file: string) {
     result += line.trim() + '\n';
   }
 
-  return Bun.write(file, result);
+  return fsp.writeFile(file, result);
 }

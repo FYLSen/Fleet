@@ -1,8 +1,12 @@
+import fs from 'fs';
+import { Readable } from 'stream';
 import type { BunFile } from 'bun';
 import { fetchWithRetry, defaultRequestInit } from './fetch-retry';
+import type { FileHandle } from 'fs/promises';
 
 import { TextLineStream } from './text-line-transform-stream';
 import { PolyfillTextDecoderStream } from './text-decoder-stream';
+import { TextDecoderStream as NodeTextDecoderStream } from 'stream/web';
 import { processLine } from './process-line';
 
 const enableTextLineStream = !!process.env.ENABLE_TEXT_LINE_STREAM;
@@ -35,18 +39,33 @@ async function *createTextLineAsyncIterableFromStreamSource(stream: ReadableStre
   }
 }
 
-const getBunBlob = (file: string | URL | BunFile) => {
-  if (typeof file === 'string') {
-    return Bun.file(file);
-  } if (!('writer' in file)) {
-    return Bun.file(file);
+const getReadableStream = typeof Bun !== 'undefined'
+  ? (file: string | BunFile | FileHandle): ReadableStream => {
+    if (typeof file === 'string') {
+      return Bun.file(file).stream();
+    }
+    if ('writer' in file) {
+      return file.stream();
+    }
+    return file.readableWebStream();
   }
-  return file;
-};
+  : (file: string | BunFile | FileHandle): ReadableStream => {
+    if (typeof file === 'string') {
+      return Readable.toWeb(fs.createReadStream(file /* { encoding: 'utf-8' } */));
+    }
+    if ('writer' in file) {
+      return file.stream();
+    }
+    return file.readableWebStream();
+  };
 
-export const readFileByLine: ((file: string | URL | BunFile) => AsyncIterable<string>) = enableTextLineStream
-  ? (file: string | URL | BunFile) => getBunBlob(file).stream().pipeThrough(new PolyfillTextDecoderStream()).pipeThrough(new TextLineStream())
-  : (file: string | URL | BunFile) => createTextLineAsyncIterableFromStreamSource(getBunBlob(file).stream());
+// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition -- On Bun, NodeTextDecoderStream is undefined
+const TextDecoderStream = NodeTextDecoderStream ?? PolyfillTextDecoderStream;
+
+// TODO: use FileHandle.readLine()
+export const readFileByLine: ((file: string | BunFile | FileHandle) => AsyncIterable<string>) = enableTextLineStream
+  ? (file: string | BunFile | FileHandle) => getReadableStream(file).pipeThrough(new TextDecoderStream()).pipeThrough(new TextLineStream())
+  : (file: string | BunFile | FileHandle) => createTextLineAsyncIterableFromStreamSource(getReadableStream(file));
 
 const ensureResponseBody = (resp: Response) => {
   if (!resp.body) {
@@ -59,20 +78,19 @@ const ensureResponseBody = (resp: Response) => {
 };
 
 export const createReadlineInterfaceFromResponse: ((resp: Response) => AsyncIterable<string>) = enableTextLineStream
-  ? (resp) => ensureResponseBody(resp).pipeThrough(new PolyfillTextDecoderStream()).pipeThrough(new TextLineStream())
+  ? (resp) => ensureResponseBody(resp).pipeThrough(new TextDecoderStream()).pipeThrough(new TextLineStream())
   : (resp) => createTextLineAsyncIterableFromStreamSource(ensureResponseBody(resp));
 
 export function fetchRemoteTextByLine(url: string | URL) {
   return fetchWithRetry(url, defaultRequestInit).then(createReadlineInterfaceFromResponse);
 }
 
-export async function readFileIntoProcessedArray(file: string | URL | BunFile) {
-  if (typeof file === 'string') {
-    file = Bun.file(file);
-  } else if (!('writer' in file)) {
-    file = Bun.file(file);
+export async function readFileIntoProcessedArray(file: string | BunFile | FileHandle) {
+  const results = [];
+  for await (const line of readFileByLine(file)) {
+    if (processLine(line)) {
+      results.push(line);
+    }
   }
-
-  const content = await file.text();
-  return content.split('\n').filter(processLine);
+  return results;
 }
