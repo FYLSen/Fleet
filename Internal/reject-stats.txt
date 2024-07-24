@@ -25,6 +25,7 @@ innovatedating.com                                                              
 aaa.com                                                                                             35
 m-shop.me                                                                                           35
 msn.com                                                                                             35
+windows.net                                                                                         35
 aliyuncs.com                                                                                        33
 samsung.com                                                                                         33
 thermofisher.com                                                                                    33
@@ -40,7 +41,6 @@ newzgames.com                                                                   
 yahoo.com                                                                                           29
 international-med.com                                                                               28
 vodafone.com                                                                                        28
-windows.net                                                                                         28
 360.cn                                                                                              27
 akamaihd.net                                                                                        27
 ni.com                                                                                              27
@@ -68,9 +68,9 @@ fupa.net                                                                        
 jessicabarrett.com                                                                                  20
 herokuapp.com                                                                                       19
 informa.com                                                                                         19
+microcloud360.com                                                                                   19
 sfr.fr                                                                                              19
 americanexpress.co.uk                                                                               18
-microcloud360.com                                                                                   18
 np6.com                                                                                             18
 omniture.com                                                                                        18
 pwc.com                                                                                             18
@@ -119,7 +119,6 @@ sogou.com                                                                       
 tajawal.com                                                                                         14
 alicdn.com                                                                                          13
 betterbuiltdogs.com                                                                                 13
-biomedzglobal.com                                                                                   13
 com.se                                                                                              13
 coniferhealth.com                                                                                   13
 discoveryplus.com                                                                                   13
