@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-07-24T12:26:42.641Z
-# Size: 945
+# Last Updated: 2024-07-25T12:26:50.993Z
+# Size: 968
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -33,6 +33,7 @@ speedtest.ddps.jp
 +.ookla-speedtest.fsr.com
 i-sotis.fvds.ru
 +.speedtest.i3d.net
+st2a.les.net
 speedtest.link.bm
 speed.uk.lon.m247.ro
 ookla.moji.fr
@@ -69,6 +70,7 @@ speedtest12.hkbn.net
 speedtest1c.hkix.net
 st1.htva.net
 speedtest.inoc.net
+speedtest.itel.com
 akrd-speedtest.loni.org
 40gspeedtest.mnsi.net
 clg-105-sptest.ncri.com
@@ -165,6 +167,7 @@ speedtest.us310.lax.us.ctcsci.com
 +.speedtest.dchost.com
 speed2.dg-sys.net
 speedtest01.dns-net.de
+speedtest.eidnet.org
 ffm-01-ovpn.vpn.eseven.net
 +.speedtest.faelix.net
 speed2.flawcra.cc
@@ -241,18 +244,29 @@ stguelphwireless.rogers.com
 stlondonwireless.rogers.com
 stmiltonwireless.rogers.com
 stsarniawireless.rogers.com
+stsurreywireless.rogers.com
+stcalgarywireless.rogers.com
 stchathamwireless.rogers.com
+stkelownawireless.rogers.com
+stnanaimowireless.rogers.com
+streddeerwireless.rogers.com
 sttorontowireless.rogers.com
 stwindsorwireless.rogers.com
+stedmontonwireless.rogers.com
 sthamiltonwireless.rogers.com
 ststthomaswireless.rogers.com
+stvictoriawireless.rogers.com
+stwinnipegwireless.rogers.com
 stbrantfordwireless.rogers.com
 stkitchenerwireless.rogers.com
 stnorthyorkwireless.rogers.com
 ststratfordwireless.rogers.com
+stvancouverwireless.rogers.com
 stwoodstockwireless.rogers.com
 stgeorgetownwireless.rogers.com
 stleamingtonwireless.rogers.com
+stlethbridgewireless.rogers.com
+stthunderbaywireless.rogers.com
 stmississaugawireless.rogers.com
 storangevillewireless.rogers.com
 ststcatharineswireless.rogers.com
@@ -326,6 +340,7 @@ ookla.mbspeed.net
 ookla2.mbspeed.net
 speedtest.mhcable.com
 speedtest.mitsupp.com
+speedtest.myaccess.ca
 speedtest-c.netgear.com
 network.netlara.com
 speedtest.nexicom.net
@@ -377,6 +392,7 @@ speedtest.westcall.ru
 speedtest.wifi.net.tr
 +.wifiman.com
 de-speedtest.woks.com.tr
+speedtest.wolfpaw.net
 speedtest01.wowrack.com
 speedtest.lax01.xfernet.net
 velocidade-mns.4wnet.net.br
@@ -490,6 +506,7 @@ speedtest.qld.edgeix.net.au
 +.speedtest.exetel.com.au
 st-1.fibrenest.net
 speedtest.fixnet.com.tr
+afyonspeedtest.fixnet.com.tr
 bursaspeedtest.fixnet.com.tr
 izmirspeedtest.fixnet.com.tr
 istanbulspeedtest.fixnet.com.tr
@@ -537,6 +554,11 @@ speed.sdmnet.com.br
 speedtest.seaside.ns.ca
 ookla.la.ca.sharktech.net
 speedtest.ams.sharktech.net
+speedtest.cg.shawcable.net
+speedtest.ed.shawcable.net
+speedtest.gv.shawcable.net
+speedtest.vc.shawcable.net
+speedtest.wp.shawcable.net
 +.speedtest.net
 qld-speedtest.spirit.com.au
 vic-speedtest.spirit.com.au
@@ -875,6 +897,7 @@ speedtest03.bluestreamfiber.net
 ookla-london.briantbroadband.com
 velocimetro.fibernetwork.com.br
 east-speedtest.frontiernetworks.ca
+west-speedtest.frontiernetworks.ca
 velocimetro.infinitemais.com.br
 +.measurement-lab.org
 speedtest.naturalwireless.com
