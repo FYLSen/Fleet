@@ -9,7 +9,7 @@ import { SHARED_DESCRIPTION } from './lib/constants';
 import { createMemoizedPromise } from './lib/memo-promise';
 import * as yaml from 'yaml';
 import { appendArrayInPlace } from './lib/append-array-in-place';
-import { writeFile } from './lib/bun';
+import { writeFile } from './lib/misc';
 
 export const getDomesticAndDirectDomainsRulesetPromise = createMemoizedPromise(async () => {
   const domestics = await readFileIntoProcessedArray(path.resolve(__dirname, '../Source/non_ip/domestic.conf'));
@@ -29,7 +29,7 @@ export const getDomesticAndDirectDomainsRulesetPromise = createMemoizedPromise(a
   return [domestics, directs, lans] as const;
 });
 
-export const buildDomesticRuleset = task(typeof Bun !== 'undefined' ? Bun.main === __filename : require.main === module, __filename)(async (span) => {
+export const buildDomesticRuleset = task(require.main === module, __filename)(async (span) => {
   const res = await getDomesticAndDirectDomainsRulesetPromise();
 
   const dataset = Object.entries(DOMESTICS);

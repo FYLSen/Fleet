@@ -18,11 +18,10 @@ import { SHARED_DESCRIPTION } from './lib/constants';
 import { getPhishingDomains } from './lib/get-phishing-domains';
 
 import { setAddFromArray, setAddFromArrayCurried } from './lib/set-add-from-array';
-import { sort } from './lib/timsort';
 
 const getRejectSukkaConfPromise = readFileIntoProcessedArray(path.resolve(__dirname, '../Source/domainset/reject_sukka.conf'));
 
-export const buildRejectDomainSet = task(typeof Bun !== 'undefined' ? Bun.main === __filename : require.main === module, __filename)(async (span) => {
+export const buildRejectDomainSet = task(require.main === module, __filename)(async (span) => {
   /** Whitelists */
   const filterRuleWhitelistDomainSets = new Set(PREDEFINED_WHITELIST);
 
@@ -149,7 +148,7 @@ export const buildRejectDomainSet = task(typeof Bun !== 'undefined' ? Bun.main =
   const dudupedDominArray = span.traceChildSync('dedupe from covered subdomain (base)', () => domainDeduper(baseTrie));
   const dudupedDominArrayExtra = span.traceChildSync('dedupe from covered subdomain (extra)', () => domainDeduper(extraTrie));
 
-  console.log(`Final size ${dudupedDominArray.length}`);
+  console.log(`Final size ${dudupedDominArray.length} + ${dudupedDominArrayExtra.length}`);
 
   const {
     domainMap: domainArrayMainDomainMap,
@@ -171,7 +170,7 @@ export const buildRejectDomainSet = task(typeof Bun !== 'undefined' ? Bun.main =
         return acc;
       }, new Map());
 
-      return sort(Array.from(statMap.entries()).filter(a => a[1] > 9), (a, b) => (b[1] - a[1]) || a[0].localeCompare(b[0]));
+      return Array.from(statMap.entries()).filter(a => a[1] > 9).sort((a, b) => (b[1] - a[1]) || a[0].localeCompare(b[0]));
     });
 
   return Promise.all([

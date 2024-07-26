@@ -3,7 +3,7 @@ import { task } from './trace';
 import { compareAndWriteFile } from './lib/create-file';
 import { DIRECTS, LANS } from '../Source/non_ip/direct';
 import * as yaml from 'yaml';
-import { writeFile } from './lib/bun';
+import { writeFile } from './lib/misc';
 
 const HOSTNAMES = [
   // Network Detection, Captive Portal
@@ -43,7 +43,7 @@ const HOSTNAMES = [
   '*.battlenet.com'
 ];
 
-export const buildAlwaysRealIPModule = task(typeof Bun !== 'undefined' ? Bun.main === __filename : require.main === module, __filename)(async (span) => {
+export const buildAlwaysRealIPModule = task(require.main === module, __filename)(async (span) => {
   // Intranet, Router Setup, and mant more
   const dataset = [Object.entries(DIRECTS), Object.entries(LANS)];
   const surge = dataset.flatMap(data => data.flatMap(([, { domains }]) => domains.flatMap((domain) => [`*.${domain}`, domain])));

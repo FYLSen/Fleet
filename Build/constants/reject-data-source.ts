@@ -257,32 +257,5 @@ export const PREDEFINED_WHITELIST = [
   // yet stupid AdGuardDNSFilter blocks all of it. Stupid AdGuard
   '.w3s.link', // stupid phishing.army, introduce both "*.ipfs.w3s.link" and ".w3s.link" to the block list
   'ipfs.io', // ipfs.io was blocked by DigitalSide Threat-Intel - OSINT Hub
-  // stupid uBlock Origin blocking public cdn
-  '.bootcdn.net',
-  '.bootcss.com',
-  '.staticfile.net',
-  '.staticfile.org'
-];
-
-export const PREDEFINED_ENFORCED_WHITELIST = [
-  'r2.dev',
-  'godaddysites.com',
-  'web.app',
-  'firebaseapp.com',
-  'ipfs.nftstorage.link',
-  'ipfs.4everland.io',
-  'ipfs.cf-ipfs.com',
-  'ipfs.dweb.link',
-  'ipfs.infura-ipfs.io',
-  'ipfs.fleek.cool',
-  'repl.co',
-  'w3s.link',
-  'translate.goog',
-  'backblazeb2.com',
-  'workers.dev',
-  'r2.dev',
-  'glitch.me',
-  'netlify.app',
-  'blogspot.com',
-  'appspot.com'
+  '.r2.dev' // Despite 5000+ r2 instances used for phishing, yet cloudflare refuse to do anything. we have no choice but whitelist this.
 ];
