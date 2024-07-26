@@ -9,7 +9,7 @@ openapp.link                                                                    
 qq.com                                                                                              67
 79j68qav2.com                                                                                       65
 cdn77.org                                                                                           62
-amazonaws.com                                                                                       58
+amazonaws.com                                                                                       59
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -26,9 +26,9 @@ aaa.com                                                                         
 m-shop.me                                                                                           35
 msn.com                                                                                             35
 windows.net                                                                                         35
-aliyuncs.com                                                                                        33
 samsung.com                                                                                         33
 thermofisher.com                                                                                    33
+aliyuncs.com                                                                                        32
 34gwl8v1a.com                                                                                       31
 appspot.com                                                                                         31
 microsoft.com                                                                                       31
