@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2024-07-26T01:01:36.484Z
-# Size: 124924
+# Last Updated: 2024-07-26T12:26:16.871Z
+# Size: 124933
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -511,7 +511,6 @@ adshow.58.com
 +.native.cli.bz
 +.log-api.cli.im
 +.clx.ru
-+.support.clz.kr
 +.platypus.cmp.is
 +.cms.lv
 +.cxsh.cn.com
@@ -1811,7 +1810,6 @@ crashlytics.163.com
 +.52av.be
 +.ad.52av.tv
 +.3.5646.cn
-+.dl.1003b.56a.com
 +.abcd.5lu.com
 +.efgh.5lu.com
 +.adjb.5nd.com
@@ -5865,7 +5863,6 @@ live.tvpot.daum.net
 +.halal.ad
 +.halct.cn
 +.info.halo.com
-+.by.haory.cn
 +.data-162d89b6ce.haufe.de
 +.stats.hauke.me
 +.stats.hayu.com
@@ -7133,6 +7130,7 @@ adlaunch.moji.com
 +.pcads.ru
 +.omni.commercial.pccw.com
 +.pctv.xyz
++.download.pdf00.cn
 +.go.peak.net
 +.abmail.peak.net
 +.testlink.peak.net
@@ -17138,7 +17136,6 @@ fc-feed.cdn.bcebos.com
 +.cnstats.ru
 +.cnvmhzt.cn
 +.cnxweb.com
-+.updates.ultimate-fakkers.co.network
 +.a8clk.form.coached.jp
 +.ggduev.cobone.com
 +.ae.cobweb.com
@@ -18908,6 +18905,7 @@ pdl.gionee.com
 +.haxqxd.xyz
 +.hayyad.com
 +.hb-247.com
++.hbbynt.xyz
 +.hbfqcy.com
 +.hbhood.com
 +.hbjolp.xyz
@@ -21822,6 +21820,7 @@ adres.myaora.net
 +.track.pnj.com.vn
 +.flx2.pnl.agency
 +.pnperf.com
++.pns.org.pk
 +.pnsqsv.com
 +.pntrac.com
 +.pnvtlh.xyz
@@ -25214,7 +25213,6 @@ impservice.dictapp.youdao.com
 +.zhihei.com
 +.t.zhipin.com
 +.logapi.zhipin.com
-+.zhngxie.wf
 +.zhould.com
 +.zhy333.com
 +.zikpwr.com
@@ -26330,6 +26328,7 @@ hydra.alibaba.com
 +.analytics.archive.org
 +.ia800400.us.archive.org
 +.ia803402.us.archive.org
++.ia803405.us.archive.org
 +.ia903207.us.archive.org
 +.analytics.us.archive.org
 +.marketing.arcsona.com
@@ -36539,6 +36538,7 @@ hot.m.shouji.360tpcdn.com
 +.691f42ad.xyz
 +.6kportot.com
 +.76236osm1.ru
++.7841ffda.xyz
 +.7bpeople.com
 +.7ca989e1.xyz
 +.7e60f1f9.xyz
@@ -38669,6 +38669,7 @@ galaxy.bjcathay.com
 +.l.coastapp.com
 +.coatfood.com
 +.coawheer.net
++.api-ms.cobainaja.id
 +.cobalten.com
 +.cochack.site
 +.cochacks.com
@@ -38969,6 +38970,7 @@ cdn.cr-relay.com
 +.cvgrszkg.xyz
 +.cvnxetmq.xyz
 +.cvudqzoa.xyz
++.cwerilxf.top
 +.qcgtoz.cwjobs.co.uk
 +.response.cwjobs.co.uk
 +.cwobfddy.com
@@ -51109,6 +51111,7 @@ p.cloudcraft.co
 +.daredcoil.com
 +.dqs3.darjeeling.fr
 +.dark-area.net
++.darpexllc.top
 +.daslkdlqk.top
 +.databass.info
 +.databrain.com
@@ -51255,7 +51258,6 @@ grs.platform.dbankcloud.ru
 +.affiliate.diatomplus.cz
 +.diccsbhij.com
 +.xiqvza.dickblick.com
-+.diclegrup.org
 +.ec.didnsunns.com
 +.data-d88bd5abf8.die-glocke.de
 +.marketing.dienerlaw.net
@@ -51372,6 +51374,7 @@ grs.platform.dbankcloud.ru
 +.doublebtc.win
 +.doublemax.net
 +.ad.douga-kan.com
++.download.doumaibiji.cn
 +.doumuleet.net
 +.down1oads.com
 +.download4.cfd
@@ -53106,6 +53109,7 @@ v2.fm.n.duokanbox.com
 +.swasc.homedepot.com
 +.sst.homegoods.com
 +.smetrics.homegoods.com
++.ratokalokm1.homelinux.com
 +.landing.homequote.biz
 +.homesyowl.com
 +.honeybulb.com
@@ -54906,6 +54910,7 @@ i1.services.social.microsoft.com
 +.ens.moneyhouse.ch
 +.moneysyst.biz
 +.somni.moneytips.com
++.moninediy.com
 +.tr.newsletter.monmedium.com
 +.web.online.monnalisa.com
 +.mjjvkx.monoprice.com
@@ -57648,6 +57653,7 @@ sousuo.xm.sjzhushou.com
 +.nsm.sungardas.com
 +.target.sunlife.co.id
 +.sunmomo88.com
++.sunorox.cloud
 +.rqz4.supdigital.fr
 +.data-9aa5e80b66.super-illu.de
 +.superalts.com
@@ -61957,6 +61963,7 @@ ad.winrar.com.cn
 +.4b6179fcdb.ced2aad48e.com
 +.ced843cd18.com
 +.track.cedsdigital.it
++.ceeaapaint.xyz
 +.smetrics.cefcofleet.com
 +.cefuthodob.com
 +.celebrantsd.pw
@@ -62065,6 +62072,7 @@ ad.winrar.com.cn
 +.fpc.choosemylo.com
 +.tracking.choosemylo.com
 +.images.guidance.choosemylo.com
++.chouchicky.com
 +.choudairtu.net
 +.telemetry.chrobinson.com
 +.chronicads.com
@@ -68922,6 +68930,7 @@ ivy.pchouse.com.cn
 +.remaincall.com
 +.remehealth.net
 +.porcupine.reminyborg.com
++.remisat.com.uy
 +.marketing.remotelock.com
 +.data-60d896f23d.remszeitung.de
 +.data-6dde45f576.remszeitung.de
@@ -82376,6 +82385,7 @@ ssl.360antivirus.org
 +.credotrigona.com
 +.creepyassist.pro
 +.creticoutdid.com
++.crewedbangup.com
 +.partner.crewmaldives.com
 +.images.cricketworld.com
 +.servedby.cricketworld.com
@@ -90147,7 +90157,6 @@ stat.zuimeitianqi.com
 +.smetrics.biomedtracker.com
 +.bug.anesthetics.biomedzglobal.com
 +.uop.anesthetics.biomedzglobal.com
-+.siqz.anesthetics.biomedzglobal.com
 +.bional-dested.icu
 +.biopicfumer.space
 +.bipgialxcfvad.xyz
@@ -95641,7 +95650,6 @@ collect.foresightnews.pro
 +.souvenirsflex.com
 +.souvlatraffic.com
 +.sozzlypeavies.com
-+.spaceframe.mobi.space-frame.co.za
 +.sparidssimps.life
 +.sparkleagings.com
 +.somni.sparrowhotels.com
@@ -103345,6 +103353,7 @@ collect.foresightnews.pro
 +.app-branch.yummybazaar-qa.com
 +.a8.yuzen-official.com
 +.yvlvbcumfhsdeu.com
++.ywmvppnlwwxkgt.com
 +.ywsxqrcfrtsnfa.com
 +.yxeqahmgyxqdid.com
 +.yxguqmcemyjiwb.com
@@ -115250,6 +115259,7 @@ display.360totalsecurity.com
 +.data-c5740f79ff.hertener-allgemeine.de
 +.data-e9439b5f81.hertener-allgemeine.de
 +.hesitanttoothpaste.com
++.gzw.loyalty.hienphucuanhanloai.org
 +.hmen.loyalty.hienphucuanhanloai.org
 +.kuzo.loyalty.hienphucuanhanloai.org
 +.qxup.loyalty.hienphucuanhanloai.org
@@ -117553,7 +117563,6 @@ display.360totalsecurity.com
 +.mexicantransmission.com
 +.tracking.mhealthintelligence.com
 +.michiganrobotflower.com
-+.microsecurityupdate.com
 +.midgerelativelyhoax.com
 +.migrantacknowledged.com
 +.migrantfarewellmoan.com
