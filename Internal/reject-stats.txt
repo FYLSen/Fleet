@@ -1,4 +1,4 @@
-cloudfront.net                                                                                      1243
+cloudfront.net                                                                                      1244
 windows.com                                                                                         118
 weebly.com                                                                                          116
 llnw.net                                                                                            101
@@ -92,6 +92,7 @@ zing.vn                                                                         
 adp.com                                                                                             15
 akadns.net                                                                                          15
 bestinterestings.com                                                                                15
+chuathuongxot.org                                                                                   15
 cisco.com                                                                                           15
 hotdoc.com.au                                                                                       15
 ignite.technology                                                                                   15
@@ -107,7 +108,6 @@ younited-credit.com                                                             
 zadn.vn                                                                                             15
 zaloapp.com                                                                                         15
 avaya.com                                                                                           14
-chuathuongxot.org                                                                                   14
 hostcontent.li                                                                                      14
 intel.com                                                                                           14
 isnssdk.com                                                                                         14
@@ -177,6 +177,7 @@ engie.fr                                                                        
 fastly.net                                                                                          10
 gloriadeicr.com                                                                                     10
 harmonie-mutuelle.fr                                                                                10
+hienphucuanhanloai.org                                                                              10
 hilton.com                                                                                          10
 insights.md                                                                                         10
 kugou.com                                                                                           10

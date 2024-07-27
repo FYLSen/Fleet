@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-07-26T12:26:10.859Z
-# Size: 968
+# Last Updated: 2024-07-27T12:26:39.741Z
+# Size: 970
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -770,6 +770,7 @@ miaspeedtest.blackburn-pr.com
 speedtest.bouwhuis.network
 speedtest.brightstar.cloud
 speednet.brsserver.com.br
+speednet-atn.brsserver.com.br
 sp1.campanaworks.com
 speedtest.cyberline.com.br
 speedtest.cyberlink.net.br
@@ -973,6 +974,7 @@ velocidade.impertechtelecom.com.br
 speedtest.mirror.serversaustralia.com.au
 speedtest.globalfiberbrasil.com.br
 teste.mundialnettelecom.com.br
+speedtest.centralnetprovedor.net.br
 test.infoconnecttelecom.com.br
 ookla.jgainterlinktelecom.com.br
 serviciospablomella3.com.do

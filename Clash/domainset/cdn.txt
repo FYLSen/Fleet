@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-07-25T02:07:44.050Z
+# Last Updated: 2024-07-27T12:26:38.893Z
 # Size: 2082
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
