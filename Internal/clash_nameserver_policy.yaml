@@ -139,6 +139,7 @@ dns:
     +.biligame.cn: https://doh.pub/dns-query
     +.biligame.com: https://doh.pub/dns-query
     +.biligame.net: https://doh.pub/dns-query
+    +.bilicomic.com: https://doh.pub/dns-query
     +.bilicomics.com: https://doh.pub/dns-query
     +.bilibilipay.cn: https://doh.pub/dns-query
     +.bilibilipay.com: https://doh.pub/dns-query

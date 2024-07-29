@@ -1,6 +1,6 @@
 <?php
 
-// # Build 2024-07-28T12:24:30.076Z
+// # Build 2024-07-28T09:50:08.646Z
 
 declare(strict_types=1);
 
@@ -737,6 +737,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,biligame.cn,Domestic',
         'DOMAIN-SUFFIX,biligame.com,Domestic',
         'DOMAIN-SUFFIX,biligame.net,Domestic',
+        'DOMAIN-SUFFIX,bilicomic.com,Domestic',
         'DOMAIN-SUFFIX,bilicomics.com,Domestic',
         'DOMAIN-SUFFIX,bilibilipay.cn,Domestic',
         'DOMAIN-SUFFIX,bilibilipay.com,Domestic',
@@ -1546,6 +1547,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,chromeexperiments.com,Global',
         'DOMAIN-SUFFIX,chromestatus.com,Global',
         'DOMAIN-SUFFIX,chromium.org,Global',
+        'DOMAIN-SUFFIX,circle.ms,Global',
         'DOMAIN-SUFFIX,cloudfunctions.net,Global',
         'DOMAIN-SUFFIX,creativelab5.com,Global',
         'DOMAIN-SUFFIX,debug.com,Global',
@@ -2020,6 +2022,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,south-plus.net,Global',
         'DOMAIN-SUFFIX,spankbang.com,Global',
         'DOMAIN-SUFFIX,spankbang.party,Global',
+        'DOMAIN-SUFFIX,split.io,Global',
         'DOMAIN-SUFFIX,stackblitz.com,Global',
         'DOMAIN-SUFFIX,stackexchange.com,Global',
         'DOMAIN-SUFFIX,stackoverflow.com,Global',
@@ -2048,6 +2051,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,turbobit.net,Global',
         'DOMAIN-SUFFIX,twitch.tv,Global',
         'DOMAIN-SUFFIX,ubuntu.com,Global',
+        'DOMAIN-SUFFIX,unifi.ui.com,Global',
         'DOMAIN-SUFFIX,uptodown.com,Global',
         'DOMAIN-SUFFIX,v2ex.com,Global',
         'DOMAIN-SUFFIX,v2fly.org,Global',
