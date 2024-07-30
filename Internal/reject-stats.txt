@@ -21,9 +21,9 @@ anwalt.de                                                                       
 nespresso.com                                                                                       39
 americanexpress.com                                                                                 38
 cosmicnewspulse.com                                                                                 37
-aliyuncs.com                                                                                        36
 innovatedating.com                                                                                  36
 aaa.com                                                                                             35
+aliyuncs.com                                                                                        35
 m-shop.me                                                                                           35
 msn.com                                                                                             35
 windows.net                                                                                         35
@@ -120,7 +120,6 @@ sosqboh85.com                                                                   
 tajawal.com                                                                                         14
 advancedtech.com                                                                                    13
 alicdn.com                                                                                          13
-betterbuiltdogs.com                                                                                 13
 com.se                                                                                              13
 coniferhealth.com                                                                                   13
 discoveryplus.com                                                                                   13
@@ -154,6 +153,7 @@ yandex.net                                                                      
 163.com                                                                                             11
 53.com                                                                                              11
 agilent.com                                                                                         11
+betterbuiltdogs.com                                                                                 11
 byteoversea.com                                                                                     11
 cresa.com                                                                                           11
 go.com                                                                                              11
