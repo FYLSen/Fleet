@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-07-28T09:50:08.613Z
-# Size: 2090
+# Last Updated: 2024-07-30T03:49:28.915Z
+# Size: 2095
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -38,6 +38,7 @@ cdn.img.ly
 bot.ivy.ai
 webpack.js.org
 npmgraph.js.org
+storybook.js.org
 ipe-plugins.js.org
 npm.jsr.io
 +.gravity.jup.io
@@ -95,7 +96,6 @@ seal-newyork.bbb.org
 cdn.bfe.dev
 static.bit.dev
 +.bmp.ovh
-formulae.brew.sh
 assets.bwbx.io
 ajax.cat.net
 cdnjs.cat.net
@@ -508,6 +508,7 @@ assets.safing.io
 cdn.sanity.io
 +.sb-cd.com
 cdn.sellix.io
++.ingest.sentry.io
 cf.shopee.tw
 files.slack.com
 cdn.smooch.io
@@ -987,6 +988,7 @@ stubdownloader.services.mozilla.com
 +.cdn.mozilla.net
 +.itsre-sumo.mozilla.net
 archive.mozilla.org
+versioncheck-bg.addons.mozilla.org
 cdn.myfonts.net
 +.ipfs.namebase.io
 iframe.nbcnews.com
@@ -1090,6 +1092,7 @@ i.xozilla.xxx
 cdne-pics.youjizz.com
 img.youtube.com
 web-assets.zendesk.com
++.ziglang.org
 +.zohocdn.com
 +.4everland.io
 static.addtoany.com
@@ -1552,6 +1555,7 @@ cdnjs.cloudflare.com
 static.dash.cloudflare.com
 cf-assets.www.cloudflare.com
 favicons.teams.cloudflare.com
++.privacy-gateway.cloudflare.com
 +.cloudfront.net
 res.cloudinary.com
 fiverr-res.cloudinary.com
@@ -1852,6 +1856,7 @@ asset-cdn.uscardforum.com
 +.usercontent.one
 app.viral-loops.com
 +.local.webcontainer.io
++.webpkgcache.com
 files.writefreely.org
 img2.xiangbinjun.com
 +.xvideos-cdn.com
