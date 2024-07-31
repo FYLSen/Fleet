@@ -1,4 +1,4 @@
-cloudfront.net                                                                                      1247
+cloudfront.net                                                                                      1244
 windows.com                                                                                         118
 weebly.com                                                                                          116
 llnw.net                                                                                            101
@@ -9,7 +9,7 @@ openapp.link                                                                    
 qq.com                                                                                              67
 79j68qav2.com                                                                                       66
 cdn77.org                                                                                           63
-amazonaws.com                                                                                       59
+amazonaws.com                                                                                       56
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -51,8 +51,8 @@ autovistagroup.com                                                              
 l5eamr17d.com                                                                                       24
 dlcodes.com                                                                                         23
 intuit.com                                                                                          23
+oystergardening.net                                                                                 23
 mcafee.com                                                                                          22
-oystergardening.net                                                                                 22
 princess.com                                                                                        22
 adp.ca                                                                                              21
 epoise.com                                                                                          21
@@ -82,6 +82,7 @@ aig.com                                                                         
 almosafer.com                                                                                       16
 arrow.com                                                                                           16
 att.com                                                                                             16
+chuathuongxot.org                                                                                   16
 en25.com                                                                                            16
 focus.de                                                                                            16
 headlines.pw                                                                                        16
@@ -91,7 +92,6 @@ zing.vn                                                                         
 adp.com                                                                                             15
 akadns.net                                                                                          15
 bestinterestings.com                                                                                15
-chuathuongxot.org                                                                                   15
 cisco.com                                                                                           15
 hotdoc.com.au                                                                                       15
 ignite.technology                                                                                   15
@@ -153,7 +153,6 @@ yandex.net                                                                      
 163.com                                                                                             11
 53.com                                                                                              11
 agilent.com                                                                                         11
-betterbuiltdogs.com                                                                                 11
 byteoversea.com                                                                                     11
 cresa.com                                                                                           11
 go.com                                                                                              11

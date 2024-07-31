@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-07-30T12:27:05.647Z
+# Last Updated: 2024-07-31T12:27:57.087Z
 # Size: 969
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
