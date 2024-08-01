@@ -1,4 +1,4 @@
-cloudfront.net                                                                                      1244
+cloudfront.net                                                                                      1240
 windows.com                                                                                         118
 weebly.com                                                                                          116
 llnw.net                                                                                            101
@@ -9,7 +9,7 @@ openapp.link                                                                    
 qq.com                                                                                              67
 79j68qav2.com                                                                                       66
 cdn77.org                                                                                           63
-amazonaws.com                                                                                       56
+amazonaws.com                                                                                       57
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -153,6 +153,7 @@ yandex.net                                                                      
 163.com                                                                                             11
 53.com                                                                                              11
 agilent.com                                                                                         11
+azureedge.net                                                                                       11
 byteoversea.com                                                                                     11
 cresa.com                                                                                           11
 go.com                                                                                              11
