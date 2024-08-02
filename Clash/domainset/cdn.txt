@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-08-01T12:27:26.713Z
-# Size: 2095
+# Last Updated: 2024-08-01T02:52:24.768Z
+# Size: 2099
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -10,6 +10,7 @@
 #########################################
 this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 s3.c.im
+img.m.mw
 s3.m.0x.mk
 i.mt.lv
 cdn.sc.gl
@@ -1330,7 +1331,6 @@ ws-assets.zoominfo.com
 c.1password.com
 i.1password.com
 +.ipfs.4everland.xyz
-cache.agilebits.com
 static.agilebits.com
 app-updates.agilebits.com
 mycommerce.akamaized.net
@@ -1347,6 +1347,7 @@ s-cdn.anthropic.com
 +.appmifile.com
 +.aspnetcdn.com
 wac-cdn.atlassian.com
+media-cdn.atlassian.com
 wac-cdn-2.atlassian.com
 +.avdocker3.com
 +.awsstatic.com
@@ -1903,6 +1904,8 @@ proxy.joinmastodon.org
 +.kinja-static.com
 files.mastodon.ktachibana.party
 +.kuaikan-cdn4.com
+cdn-c.leavemealone.com
+icons.leavemealone.com
 assets.lemonsqueezy.com
 +.packd.liuxingbaoyu.xyz
 player.louisvuitton.com
@@ -1923,6 +1926,7 @@ cdn.robinpro.gallery
 +.scribdassets.com
 image.shutterstock.com
 +.ipfs.soul-network.com
++.static.microsoft
 +.staticflickr.com
 +.streamhentai.org
 cdn.sunofbeaches.com

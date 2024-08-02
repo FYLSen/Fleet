@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Large Files Hosting Domains
-# Last Updated: 2024-08-01T12:27:26.736Z
-# Size: 543
+# Last Updated: 2024-08-01T02:52:24.780Z
+# Size: 544
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -190,6 +190,7 @@ xvcf2.xboxlive.com
 packagespc.xboxlive.com
 +.1fichier.info
 downloads.1password.com
+cache.agilebits.com
 steampipe.akamaized.net
 steampipe-kr.akamaized.net
 steampipe-partner.akamaized.net
