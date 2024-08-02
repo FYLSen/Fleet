@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2024-08-02T01:45:44.756Z
-# Size: 125123
+# Last Updated: 2024-08-02T12:26:57.782Z
+# Size: 125124
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -6225,6 +6225,7 @@ shence.hupu.com
 +.data-86d2aee9fa.jetzt.de
 +.data-ac3d45df06.jetzt.de
 +.ehauzf.jewlr.ca
++.analysis.prod.joyfru.jiji.com
 +.jili9.io
 +.1.jiqie.cn
 +.share.jisp.com
@@ -7610,6 +7611,7 @@ adnet.sohu.com
 +.call.me.sel.sony.com
 +.metrics.helpguide.sony.net
 +.cdn.sophi.io
++.sosa.lol
 +.bd1.sosg.net
 +.soska.us
 +.link.space.ge
@@ -14577,6 +14579,7 @@ stats.umsns.com
 +.vpath.net
 +.vpbpb.com
 +.vpdcp.com
++.boatnet.vphim.top
 +.vpico.com
 +.vpipi.com
 +.vpop2.com
@@ -22388,6 +22391,7 @@ access-sngapm.qcloud.com
 +.pixel.reddit.com
 +.events.reddit.com
 +.w3-reporting.reddit.com
++.error-tracking.reddit.com
 +.w3-reporting-nel.reddit.com
 +.pxmzlk.redfin.com
 +.ma.redhat.com
@@ -22872,6 +22876,7 @@ test.api.xlmc.sandai.net
 +.jpaasne.e.shifen.com
 newloc.map.n.shifen.com
 +.stats.shiftx.com
++.reklama.shinden.eu
 +.shinep.xyz
 +.goldfish.shingle.fi
 +.x9.shinobi.jp
@@ -23938,7 +23943,6 @@ hz.pre.tbusergw.taobao.net
 +.uchmuk.com
 +.uckgqa.xyz
 +.udarem.com
-+.d1.udashi.com
 +.udkcrj.com
 +.udkpcc.xyz
 +.udpdmeb.cn
@@ -26439,7 +26443,6 @@ hydra.alibaba.com
 +.ia803104.us.archive.org
 +.ia803402.us.archive.org
 +.ia803405.us.archive.org
-+.ia903207.us.archive.org
 +.analytics.us.archive.org
 +.marketing.arcsona.com
 +.arcspire.io
@@ -27146,7 +27149,6 @@ thirdparty.biliapi.net
 +.cai75tp.com
 +.download.caihong.com
 +.cajggfj.com
-+.cajgtus.com
 +.tracker.calameo.com
 +.calcpol.com
 +.smetrics.caleres.com
@@ -34594,7 +34596,6 @@ susapi.dev.surepush.cn
 +.tjuspyk.icu
 +.tjwzyjx.icu
 +.tjxjpqa.com
-+.down.tkeasio.com
 +.tkqwurl.icu
 +.tlootas.org
 +.tlrkcj17.de
@@ -34904,7 +34905,6 @@ susapi.dev.surepush.cn
 +.tyisloi.top
 +.tylfgkf.com
 +.p.typekit.net
-+.test.typoten.com
 +.tyretui.top
 +.tyuetxt.com
 +.tyuwkbi.top
@@ -38832,7 +38832,6 @@ galaxy.bjcathay.com
 +.l.coastapp.com
 +.coatfood.com
 +.coawheer.net
-+.api-ms.cobainaja.id
 +.cobalten.com
 +.cochack.site
 +.cochacks.com
@@ -39963,7 +39962,6 @@ jobs.date-fns.org
 +.hkj8.evobanco.com
 +.evohacks.net
 +.trc.evoheat.shop
-+.evolve27.com
 +.track.evoplay.city
 +.evoutouk.com
 +.evouxoup.com
@@ -42788,6 +42786,7 @@ pushapi.lenovomm.com
 +.hiuplq.livesport.cz
 +.livestat.com
 +.livestats.fr
++.livetrack.in
 +.app.link.livibank.com
 +.mosvnx.livup.com.br
 +.liximomo.fun
@@ -43232,6 +43231,7 @@ mgepodownload.mediatek.com
 +.mestreqa.com
 +.metaconex.io
 +.metador.info
++.metajaws.com
 +.metalbow.com
 +.go.metallic.com
 +.track.metallic.com
@@ -43630,10 +43630,11 @@ mgepodownload.mediatek.com
 +.mypopads.com
 +.ad-1258444056.cos.accelerate.myqcloud.com
 +.sf-1300355179.cos.ap-shanghai.myqcloud.com
-+.sp-1300355179.cos.ap-shanghai.myqcloud.com
++.a2-1328201101.cos.ap-guangzhou.myqcloud.com
 +.ggtp-1255424916.cos.ap-chengdu.myqcloud.com
 +.mhmh1-1251344380.cos.ap-chengdu.myqcloud.com
 +.projecta-common-1258344701.file.myqcloud.com
++.sgz-1302338321.cos.ap-guangzhou.myqcloud.com
 +.sister-1324943887.cos.ap-guangzhou.myqcloud.com
 +.www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com
 +.www999999safagqwhg-1327129302.cos.ap-chengdu.myqcloud.com
@@ -47043,7 +47044,6 @@ inte.sogoucdn.com
 +.tikivn12.com
 +.tikivn68.com
 +.tikiwork.net
-+.tikmalls.app
 +.down.tiktok68.com
 +.stat.tildacdn.com
 +.ns1.tilmloek.xyz
@@ -49397,6 +49397,7 @@ stat.10jqka.com.cn
 +.swwcyk.ahaber.com.tr
 +.aheadgrow.com
 +.ahoypirate.in
++.ai-kamino.com
 +.a8cv.aiambeauty.jp
 +.aickeebsi.com
 +.go.aidenroll.com
@@ -54422,6 +54423,7 @@ api.game.letvstore.com
 +.liebaovip.com
 +.rtk.life3x.com.br
 +.fkmdky.lifehacker.ru
++.lifehackov.ru
 +.a8clk.carenessapp.lifekarte.com
 +.lifepromo.biz
 +.metrics.lifetime.life
@@ -57211,7 +57213,6 @@ iad0ssl.pcauto.com.cn
 +.serumlisp.com
 +.serv01001.xyz
 +.serve-rtb.com
-+.xn42553358.servegame.com
 +.xn47552056.servegame.com
 +.khongphaibotnet.servehttp.com
 +.servehub.info
@@ -58261,7 +58262,6 @@ strip.taobaocdn.com
 +.tikivn118.com
 +.tikivn558.com
 +.tikivn668.com
-+.down.tiktok638.com
 +.tiktokcy1.com
 +.uncmbg.timberland.de
 +.metrics.timberland.de
@@ -61457,7 +61457,6 @@ ad.winrar.com.cn
 +.baifendian.com
 +.bailonushe.com
 +.baiocsomma.com
-+.baitalasma.com
 +.metrics.baitoru-id.com
 +.metrics.baitorupro.com
 +.baksunjwoa.com
@@ -68101,6 +68100,7 @@ adapi.lenovogame.com
 +.nocaudsomt.xyz
 +.jb.nockerlmrs.com
 +.noitdcelol.com
++.noithaticon.vn
 +.nokontoken.com
 +.noktaglaik.com
 +.nomadsdata.com
@@ -70631,7 +70631,6 @@ analytics3.starschina.com
 +.tikivip777.com
 +.tikivip888.com
 +.tikrailrou.com
-+.down.tiktokmallu.cc
 +.metrics.timberland.com
 +.smetrics.timberland.com
 +.time4gifts.com
@@ -75110,6 +75109,7 @@ grs.dbankcloud.asia
 +.glasssmash.site
 +.gleamingcow.com
 +.gleaminsist.com
++.gleempithep.com
 +.glenmexican.com
 +.ebis.glico-direct.jp
 +.gliderpured.com
@@ -76417,7 +76417,6 @@ material.istreamsche.com
 +.linkforyoud.com
 +.linkkrutgon.com
 +.linkonclick.com
-+.linktoxic34.com
 +.ib.www.linkwebmail.com
 +.lipicaihotel.hu
 +.lp.lipofitepro.com
@@ -78436,6 +78435,7 @@ ad-analysis.pconline.com.cn
 +.reklamaster.com
 +.reklamstore.com
 +.relaxtime24.biz
++.releasepath.com
 +.reloadphoto.com
 +.track.remodelus.store
 +.renaissanto.com
@@ -95617,6 +95617,7 @@ plausible.joincommunity.xyz
 +.marketing.sanantonioedf.com
 +.sanctiontaste.com
 +.sandealshopee.com
++.sandstrophies.com
 +.sanggilregard.com
 +.oturvy.sanitairwinkel.nl
 +.sanseislydite.com
@@ -104223,7 +104224,6 @@ plausible.joincommunity.xyz
 +.get.betabeat-store.live
 +.betawildstarkey.com
 +.aji.demo.betterbuiltdogs.com
-+.bzo.demo.betterbuiltdogs.com
 +.hfj.demo.betterbuiltdogs.com
 +.bettingpartners.com
 +.lkhrtf.beveragefactory.com
@@ -110268,6 +110268,7 @@ display.360totalsecurity.com
 +.metrika-informer.com
 +.trk.metronetbusiness.com
 +.info.metronetbusiness.com
++.secure.microsoftconnect.net
 +.tr.offerte.migliorifornitori.it
 +.mignished-sility.com
 +.metric.millenniumhotels.com

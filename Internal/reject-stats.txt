@@ -185,6 +185,7 @@ insights.md                                                                     
 kugou.com                                                                                           10
 lenovo.com                                                                                          10
 morningstar.com                                                                                     10
+myqcloud.com                                                                                        10
 now.sh                                                                                              10
 pmu.fr                                                                                              10
 ptvgroup.com                                                                                        10
