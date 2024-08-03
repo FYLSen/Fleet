@@ -166,6 +166,7 @@ labcorp.com                                                                     
 mandg.com                                                                                           11
 mingle.com                                                                                          11
 motorolasolutions.com                                                                               11
+myqcloud.com                                                                                        11
 netapp.com                                                                                          11
 optum.com                                                                                           11
 quantresear.ch                                                                                      11
@@ -185,7 +186,6 @@ insights.md                                                                     
 kugou.com                                                                                           10
 lenovo.com                                                                                          10
 morningstar.com                                                                                     10
-myqcloud.com                                                                                        10
 now.sh                                                                                              10
 pmu.fr                                                                                              10
 ptvgroup.com                                                                                        10
@@ -196,6 +196,7 @@ ricoh.fr                                                                        
 ringcentral.com                                                                                     10
 sa.com                                                                                              10
 uc.cn                                                                                               10
+vercel.app                                                                                          10
 westernunion.com                                                                                    10
 xhamster.com                                                                                        10
 xunlei.com                                                                                          10
