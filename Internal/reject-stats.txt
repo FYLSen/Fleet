@@ -6,10 +6,10 @@ adobe.com                                                                       
 xiaomi.com                                                                                          89
 baidu.com                                                                                           86
 openapp.link                                                                                        69
+cdn77.org                                                                                           67
 qq.com                                                                                              67
 79j68qav2.com                                                                                       66
-cdn77.org                                                                                           65
-amazonaws.com                                                                                       58
+amazonaws.com                                                                                       59
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -135,7 +135,6 @@ zalo.me                                                                         
 360safe.com                                                                                         12
 apple.com                                                                                           12
 averydennison.com                                                                                   12
-blogspot.com                                                                                        12
 chip.de                                                                                             12
 cigna.com                                                                                           12
 goguardian.com                                                                                      12
@@ -154,6 +153,7 @@ yandex.net                                                                      
 53.com                                                                                              11
 agilent.com                                                                                         11
 azureedge.net                                                                                       11
+blogspot.com                                                                                        11
 byteoversea.com                                                                                     11
 cresa.com                                                                                           11
 go.com                                                                                              11
