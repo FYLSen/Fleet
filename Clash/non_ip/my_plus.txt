@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Internal Special
-# Last Updated: 2024-08-04T12:24:42.814Z
-# Size: 50
+# Last Updated: 2024-08-04T15:01:17.241Z
+# Size: 28
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -31,29 +31,7 @@ DOMAIN,static-cdn.bytegiftia.top
 DOMAIN,npm.im
 DOMAIN,npm.io
 DOMAIN,hv-monster-submit.skk.moe
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,formulae.brew.sh
-DOMAIN-SUFFIX,ghcr.io
-DOMAIN-SUFFIX,netlify.app
-DOMAIN-SUFFIX,vercel.app
-DOMAIN,cdn.sketch.com
-DOMAIN,resources-live.sketch.cloud
-DOMAIN,resources-cache.prod.sketch.com
-DOMAIN,prego-cache.prod.sketch.com
-DOMAIN-SUFFIX,download.prss.microsoft.com
 DOMAIN,default.exp-tas.com
 DOMAIN,vscode-sync.trafficmanager.net
-DOMAIN,update.code.visualstudio.com
-DOMAIN-SUFFIX,gravatar.com
 DOMAIN,api.wakatime.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,adtidy.org
-DOMAIN-SUFFIX,crates.io
-DOMAIN,detectportal.firefox.com
-DOMAIN,proxy.safebrowsing.apple
-DOMAIN,store.setapp.com
-DOMAIN-SUFFIX,catbox.moe
-DOMAIN-SUFFIX,temp.sh
 ################## EOF ##################

@@ -9,7 +9,7 @@ openapp.link                                                                    
 cdn77.org                                                                                           67
 qq.com                                                                                              67
 79j68qav2.com                                                                                       66
-amazonaws.com                                                                                       59
+amazonaws.com                                                                                       57
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -138,7 +138,6 @@ averydennison.com                                                               
 chip.de                                                                                             12
 cigna.com                                                                                           12
 goguardian.com                                                                                      12
-oystergarden.net                                                                                    12
 palladiumhotelgroup.com                                                                             12
 ricoh.co.uk                                                                                         12
 ricoh.de                                                                                            12
@@ -187,6 +186,7 @@ kugou.com                                                                       
 lenovo.com                                                                                          10
 morningstar.com                                                                                     10
 now.sh                                                                                              10
+oystergarden.net                                                                                    10
 pmu.fr                                                                                              10
 ptvgroup.com                                                                                        10
 rakuten.co.jp                                                                                       10
