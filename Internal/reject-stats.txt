@@ -186,7 +186,6 @@ insights.md                                                                     
 kugou.com                                                                                           10
 morningstar.com                                                                                     10
 now.sh                                                                                              10
-oystergarden.net                                                                                    10
 pmu.fr                                                                                              10
 ptvgroup.com                                                                                        10
 rakuten.co.jp                                                                                       10
