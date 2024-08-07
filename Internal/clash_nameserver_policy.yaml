@@ -135,6 +135,7 @@ dns:
     +.bilivideo.com: https://doh.pub/dns-query
     +.bilivideo.cn: https://doh.pub/dns-query
     +.bilivideo.net: https://doh.pub/dns-query
+    +.hdslb.com: https://doh.pub/dns-query
     +.biliimg.com: https://doh.pub/dns-query
     +.biliapi.com: https://doh.pub/dns-query
     +.biliapi.net: https://doh.pub/dns-query
@@ -589,10 +590,15 @@ hosts:
   dot.pub:
     - 120.53.53.53
     - 1.12.12.12
+    - 1.12.34.56
   doh.pub:
     - 120.53.53.53
     - 1.12.12.12
+    - 1.12.34.56
   dns.pub:
+    - 120.53.53.53
+    - 1.12.12.12
+    - 1.12.34.56
     - 162.14.21.178
     - 162.14.21.56
   doh.360.cn:

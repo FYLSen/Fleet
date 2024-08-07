@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - General Global Services
-# Last Updated: 2024-08-07T12:28:15.223Z
-# Size: 583
+# Last Updated: 2024-08-07T09:59:58.843Z
+# Size: 586
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -92,6 +92,7 @@ DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,telephony.goog
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,blogspot
 DOMAIN-SUFFIX,dns.google
@@ -245,8 +246,7 @@ DOMAIN-SUFFIX,scp-wiki.net
 DOMAIN-SUFFIX,scpdb.org
 DOMAIN-SUFFIX,scpwiki.com
 DOMAIN-SUFFIX,firefox.com
-DOMAIN-SUFFIX,unifi.ui.com
-DOMAIN,techspecs.ui.com
+DOMAIN-SUFFIX,ui.com
 DOMAIN-SUFFIX,singlelogin.se
 DOMAIN-SUFFIX,singlelogin.re
 DOMAIN-SUFFIX,z-library.se
@@ -281,6 +281,7 @@ DOMAIN-SUFFIX,archiveofourown.org
 DOMAIN-SUFFIX,ask.com
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,atlassian.net
+DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,avg.com
 DOMAIN-SUFFIX,avgle.com
 DOMAIN-SUFFIX,bandcamp.com
@@ -371,6 +372,7 @@ DOMAIN-SUFFIX,gettyimages.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,ghostery.com
 DOMAIN-SUFFIX,godaddy.com
+DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,gofundme.com
 DOMAIN-SUFFIX,goodreads.com
 DOMAIN-SUFFIX,grammarly.com
@@ -495,6 +497,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sex.com
 DOMAIN-SUFFIX,shadowsocks.org
 DOMAIN-SUFFIX,shopee.tw
+DOMAIN-SUFFIX,short.io
 DOMAIN-SUFFIX,shutterstock.com
 DOMAIN-SUFFIX,sketch.cloud
 DOMAIN-SUFFIX,sketch.com

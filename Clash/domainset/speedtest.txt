@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-07-31T12:35:11.223Z
-# Size: 970
+# Last Updated: 2024-08-07T16:09:09.007Z
+# Size: 971
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -805,6 +805,7 @@ teste.routinger.com.br
 speedtest.routinger.com.br
 speedtest.rvconnect.com.br
 speedtest3.rvconnect.com.br
+speedtest.sccamorlinga.com
 speedtest.serverpronto.com
 servidor.speedplay.com.br
 +.speedtest.com.sg

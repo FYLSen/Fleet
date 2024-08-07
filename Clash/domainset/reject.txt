@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2024-08-07T12:28:22.930Z
-# Size: 125400
+# Last Updated: 2024-08-07T16:09:05.750Z
+# Size: 125403
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -53529,6 +53529,7 @@ v2.fm.n.duokanbox.com
 +.hsfewosve.xyz
 +.hthecrown.cfd
 +.htmonster.com
++.htudbybel.com
 +.hturnshal.com
 +.huaerdadi.com
 +.hy.huangye88.net
@@ -56631,6 +56632,7 @@ iad0ssl.pcauto.com.cn
 +.ptigjkkds.com
 +.ptoakooph.net
 +.ptoomtoum.com
++.ptoupisso.net
 +.ptoutsexe.com
 +.ptulsauts.com
 +.ptwebcams.com
@@ -81049,6 +81051,7 @@ ad-analysis.pconline.com.cn
 +.ylih6ftygq7.com
 +.ymeqladpycz.com
 +.ymhpcaxfnvl.com
++.ymtmwjgsjsv.com
 +.ymuitydkdoy.com
 +.ynisramnmcm.com
 +.ynkjwogined.com
