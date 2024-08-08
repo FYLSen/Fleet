@@ -1,4 +1,4 @@
-cloudfront.net                                                                                      1240
+cloudfront.net                                                                                      1239
 windows.com                                                                                         118
 weebly.com                                                                                          116
 llnw.net                                                                                            101
@@ -137,6 +137,7 @@ apple.com                                                                       
 averydennison.com                                                                                   12
 chip.de                                                                                             12
 cigna.com                                                                                           12
+eucharisticjesus.net                                                                                12
 goguardian.com                                                                                      12
 palladiumhotelgroup.com                                                                             12
 ricoh.co.uk                                                                                         12
@@ -193,7 +194,6 @@ readingpartners.org                                                             
 ricoh.ch                                                                                            10
 ricoh.fr                                                                                            10
 ringcentral.com                                                                                     10
-sa.com                                                                                              10
 uc.cn                                                                                               10
 vercel.app                                                                                          10
 westernunion.com                                                                                    10
