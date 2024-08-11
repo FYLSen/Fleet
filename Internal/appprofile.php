@@ -1,6 +1,6 @@
 <?php
 
-// # Build 2024-08-11T12:25:48.605Z
+// # Build 2024-08-11T15:09:20.115Z
 
 declare(strict_types=1);
 
@@ -1536,7 +1536,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN,packagespc.xboxlive.com,Steam Download',
         'DOMAIN,download.xbox.com,Steam Download',
         'DOMAIN-SUFFIX,cdn.ubi.com,Steam Download',
-        'DOMAIN,download.dm.origin.com,Steam Download',
+        'DOMAIN-SUFFIX,download.dm.origin.com,Steam Download',
         'DOMAIN,origin-a.akamaihd.net,Steam Download',
         'DOMAIN-SUFFIX,cdn.ea.com,Steam Download',
         'DOMAIN,dlgarenanow-a.akamaihd.net,Steam Download',
@@ -3401,6 +3401,7 @@ $_ENV['Clash_Group_Config'] = [
         'IP-CIDR,103.93.204.0/22,Domestic',
         'IP-CIDR,103.94.12.0/22,Domestic',
         'IP-CIDR,103.94.20.0/23,Domestic',
+        'IP-CIDR,103.94.200.0/22,Domestic',
         'IP-CIDR,103.95.68.0/22,Domestic',
         'IP-CIDR,103.95.252.0/22,Domestic',
         'IP-CIDR,103.96.8.0/22,Domestic',

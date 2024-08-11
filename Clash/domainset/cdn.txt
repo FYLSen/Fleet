@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-08-11T12:25:48.558Z
-# Size: 2128
+# Last Updated: 2024-08-11T08:27:10.195Z
+# Size: 2132
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -117,6 +117,8 @@ docs.rs
 image.dooo.ng
 media.e4le.me
 +.esm.run
+media.fc2.com
+static.fc2.com
 badge.fury.io
 assets.garr.it
 +.ghcr.io
@@ -398,6 +400,7 @@ pics.dmm.co.jp
 cdn.dap.dmm.co.jp
 doujin-assets.dmm.co.jp
 +.docker.io
+cdn.donmai.us
 +.dsc.cloud
 +.dweb.link
 cdn.faire.com
@@ -737,7 +740,6 @@ res-geo.cdn.office.net
 static.oklink.com
 static.opensea.io
 static.oracle.com
-secure.download.dm.origin.com
 +.ipfs.overpi.com
 media.owcnow.com
 cdn.paddle.com
@@ -952,6 +954,7 @@ eu.hamreus.com
 us.hamreus.com
 +.hardbin.com
 static.heavy-r.com
+pics.hentai.name
 js.hsforms.net
 js-eu1.hsforms.net
 +.static2cdn.hubspot.com
@@ -1334,6 +1337,7 @@ res2.weblium.site
 static.whatsapp.net
 scontent.whatsapp.net
 cdn.wishpond.net
+bundler.wix-code.com
 images-eds-ssl.xboxlive.com
 +.xnxx-cdn.com
 +.yastatic.net
@@ -1463,7 +1467,6 @@ ajax.microsoft.com
 wcpstatic.microsoft.com
 images.ecomm.microsoft.com
 store-images.microsoft.com
-+.software-download.microsoft.com
 public.mocortech.com
 static.mocortech.com
 images.moovitapp.com
@@ -1593,6 +1596,7 @@ media.convertkit.com
 assets.convertkit.com
 cdn.datatables.net
 a.deviantart.net
+e.deviantart.net
 st.deviantart.net
 osint.digitalside.it
 +.cdn.discordapp.com
