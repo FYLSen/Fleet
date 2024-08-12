@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-08-11T15:09:20.071Z
-# Size: 971
+# Last Updated: 2024-08-12T12:29:37.150Z
+# Size: 972
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -80,6 +80,7 @@ speedtest-lon.retn.net
 speedtest-msk.retn.net
 speedtest-fkt-eqx.retn.net
 speedtest.sewan.fr
+speedtest-sg1.simba.sg
 test.slic.com
 speedtest.slic.com
 speedtest-london.start.ca

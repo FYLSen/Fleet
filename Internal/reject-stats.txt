@@ -57,6 +57,7 @@ princess.com                                                                    
 833enmhob.com                                                                                       21
 adp.ca                                                                                              21
 epoise.com                                                                                          21
+eucharisticjesus.net                                                                                21
 globalsources.com                                                                                   21
 happ.social                                                                                         21
 hicloud.com                                                                                         21
@@ -66,7 +67,6 @@ aon.com                                                                         
 coca-cola.com                                                                                       20
 fupa.net                                                                                            20
 jessicabarrett.com                                                                                  20
-eucharisticjesus.net                                                                                19
 herokuapp.com                                                                                       19
 informa.com                                                                                         19
 microcloud360.com                                                                                   19
@@ -98,7 +98,6 @@ ignite.technology                                                               
 iqiyi.com                                                                                           15
 letv.com                                                                                            15
 mynavi.jp                                                                                           15
-ru.com                                                                                              15
 treknew.fun                                                                                         15
 xiaomi.net                                                                                          15
 yahoo.co.jp                                                                                         15
@@ -114,6 +113,7 @@ oystergardening.name                                                            
 perkinelmer.com                                                                                     14
 pwc.fr                                                                                              14
 rambler.ru                                                                                          14
+ru.com                                                                                              14
 sogou.com                                                                                           14
 tajawal.com                                                                                         14
 advancedtech.com                                                                                    13
