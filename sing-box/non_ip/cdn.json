@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": ["this_ruleset_is_made_by_sukkaw.ruleset.skk.moe"],
+      "domain_keyword": [
+        "-files.gitbook.io",
+        "vod-adaptive.akamaized.net",
+        "web-assets.zendesk",
+        "-res.cloudinary.com",
+        "dsn.algolia.net"
+      ],
+      "domain_regex": [
+        "^(?:^(?:appcenter\\-filemanagement\\-[^/]*?\\.cloudapp\\.net)$)$",
+        "^(?:^(?:proxy\\-[^/]*?\\.dailymotion\\.com)$)$",
+        "^(?:^(?:static[^/]*?\\.tgstat\\.ru)$)$",
+        "^(?:^(?:ocsp\\.[^/]*?\\.amazontrust\\.com)$)$",
+        "^(?:^(?:s3\\.[^/]*?\\.wasabisys\\.com)$)$",
+        "^(?:^(?:i[^/]\\.nhentai\\.net)$)$",
+        "^(?:^(?:t[^/]\\.nhentai\\.net)$)$",
+        "^(?:^(?:cdn[^/]\\-thumbs\\.pornhost\\.com)$)$",
+        "^(?:^(?:cdn[^/]\\-dl\\.pornhost\\.com)$)$"
+      ]
+    }
+  ]
+}

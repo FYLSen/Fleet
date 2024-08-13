@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Domains
-# Last Updated: 2024-07-31T16:04:39.434Z
-# Size: 66
+# Last Updated: 2024-08-12T18:01:43.115Z
+# Size: 71
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -55,6 +55,8 @@ DOMAIN-KEYWORD,.engage.3m.
 DOMAIN-KEYWORD,telemetry.officeapps.live.com
 DOMAIN-KEYWORD,-launches.appsflyersdk.com
 DOMAIN-KEYWORD,-s2s.sensic.net
+DOMAIN-REGEX,^(?:^(?:f\-log[^/]*?\.grammarly\.io)$)$
+DOMAIN-REGEX,^(?:(?!\.)(?=.)[^/]*?\.ad\.[^/]*?\.prod\.hosts\.ooklaserver\.net)$
 DOMAIN-SUFFIX,openx.net
 DOMAIN-SUFFIX,telemetry-coverage.mozilla.org
 DOMAIN-SUFFIX,telemetry.mozilla.org
@@ -72,6 +74,9 @@ DOMAIN-KEYWORD,smetrics.marketing.
 DOMAIN-SUFFIX,notifysrv.com
 DOMAIN-SUFFIX,notify6.com
 DOMAIN-KEYWORD,wxsnsdy
+DOMAIN-REGEX,^(?:^(?:adv0[^/]*?\.msa\.cdn\.mediaset\.net)$)$
 DOMAIN-KEYWORD,adwords
+DOMAIN-REGEX,^(?:^(?:beacons[^/]*?\.gvt[^/]\.com)$)$
 DOMAIN-KEYWORD,-tracker.biliapi.net
+DOMAIN-REGEX,^(?:(?!\.)(?=.)[^/]*?ad\.ixigua\.com)$
 ################## EOF ##################

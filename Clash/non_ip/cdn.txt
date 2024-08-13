@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-06-13T14:22:56.439Z
-# Size: 6
+# Last Updated: 2024-08-12T18:01:43.105Z
+# Size: 15
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -14,4 +14,13 @@ DOMAIN-KEYWORD,vod-adaptive.akamaized.net
 DOMAIN-KEYWORD,web-assets.zendesk
 DOMAIN-KEYWORD,-res.cloudinary.com
 DOMAIN-KEYWORD,dsn.algolia.net
+DOMAIN-REGEX,^(?:^(?:appcenter\-filemanagement\-[^/]*?\.cloudapp\.net)$)$
+DOMAIN-REGEX,^(?:^(?:proxy\-[^/]*?\.dailymotion\.com)$)$
+DOMAIN-REGEX,^(?:^(?:static[^/]*?\.tgstat\.ru)$)$
+DOMAIN-REGEX,^(?:^(?:ocsp\.[^/]*?\.amazontrust\.com)$)$
+DOMAIN-REGEX,^(?:^(?:s3\.[^/]*?\.wasabisys\.com)$)$
+DOMAIN-REGEX,^(?:^(?:i[^/]\.nhentai\.net)$)$
+DOMAIN-REGEX,^(?:^(?:t[^/]\.nhentai\.net)$)$
+DOMAIN-REGEX,^(?:^(?:cdn[^/]\-thumbs\.pornhost\.com)$)$
+DOMAIN-REGEX,^(?:^(?:cdn[^/]\-dl\.pornhost\.com)$)$
 ################## EOF ##################

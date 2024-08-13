@@ -1,6 +1,6 @@
 <?php
 
-// # Build 2024-08-12T12:29:34.874Z
+// # Build 2024-08-12T15:30:59.460Z
 
 declare(strict_types=1);
 
@@ -1407,7 +1407,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,smartmediarep.com,Stream',
         'DOMAIN-SUFFIX,dmc.nico,Stream',
         'DOMAIN-SUFFIX,nicovideo.jp,Stream',
-        'DOMAIN-SUFFIX,nimg.jp,Stream',
+        'DOMAIN-SUFFIX,asset.domand.nicovideo.jp,Stream',
         'DOMAIN-SUFFIX,socdm.com,Stream',
         'DOMAIN-SUFFIX,nowe.com,Stream',
         'DOMAIN-SUFFIX,overcast.fm,Stream',

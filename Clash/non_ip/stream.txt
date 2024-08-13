@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Stream Services: All
-# Last Updated: 2024-06-13T14:22:55.849Z
+# Last Updated: 2024-08-12T15:30:59.294Z
 # Size: 292
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -266,7 +266,7 @@ DOMAIN-SUFFIX,tv.naver.com
 DOMAIN-SUFFIX,smartmediarep.com
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicovideo.jp
-DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,asset.domand.nicovideo.jp
 DOMAIN-SUFFIX,socdm.com
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,overcast.fm
