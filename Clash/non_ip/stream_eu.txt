@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Stream Services: Europe
-# Last Updated: 2024-06-13T14:22:55.853Z
+# Last Updated: 2024-08-14T12:27:48.606Z
 # Size: 8
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe

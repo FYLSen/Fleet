@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Microsoft Domains
-# Last Updated: 2024-06-19T02:17:29.919Z
+# Last Updated: 2024-08-14T12:27:48.885Z
 # Size: 88
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe

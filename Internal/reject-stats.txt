@@ -1,15 +1,14 @@
-cloudfront.net                                                                                      1238
+cloudfront.net                                                                                      1227
 windows.com                                                                                         118
 weebly.com                                                                                          116
 llnw.net                                                                                            101
 adobe.com                                                                                           92
 xiaomi.com                                                                                          89
 baidu.com                                                                                           86
-cdn77.org                                                                                           73
 79j68qav2.com                                                                                       70
 openapp.link                                                                                        69
 qq.com                                                                                              67
-amazonaws.com                                                                                       57
+amazonaws.com                                                                                       56
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -134,6 +133,7 @@ vivo.com.cn                                                                     
 zalo.me                                                                                             13
 360safe.com                                                                                         12
 apple.com                                                                                           12
+cdn77.org                                                                                           12
 chip.de                                                                                             12
 cigna.com                                                                                           12
 goguardian.com                                                                                      12
