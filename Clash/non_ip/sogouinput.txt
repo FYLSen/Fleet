@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Sogou Input
-# Last Updated: 2024-08-14T12:27:48.897Z
+# Last Updated: 2024-08-15T12:27:53.284Z
 # Size: 13
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe

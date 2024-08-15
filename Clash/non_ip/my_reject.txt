@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Reject (REJECT-DROP)
-# Last Updated: 2024-08-14T12:27:48.890Z
+# Last Updated: 2024-08-15T12:27:53.278Z
 # Size: 67
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
