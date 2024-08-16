@@ -19,9 +19,9 @@ sina.com.cn                                                                     
 anwalt.de                                                                                           41
 nespresso.com                                                                                       39
 americanexpress.com                                                                                 38
+aliyuncs.com                                                                                        36
 innovatedating.com                                                                                  36
 aaa.com                                                                                             35
-aliyuncs.com                                                                                        35
 m-shop.me                                                                                           35
 msn.com                                                                                             35
 windows.net                                                                                         35
@@ -107,6 +107,7 @@ yahoo.co.jp                                                                     
 younited-credit.com                                                                                 15
 zadn.vn                                                                                             15
 zaloapp.com                                                                                         15
+borden-carleton.ca                                                                                  14
 hostcontent.li                                                                                      14
 intel.com                                                                                           14
 isnssdk.com                                                                                         14
@@ -152,7 +153,6 @@ agilent.com                                                                     
 averydennison.com                                                                                   11
 azureedge.net                                                                                       11
 blogspot.com                                                                                        11
-borden-carleton.ca                                                                                  11
 byteoversea.com                                                                                     11
 coniferhealth.com                                                                                   11
 cresa.com                                                                                           11

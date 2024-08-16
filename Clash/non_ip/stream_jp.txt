@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Stream Services: Japan
-# Last Updated: 2024-08-15T12:27:53.015Z
+# Last Updated: 2024-08-16T12:27:40.456Z
 # Size: 26
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
