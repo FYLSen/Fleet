@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-08-16T12:27:40.710Z
-# Size: 15
+# Last Updated: 2024-08-14T18:33:16.103Z
+# Size: 24
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -9,18 +9,27 @@
 # This file contains object storage and static assets CDN domains.
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+DOMAIN,cdn-msp.18comic.vip
+DOMAIN,cdn-msp.jmcomic.me
 DOMAIN-KEYWORD,-files.gitbook.io
 DOMAIN-KEYWORD,vod-adaptive.akamaized.net
 DOMAIN-KEYWORD,web-assets.zendesk
 DOMAIN-KEYWORD,-res.cloudinary.com
 DOMAIN-KEYWORD,dsn.algolia.net
-DOMAIN-REGEX,^(?:^(?:appcenter\-filemanagement\-[^/]*?\.cloudapp\.net)$)$
-DOMAIN-REGEX,^(?:^(?:proxy\-[^/]*?\.dailymotion\.com)$)$
-DOMAIN-REGEX,^(?:^(?:static[^/]*?\.tgstat\.ru)$)$
-DOMAIN-REGEX,^(?:^(?:ocsp\.[^/]*?\.amazontrust\.com)$)$
-DOMAIN-REGEX,^(?:^(?:s3\.[^/]*?\.wasabisys\.com)$)$
-DOMAIN-REGEX,^(?:^(?:i[^/]\.nhentai\.net)$)$
-DOMAIN-REGEX,^(?:^(?:t[^/]\.nhentai\.net)$)$
-DOMAIN-REGEX,^(?:^(?:cdn[^/]\-thumbs\.pornhost\.com)$)$
-DOMAIN-REGEX,^(?:^(?:cdn[^/]\-dl\.pornhost\.com)$)$
+DOMAIN-REGEX,^appcenter-filemanagement-[a-zA-Z0-9-_.]*?\.cloudapp\.net$
+DOMAIN-REGEX,^proxy-[a-zA-Z0-9-_.]*?\.dailymotion\.com$
+DOMAIN-REGEX,^static[a-zA-Z0-9-_.]*?\.tgstat\.ru$
+DOMAIN-REGEX,^ocsp\.[a-zA-Z0-9-_.]*?\.amazontrust\.com$
+DOMAIN-REGEX,^s3\.[a-zA-Z0-9-_.]*?\.wasabisys\.com$
+DOMAIN-REGEX,^i[a-zA-Z0-9-_.]\.nhentai\.net$
+DOMAIN-REGEX,^t[a-zA-Z0-9-_.]\.nhentai\.net$
+DOMAIN-REGEX,^cdn[a-zA-Z0-9-_.]-thumbs\.pornhost\.com$
+DOMAIN-REGEX,^cdn[a-zA-Z0-9-_.]-dl\.pornhost\.com$
+DOMAIN-REGEX,^cdn-msp[a-zA-Z0-9-_.]\.18comic\.vip$
+DOMAIN-REGEX,^cdn-msp[a-zA-Z0-9-_.]\.jmcomic\.me$
+DOMAIN-REGEX,^static-[a-zA-Z0-9-_.][a-zA-Z0-9-_.]-cdn\.eporner\.com$
+DOMAIN-REGEX,^video[a-zA-Z0-9-_.]-thumbnail[a-zA-Z0-9-_.]\.fc2\.com$
+DOMAIN-REGEX,^vip-videoprem[a-zA-Z0-9-_.]*?-thumbnail[a-zA-Z0-9-_.]\.fc2\.com$
+DOMAIN-REGEX,^blog-imgs-[a-zA-Z0-9-_.][a-zA-Z0-9-_.]\.2nt\.com$
+DOMAIN-REGEX,^blog-imgs-[a-zA-Z0-9-_.][a-zA-Z0-9-_.]\.fc2\.com$
 ################## EOF ##################

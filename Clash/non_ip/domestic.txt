@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Domestic Domains
-# Last Updated: 2024-08-16T12:27:40.462Z
+# Last Updated: 2024-08-13T18:29:29.655Z
 # Size: 773
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -9,6 +9,14 @@
 # This file contains known addresses that are avaliable in the Mainland China.
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+DOMAIN,cdn.bootcdn.net
+DOMAIN,cdn.bootcss.com
+DOMAIN,www.layuicdn.com
+DOMAIN,xboxlive.cn
+DOMAIN,lv.queniujq.cn
+DOMAIN,cn.download.nvidia.com
+DOMAIN,www.intel.cn
+DOMAIN,ocsp.digicert.cn
 DOMAIN-SUFFIX,vivo.com
 DOMAIN-SUFFIX,vivo.com.cn
 DOMAIN-SUFFIX,coloros.com
@@ -183,8 +191,6 @@ DOMAIN-SUFFIX,sohu.com.cn
 DOMAIN-SUFFIX,sohucs.com
 DOMAIN-SUFFIX,v-56.com
 DOMAIN-SUFFIX,jstarkan.com
-PROCESS-NAME,WeChat
-PROCESS-NAME,WeCom
 DOMAIN-SUFFIX,52tesla.com
 DOMAIN-SUFFIX,xiaote.net
 DOMAIN-SUFFIX,douyu.com
@@ -231,12 +237,8 @@ DOMAIN-SUFFIX,ourdvs.com
 DOMAIN-SUFFIX,staticdn.net
 DOMAIN-SUFFIX,sevencdn.com
 DOMAIN-SUFFIX,wangsu.com
-DOMAIN,cdn.bootcdn.net
-DOMAIN,cdn.bootcss.com
-DOMAIN,www.layuicdn.com
 DOMAIN-SUFFIX,staticfile.org
 DOMAIN-SUFFIX,staticfile.net
-DOMAIN,xboxlive.cn
 DOMAIN-SUFFIX,steam.clngaa.com
 DOMAIN-SUFFIX,steam.ksyna.com
 DOMAIN-SUFFIX,dl.bscstorage.net
@@ -256,7 +258,6 @@ DOMAIN-SUFFIX,outlook.cn
 DOMAIN-SUFFIX,officewebapps.cn
 DOMAIN-SUFFIX,wmsj.cn
 DOMAIN-SUFFIX,wmsjsteam.com
-DOMAIN,lv.queniujq.cn
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,115.com
@@ -282,7 +283,6 @@ DOMAIN-SUFFIX,eatuo.com
 DOMAIN-SUFFIX,ui.com.cn
 DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,edu.cn
-DOMAIN,cn.download.nvidia.com
 DOMAIN-SUFFIX,jetbrains.com.cn
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com
@@ -397,7 +397,6 @@ DOMAIN-SUFFIX,id6.com
 DOMAIN-SUFFIX,ifeng.com
 DOMAIN-SUFFIX,ifengimg.com
 DOMAIN-SUFFIX,infinitynewtab.com
-DOMAIN,www.intel.cn
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,jianshu.com
 DOMAIN-SUFFIX,jianshu.io
@@ -442,7 +441,6 @@ DOMAIN-SUFFIX,nmc.cn
 DOMAIN-SUFFIX,ntp.org.cn
 DOMAIN-SUFFIX,nubia.cn
 DOMAIN-SUFFIX,nubia.com
-DOMAIN,ocsp.digicert.cn
 DOMAIN-SUFFIX,onlinedown.com
 DOMAIN-SUFFIX,openinstall.io
 DOMAIN-SUFFIX,oray.com
@@ -781,4 +779,6 @@ DOMAIN-SUFFIX,yunpan.com
 DOMAIN-SUFFIX,yunpan.com.cn
 DOMAIN-SUFFIX,qh-cdn.com
 DOMAIN-SUFFIX,baomitu.com
+PROCESS-NAME,WeChat
+PROCESS-NAME,WeCom
 ################## EOF ##################

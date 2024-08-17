@@ -6,7 +6,6 @@
         "this_ruleset_is_made_by_sukkaw.ruleset.skk.moe",
         "officecdn-microsoft-com.akamaized.net"
       ],
-      "domain_keyword": ["1drv", "microsoft", "hotmail"],
       "domain_suffix": [
         "1drv.com",
         "aadrm.com",
@@ -91,7 +90,8 @@
         "xboxservices.com",
         "yammer.com",
         "yammerusercontent.com"
-      ]
+      ],
+      "domain_keyword": ["1drv", "microsoft", "hotmail"]
     }
   ]
 }

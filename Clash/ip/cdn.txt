@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN
-# Last Updated: 2024-08-16T12:27:40.704Z
-# Size: 2
+# Last Updated: 2024-08-13T15:21:33.751Z
+# Size: 4
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -10,4 +10,6 @@
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 IP-CIDR,185.199.108.0/22
+IP-CIDR,162.159.200.1/32
+IP-CIDR,162.159.200.123/32
 ################## EOF ##################

@@ -4,9 +4,9 @@
     {
       "domain": ["this_ruleset_is_made_by_sukkaw.ruleset.skk.moe"],
       "domain_regex": [
-        "^(?:^(?:download[^/]*?\\.mediafire\\.com)$)$",
-        "^(?:^(?:ftp\\.[^/]*?\\.debian\\.org)$)$",
-        "^(?:^(?:edgedl\\.me\\.gvt[^/]\\.com)$)$"
+        "^download[a-zA-Z0-9-_.]*?\\.mediafire\\.com$",
+        "^ftp\\.[a-zA-Z0-9-_.]*?\\.debian\\.org$",
+        "^edgedl\\.me\\.gvt[a-zA-Z0-9-_.]\\.com$"
       ]
     }
   ]

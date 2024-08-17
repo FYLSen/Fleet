@@ -93,6 +93,7 @@ topya.com                                                                       
 zing.vn                                                                                             16
 adp.com                                                                                             15
 akadns.net                                                                                          15
+borden-carleton.ca                                                                                  15
 cisco.com                                                                                           15
 hotdoc.com.au                                                                                       15
 ignite.technology                                                                                   15
@@ -107,7 +108,6 @@ yahoo.co.jp                                                                     
 younited-credit.com                                                                                 15
 zadn.vn                                                                                             15
 zaloapp.com                                                                                         15
-borden-carleton.ca                                                                                  14
 hostcontent.li                                                                                      14
 intel.com                                                                                           14
 isnssdk.com                                                                                         14

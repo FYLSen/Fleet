@@ -4,6 +4,7 @@
     {
       "domain": [
         "this_ruleset_is_made_by_sukkaw.ruleset.skk.moe",
+        "dl.ui.com",
         "releases.arc.net",
         "formulae.brew.sh",
         "mirror.cat.net",
@@ -44,7 +45,6 @@
         "cdimage.kali.org",
         "dl.pstmn.io",
         "mac-release-static.stash.ws",
-        "dl.ubnt.com",
         "download.xbox.com",
         "mirror.xtom.com",
         "mirrors.xtom.com",

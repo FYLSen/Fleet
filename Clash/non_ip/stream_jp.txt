@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Stream Services: Japan
-# Last Updated: 2024-08-16T12:27:40.456Z
+# Last Updated: 2024-08-13T18:29:29.642Z
 # Size: 26
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -16,7 +16,6 @@ DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmm-extension.com
-DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,ameba.jp
@@ -38,4 +37,5 @@ DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hjholdings.jp
 DOMAIN-SUFFIX,hulu.jp
 DOMAIN-SUFFIX,tver.jp
+DOMAIN-KEYWORD,abematv.akamaized.net
 ################## EOF ##################

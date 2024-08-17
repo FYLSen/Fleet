@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - AIGC Domains
-# Last Updated: 2024-08-16T12:27:40.708Z
+# Last Updated: 2024-08-13T18:29:29.859Z
 # Size: 26
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -9,13 +9,16 @@
 # This file contains domains of OpenAI, Claude.
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+DOMAIN,ai.google.dev
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,x.ai
-DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
@@ -26,12 +29,9 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN,ai.google.dev
 DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,meta.ai
-DOMAIN,gateway.ai.cloudflare.com
+DOMAIN-KEYWORD,openai
 ################## EOF ##################

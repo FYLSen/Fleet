@@ -10,6 +10,18 @@
         "api.iterable.com",
         "js.iterable.com"
       ],
+      "domain_suffix": [
+        "openx.net",
+        "telemetry-coverage.mozilla.org",
+        "telemetry.mozilla.org",
+        "incoming-telemetry.thunderbird.net",
+        "crazyegg.com",
+        "amplitude.com",
+        "advertising.com",
+        "net.mydays.de",
+        "notifysrv.com",
+        "notify6.com"
+      ],
       "domain_keyword": [
         ".estream.",
         "jshosting",
@@ -63,23 +75,11 @@
         "-tracker.biliapi.net"
       ],
       "domain_regex": [
-        "^(?:^(?:f\\-log[^/]*?\\.grammarly\\.io)$)$",
-        "^(?:(?!\\.)(?=.)[^/]*?\\.ad\\.[^/]*?\\.prod\\.hosts\\.ooklaserver\\.net)$",
-        "^(?:^(?:adv0[^/]*?\\.msa\\.cdn\\.mediaset\\.net)$)$",
-        "^(?:^(?:beacons[^/]*?\\.gvt[^/]\\.com)$)$",
-        "^(?:(?!\\.)(?=.)[^/]*?ad\\.ixigua\\.com)$"
-      ],
-      "domain_suffix": [
-        "openx.net",
-        "telemetry-coverage.mozilla.org",
-        "telemetry.mozilla.org",
-        "incoming-telemetry.thunderbird.net",
-        "crazyegg.com",
-        "amplitude.com",
-        "advertising.com",
-        "net.mydays.de",
-        "notifysrv.com",
-        "notify6.com"
+        "^f-log[a-zA-Z0-9-_.]*?\\.grammarly\\.io$",
+        "^[a-zA-Z0-9-_.]*?\\.ad\\.[a-zA-Z0-9-_.]*?\\.prod\\.hosts\\.ooklaserver\\.net$",
+        "^adv0[a-zA-Z0-9-_.]*?\\.msa\\.cdn\\.mediaset\\.net$",
+        "^beacons[a-zA-Z0-9-_.]*?\\.gvt[a-zA-Z0-9-_.]\\.com$",
+        "^[a-zA-Z0-9-_.]*?ad\\.ixigua\\.com$"
       ]
     }
   ]

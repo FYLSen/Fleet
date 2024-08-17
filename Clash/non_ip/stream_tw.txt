@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Stream Services: Taiwan
-# Last Updated: 2024-08-16T12:27:40.455Z
+# Last Updated: 2024-08-13T18:29:29.641Z
 # Size: 45
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -15,20 +15,9 @@
 # - Bilibili International
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
-DOMAIN-SUFFIX,kk.stream
-DOMAIN-SUFFIX,kktv.com.tw
-DOMAIN-SUFFIX,kktv.me
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
-DOMAIN-SUFFIX,litv.tv
-DOMAIN-SUFFIX,4gtv.tv
 DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
-DOMAIN-SUFFIX,linetv.tw
-PROCESS-NAME,com.linecorp.linetv
-DOMAIN-SUFFIX,hboasia.com
-DOMAIN-SUFFIX,hbogoasia.com
-DOMAIN-SUFFIX,hbogoasia.hk
-DOMAIN-KEYWORD,.hbogoasia.
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,bcbolthboa-a.akamaihd.net
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
@@ -48,15 +37,26 @@ DOMAIN,hbolb.onwardsmg.com
 DOMAIN,bahamut.akamaized.net
 DOMAIN,gamer-cds.cdn.hinet.net
 DOMAIN,gamer2-cds.cdn.hinet.net
-DOMAIN-SUFFIX,viblast.com
-DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN-SUFFIX,biliintl.com
 DOMAIN,apm-misaka.biliapi.net
 DOMAIN,p.bstarstatic.com
 DOMAIN,p-bstarstatic.akamaized.net
 DOMAIN,upos-bstar-mirrorakam.akamaized.net
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,kk.stream
+DOMAIN-SUFFIX,kktv.com.tw
+DOMAIN-SUFFIX,kktv.me
+DOMAIN-SUFFIX,litv.tv
+DOMAIN-SUFFIX,4gtv.tv
+DOMAIN-SUFFIX,linetv.tw
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogoasia.com
+DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN-SUFFIX,viblast.com
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,biliintl.com
 DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-KEYWORD,.hbogoasia.
+PROCESS-NAME,com.linecorp.linetv
 PROCESS-NAME,com.bstar.intl
 ################## EOF ##################

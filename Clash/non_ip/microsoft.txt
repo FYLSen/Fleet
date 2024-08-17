@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Microsoft Domains
-# Last Updated: 2024-08-16T12:27:40.719Z
+# Last Updated: 2024-08-13T18:29:29.865Z
 # Size: 88
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -10,8 +10,6 @@
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 DOMAIN,officecdn-microsoft-com.akamaized.net
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,aadrm.com
 DOMAIN-SUFFIX,acompli.com
@@ -33,7 +31,6 @@ DOMAIN-SUFFIX,cloudappsecurity.com
 DOMAIN-SUFFIX,docs.com
 DOMAIN-SUFFIX,edgesuite.net
 DOMAIN-SUFFIX,gfx.ms
-DOMAIN-KEYWORD,hotmail
 DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,live.net
@@ -96,4 +93,7 @@ DOMAIN-SUFFIX,xboxlive.com
 DOMAIN-SUFFIX,xboxservices.com
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,hotmail
 ################## EOF ##################

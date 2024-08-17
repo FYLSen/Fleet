@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Large Files Hosting Domains
-# Last Updated: 2024-08-16T12:27:40.657Z
+# Last Updated: 2024-08-13T15:21:33.712Z
 # Size: 559
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -10,6 +10,7 @@
 #########################################
 this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 +.cdn.ea.com
+dl.ui.com
 releases.arc.net
 formulae.brew.sh
 mirror.cat.net
@@ -56,7 +57,6 @@ cdn.kagi.com
 cdimage.kali.org
 dl.pstmn.io
 mac-release-static.stash.ws
-dl.ubnt.com
 download.xbox.com
 mirror.xtom.com
 mirrors.xtom.com

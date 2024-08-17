@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Reject Domains
-# Last Updated: 2024-08-16T12:27:40.727Z
+# Last Updated: 2024-08-14T18:33:16.112Z
 # Size: 71
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -10,6 +10,20 @@
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 DOMAIN,this_rule_set_is_made_by_sukkaw.skk.moe
+DOMAIN,stun.smartgslb.com
+DOMAIN,api-js.mixpanel.com
+DOMAIN,api.iterable.com
+DOMAIN,js.iterable.com
+DOMAIN-SUFFIX,openx.net
+DOMAIN-SUFFIX,telemetry-coverage.mozilla.org
+DOMAIN-SUFFIX,telemetry.mozilla.org
+DOMAIN-SUFFIX,incoming-telemetry.thunderbird.net
+DOMAIN-SUFFIX,crazyegg.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,advertising.com
+DOMAIN-SUFFIX,net.mydays.de
+DOMAIN-SUFFIX,notifysrv.com
+DOMAIN-SUFFIX,notify6.com
 DOMAIN-KEYWORD,.estream.
 DOMAIN-KEYWORD,jshosting
 DOMAIN-KEYWORD,hostingcloud
@@ -47,7 +61,6 @@ DOMAIN-KEYWORD,appsflyer
 DOMAIN-KEYWORD,dnserror
 DOMAIN-KEYWORD,marketing.net
 DOMAIN-KEYWORD,adktrack
-DOMAIN,stun.smartgslb.com
 DOMAIN-KEYWORD,_vmind.qqvideo.tc.qq.com
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-spiky.clevertap-prod.com
@@ -55,28 +68,15 @@ DOMAIN-KEYWORD,.engage.3m.
 DOMAIN-KEYWORD,telemetry.officeapps.live.com
 DOMAIN-KEYWORD,-launches.appsflyersdk.com
 DOMAIN-KEYWORD,-s2s.sensic.net
-DOMAIN-REGEX,^(?:^(?:f\-log[^/]*?\.grammarly\.io)$)$
-DOMAIN-REGEX,^(?:(?!\.)(?=.)[^/]*?\.ad\.[^/]*?\.prod\.hosts\.ooklaserver\.net)$
-DOMAIN-SUFFIX,openx.net
-DOMAIN-SUFFIX,telemetry-coverage.mozilla.org
-DOMAIN-SUFFIX,telemetry.mozilla.org
-DOMAIN-SUFFIX,incoming-telemetry.thunderbird.net
-DOMAIN-SUFFIX,crazyegg.com
-DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,advertising.com
-DOMAIN,api-js.mixpanel.com
-DOMAIN,api.iterable.com
-DOMAIN,js.iterable.com
 DOMAIN-KEYWORD,.net.daraz.
 DOMAIN-KEYWORD,.zooplus.
-DOMAIN-SUFFIX,net.mydays.de
 DOMAIN-KEYWORD,smetrics.marketing.
-DOMAIN-SUFFIX,notifysrv.com
-DOMAIN-SUFFIX,notify6.com
 DOMAIN-KEYWORD,wxsnsdy
-DOMAIN-REGEX,^(?:^(?:adv0[^/]*?\.msa\.cdn\.mediaset\.net)$)$
 DOMAIN-KEYWORD,adwords
-DOMAIN-REGEX,^(?:^(?:beacons[^/]*?\.gvt[^/]\.com)$)$
 DOMAIN-KEYWORD,-tracker.biliapi.net
-DOMAIN-REGEX,^(?:(?!\.)(?=.)[^/]*?ad\.ixigua\.com)$
+DOMAIN-REGEX,^f-log[a-zA-Z0-9-_.]*?\.grammarly\.io$
+DOMAIN-REGEX,^[a-zA-Z0-9-_.]*?\.ad\.[a-zA-Z0-9-_.]*?\.prod\.hosts\.ooklaserver\.net$
+DOMAIN-REGEX,^adv0[a-zA-Z0-9-_.]*?\.msa\.cdn\.mediaset\.net$
+DOMAIN-REGEX,^beacons[a-zA-Z0-9-_.]*?\.gvt[a-zA-Z0-9-_.]\.com$
+DOMAIN-REGEX,^[a-zA-Z0-9-_.]*?ad\.ixigua\.com$
 ################## EOF ##################
