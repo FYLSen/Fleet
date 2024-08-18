@@ -8,7 +8,7 @@ baidu.com                                                                       
 79j68qav2.com                                                                                       70
 openapp.link                                                                                        69
 qq.com                                                                                              67
-amazonaws.com                                                                                       54
+amazonaws.com                                                                                       55
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -83,7 +83,6 @@ pwc.com                                                                         
 aig.com                                                                                             16
 almosafer.com                                                                                       16
 arrow.com                                                                                           16
-att.com                                                                                             16
 bestinterestings.com                                                                                16
 chuathuongxot.org                                                                                   16
 en25.com                                                                                            16
@@ -93,6 +92,7 @@ topya.com                                                                       
 zing.vn                                                                                             16
 adp.com                                                                                             15
 akadns.net                                                                                          15
+att.com                                                                                             15
 borden-carleton.ca                                                                                  15
 cisco.com                                                                                           15
 hotdoc.com.au                                                                                       15
@@ -128,7 +128,6 @@ inhaabit.com                                                                    
 mi.com                                                                                              13
 perkinelmer.com                                                                                     13
 powzers.lol                                                                                         13
-ru.com                                                                                              13
 siemensplmevents.com                                                                                13
 verintsystemsinc.com                                                                                13
 vivo.com.cn                                                                                         13
@@ -141,6 +140,7 @@ goguardian.com                                                                  
 palladiumhotelgroup.com                                                                             12
 ricoh.de                                                                                            12
 riteaid.com                                                                                         12
+ru.com                                                                                              12
 samsungcloudsolution.com                                                                            12
 smu.edu.sg                                                                                          12
 snssdk.com                                                                                          12
