@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2024-08-19T12:28:08.988Z
-# Size: 122914
+# Last Updated: 2024-08-20T12:28:21.931Z
+# Size: 122947
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1360,10 +1360,12 @@ adsmind.apdcdn.tc.qq.com
 +.opdal050.ru.com
 +.se.bphx0.ru.com
 +.se.defr9.ru.com
++.xf.mzwh6.ru.com
 +.kforganico.ru.com
 +.lovekelley.ru.com
 +.shereihnao.ru.com
 +.app.dreambox.ru.com
++.aterecierais.ru.com
 +.reviewellness.ru.com
 +.motifreighttion.ru.com
 +.de.musicproduction.ru.com
@@ -2830,6 +2832,7 @@ dd.iask.cn
 +.images.ihs.com
 +.iias.eu
 +.data.cloud.email.ikea.ae
++.ili.ink
 +.websocket.ilna.ir
 +.connect.im8.net
 +.communication.imec.be
@@ -6352,6 +6355,7 @@ shence.hupu.com
 +.adtrack.king.com
 +.app.kippo.gg
 +.loglady.kiwi.com
++.kjxhd.cn
 +.data-c0c484e9be.klack.de
 +.app.klaim.us
 +.stat.kleos.cz
@@ -9672,7 +9676,6 @@ ecmc.bdimg.com
 +.info.bkifg.com
 +.2016.bkill.net
 +.bkrkv.com
-+.bkrtx.com
 +.bksfr.com
 +.smetrics.bkstr.com
 +.privacy.blade.app
@@ -10451,6 +10454,7 @@ vdapprecv.app.cntvwb.cn
 +.target.dzbank.de
 +.proxy.dzeio.com
 +.dzfzak.cn
++.ima.dzgsm.com
 +.dzjzg.com
 +.avjadt.e-look.jp
 +.tr.contact.e-turf.fr
@@ -14243,7 +14247,6 @@ ad.api.3g.tudou.com
 +.ubish.com
 +.vay.nhanh.24h.ubte6.com
 +.1.uc129.com
-+.api.ucheba.ru
 +.stats.ucheba.ru
 +.ucrack.pw
 +.px.ucweb.com
@@ -14486,6 +14489,7 @@ stats.umsns.com
 +.al-smetrics.vizio.com
 +.vizzit.se
 +.vjcbm.com
++.vjugz.com
 +.vk-ads.ru
 +.ad.vkool.net
 +.1l-hit.vkplay.ru
@@ -17375,6 +17379,7 @@ fc-feed.cdn.bcebos.com
 +.da6555.com
 +.da8975.com
 +.analytics.daasrv.net
++.dabajd.xyz
 +.js1.dadiniu.cn
 +.dadw11.com
 +.dadw22.com
@@ -19562,7 +19567,6 @@ v9-dc-ad.ixigua.com
 +.jdfzfd.xyz
 +.jdmodr.com
 +.jdrlfn.xyz
-+.jdwzze.xyz
 +.jebul.info
 +.jedlnn.xyz
 +.www15.jedora.com
@@ -19744,6 +19748,7 @@ events.jianshu.io
 +.jy147a.com
 +.jyewkb.icu
 +.jyfdbj.xyz
++.jyjrbz.xyz
 +.jypvzd.xyz
 +.jyzkut.com
 +.dat1.jzjxmj.com
@@ -20692,6 +20697,7 @@ ssl-cdn.static.browser.mi-img.com
 +.link.mixbit.com
 +.mixi.media
 +.mymix.mixtel.com
++.miycoc.xyz
 +.smetrics.mizuno.com
 +.mjnxku.com
 +.mkjnba.com
@@ -21408,6 +21414,7 @@ adres.myaora.net
 +.geoip.olx.com.br
 +.track.olx.com.br
 +.lurker.olx.com.br
++.ninja.data.olxcdn.com
 +.m.olympia.it
 +.deeplink-app.olympia.nl
 +.plausible.omgapi.org
@@ -23901,6 +23908,7 @@ hz.pre.tbusergw.taobao.net
 +.umrstfl.cn
 +.umtudo.com
 +.umwiba.com
++.umyeon.com
 +.unaces.com
 +.unanac.com
 +.unawar.com
@@ -26030,7 +26038,6 @@ mvconf.lato.cloud.360safe.com
 +.afrikad.com
 +.smetrics.afvclub.com
 +.afxjwyg.com
-+.pagamento.afya.com.br
 +.aghtag.tech
 +.explore.agilent.com
 +.metrics.agilent.com
@@ -26360,7 +26367,6 @@ hydra.alibaba.com
 +.arhnuin.xyz
 +.tr.info.arialcnp.fr
 +.image.go.aricent.com
-+.ariliri.com
 +.connect.arkadin.com
 +.arkayne.com
 +.track.arleam.love
@@ -26470,8 +26476,10 @@ gvod.aiseejapp.atianqi.com
 +.t.avastin.com
 +.t-s.avastin.com
 +.smetrics.avastin.com
++.avastpx.com
 +.avastsf.com
 +.avastsp.com
++.avastxv.com
 +.avenseo.com
 +.lapkhy.aventon.com
 +.data.info.avianca.com
@@ -29409,6 +29417,7 @@ log-sdk.gifshow.com
 +.hetcash.com
 +.hetlwsu.top
 +.hewokhn.com
++.hewrutu.top
 +.heyblink.me
 +.tag.heylink.com
 +.assets.heylink.com
@@ -29495,6 +29504,7 @@ healthdata.hicloud.com
 +.click.hmtrack.net
 +.hnalzlu.top
 +.www2.hnavi.co.jp
++.yp.hnggzyjy.cn
 +.swordtail.hnh.digital
 +.n.hnntube.com
 +.online.hnoexpo.com
@@ -29719,6 +29729,7 @@ log.v2.hunantv.com
 +.idaplay.com
 +.idapple.com
 +.idddlon.xyz
++.idessit.com
 +.idiafix.com
 +.ad.idnad.co.kr
 +.idns.online
@@ -32189,6 +32200,7 @@ ad.bn.netease.com
 +.smetrics.payback.net
 +.payclick.it
 +.marketing.paysafe.com
++.pazials.xyz
 +.pazzfun.com
 +.smetrics.pbainfo.org
 +.pbbhhxm.xyz
@@ -36457,6 +36469,7 @@ htracker5.zmzfile.com
 +.a.20minutes.fr
 +.l.20minutes.fr
 +.20tracks.com
++.21274758.xyz
 +.21hn4b64m.de
 +.224cc86d.xyz
 +.22588888.com
@@ -37687,6 +37700,7 @@ log.b612kaji.com
 +.baijs05.shop
 +.baijs06.shop
 +.baijs07.shop
++.baijs08.shop
 +.bailoaso.xyz
 +.bainushe.com
 +.baiseesh.net
@@ -37833,6 +37847,7 @@ ae.bdstatic.com
 +.behvgsik.icu
 +.bekmhvbb.xyz
 +.am.belambra.com
++.bell-hair.be
 +.bellaads.com
 +.furnishings.bellacor.com
 +.lxzcdi.bellarose.sk
@@ -38757,7 +38772,6 @@ galaxy.bjcathay.com
 +.l.coastapp.com
 +.coatfood.com
 +.coawheer.net
-+.api-ms.cobainaja.id
 +.cobalten.com
 +.cochack.site
 +.cochacks.com
@@ -39475,6 +39489,7 @@ jobs.date-fns.org
 +.doujs05.shop
 +.doujs06.shop
 +.doujs07.shop
++.doujs08.shop
 +.doukoula.com
 +.doupsout.xyz
 +.douthosh.net
@@ -43008,6 +43023,7 @@ pushapi.lenovomm.com
 +.mcoreads.com
 +.mcpgames.com
 +.mcpuwpsh.com
++.mcrogers.com
 +.mctrades.org
 +.mdipsumx.top
 +.mdjdpyrt.xyz
@@ -46938,6 +46954,7 @@ inte.sogoucdn.com
 +.tkbbjtfp.xyz
 +.sem.tkc-biyou.jp
 +.trck.e.tkd-kabel.de
++.tkeatlra.com
 +.tkpopup.asia
 +.smetrics.tlcgroup.com
 +.tlprbzoi.com
@@ -48587,6 +48604,7 @@ adpublish.ydstatic.com
 +.zonealta.com
 +.log.zongheng.com
 +.h5log.zongheng.com
++.static.zongheng.com
 +.zonupiza.com
 +.zoocheeh.net
 +.zoogripi.com
@@ -49439,7 +49457,6 @@ stat.10jqka.com.cn
 +.biowebb-data.s3.amazonaws.com
 +.cloudfront-labs.amazonaws.com
 +.babes-mansion.s3.amazonaws.com
-+.bbuseruploads.s3.amazonaws.com
 +.sprocket-ping.s3.amazonaws.com
 +.syncplusconfig.s3.amazonaws.com
 +.yieldmo-builds.s3.amazonaws.com
@@ -50192,6 +50209,7 @@ advertise.baicizhan.org
 +.bouwhaici.net
 +.app.bovedainc.com
 +.bowlprick.com
++.boylegmfg.com
 +.boyughaye.com
 +.bp5hq5jivj.ru
 +.bp9l1pi60.pro
@@ -51380,7 +51398,6 @@ grs.platform.dbankcloud.ru
 +.doublebtc.win
 +.doublemax.net
 +.ad.douga-kan.com
-+.download.doumaibiji.cn
 +.doumuleet.net
 +.down1oads.com
 +.download4.cfd
@@ -53577,6 +53594,7 @@ v2.fm.n.duokanbox.com
 +.jdxpaoojg.com
 +.www.jebb8hurt.com
 +.secure.jebb8hurt.com
++.jebhnmggi.xyz
 +.jeephiney.net
 +.jeeryzest.com
 +.hornet.jeffgable.com
@@ -54669,7 +54687,6 @@ s.maketheweb.io
 +.mentrandi.com
 +.ic.menvigor.site
 +.mepupr486.top
-+.merch-anim.fr
 +.merchenta.com
 +.tr.info.mercialys.com
 +.care.mercycare.org
@@ -54881,6 +54898,7 @@ i1.services.social.microsoft.com
 +.ens.moneyhouse.ch
 +.moneysyst.biz
 +.somni.moneytips.com
++.moninediy.com
 +.tr.newsletter.monmedium.com
 +.web.online.monnalisa.com
 +.mjjvkx.monoprice.com
@@ -55991,6 +56009,7 @@ iad0ssl.pcauto.com.cn
 +.pixoveexs.com
 +.franchising.pizzapizza.ca
 +.pizzasnut.com
++.pjkyxrd15e.ru
 +.pjunnest.cyou
 +.pjvunkjgh.com
 +.pjzgggywd.com
@@ -57621,6 +57640,7 @@ sousuo.xm.sjzhushou.com
 +.survey4you.co
 +.eu.sushipool.com
 +.seed1.sushipool.com
++.susplanet.com
 +.kkgkpl.suzuki.com.mx
 +.svanh-xqh.com
 +.svaohpdxn.xyz
@@ -59072,6 +59092,7 @@ ad.winrar.com.cn
 +.wryfinger.com
 +.wrylength.pro
 +.marketing.wtcutrecht.nl
++.wtjsnlwmx.com
 +.data-6590696975.wunderweib.de
 +.marketing.wvtourism.com
 +.t.wvusports.com
@@ -61049,7 +61070,6 @@ ad.winrar.com.cn
 +.axwnmenruo.com
 +.axzxkeawbo.com
 +.ay5u9w4jjc.com
-+.aybereklam.com
 +.ssc.azadiradio.com
 +.azbaclxror.com
 +.azera-s014.com
@@ -68460,6 +68480,7 @@ ivy.pchouse.com.cn
 +.qceedrcwar.com
 +.qcfkvespkj.com
 +.qckeumrwft.xyz
++.qcollect.co.za
 +.qcsjmidihe.com
 +.qe0ckm024b.com
 +.qelqlunebz.com
@@ -71455,6 +71476,7 @@ app-ad.variflight.com
 +.zumorhshij.com
 +.zunsavurdo.com
 +.img.zuowenwang.net
++.z194668-ex70k.ps02.zwhhosting.com
 +.zwnoeqzsuz.com
 +.zwyjpyocwv.com
 +.zxcxrpvmuh.com
@@ -72948,6 +72970,7 @@ logs.chelaile.net.cn
 +.www.cnej4912jks.com
 +.axp.cnyhomepage.com
 +.coachquartz.com
++.coadymarine.com
 +.traffic.prod.cobaltgroup.com
 +.cocfreegems.net
 +.cocklystats.top
@@ -75135,6 +75158,7 @@ emma-414870e223.huodonghezi.com
 +.informereng.com
 +.infragantes.com
 +.ingigalitha.com
++.ingonherbal.com
 +.trk.go.ingrammicro.com
 +.xvantage.ingrammicro.com
 +.responses.ingrammicro.com
@@ -79917,6 +79941,7 @@ ad-analysis.pconline.com.cn
 +.campaigns.williamhill.com
 +.smetrics2.williamhill.com
 +.zoke.willowsoaks.com
++.insta.willowsoaks.com
 +.win-bidding.com
 +.win-gadgets.com
 +.win-myprize.top
@@ -83108,6 +83133,7 @@ ssl.360antivirus.org
 +.gethacksfree.com
 +.b.getmaintainx.com
 +.branch-dev.getmaintainx.com
++.events.getmodemagic.com
 +.getmygateway.com
 +.getnewsfirst.com
 +.to.getnitropack.com
@@ -83204,6 +83230,7 @@ ssl.360antivirus.org
 +.gnathicrugal.top
 +.gndkcpwowxnc.com
 +.gnkgvjxunmwc.com
++.gnqsvrafjtoa.com
 +.gnsdigital.co.il
 +.go4freehacks.com
 +.goadservices.com
@@ -85990,6 +86017,7 @@ ssl.360antivirus.org
 +.pwrgrowthapi.com
 +.pyxiscablese.com
 +.pzawclkyxuno.com
++.pzwigrnuimeh.com
 +.retrack.q-divisioncdn.de
 +.q6idnawboy7g.com
 +.qajgarohwobh.com
@@ -86665,6 +86693,7 @@ ssl.360antivirus.org
 +.sidesukbeing.org
 +.pages.siemens-info.com
 +.finance.siemens-info.com
++.sierrakermit.com
 +.siftdivorced.com
 +.eloqua.sigmaaldrich.com
 +.secure.sigmaaldrich.com
@@ -86690,7 +86719,6 @@ ssl.360antivirus.org
 +.partners.singularlogic.eu
 +.sinnerscramp.top
 +.sinogamepeck.com
-+.sintraoficol.org
 +.ticket.sirlottoclub.com
 +.lp.sisteman7.com.br
 +.sisterlockup.com
@@ -88586,6 +88614,7 @@ adclick.tencentmusic.com
 +.zoutubephaid.com
 +.zoutufoostou.com
 +.zprelandings.com
++.zprofuqkssny.com
 +.a.ztulcrynw.online
 +.ztumuvofzbfe.com
 +.zubojcnubadk.com
@@ -98133,6 +98162,7 @@ plausible.joincommunity.xyz
 +.grimdeplorable.com
 +.grippedownloads.co
 +.gripping-bread.com
++.grislyrooing.click
 +.gristleupanaya.com
 +.grkuikqvpmqnla.com
 +.groovyornament.com
@@ -104705,7 +104735,6 @@ plausible.joincommunity.xyz
 +.ake.glue.oystergardening.net
 +.bql.glue.oystergardening.net
 +.gkw.glue.oystergardening.net
-+.ogn.glue.oystergardening.net
 +.snd.glue.oystergardening.net
 +.wfy.glue.oystergardening.net
 +.xga.glue.oystergardening.net
@@ -104713,7 +104742,6 @@ plausible.joincommunity.xyz
 +.bvqm.glue.oystergardening.net
 +.bxss.glue.oystergardening.net
 +.gveb.glue.oystergardening.net
-+.hnau.glue.oystergardening.net
 +.hqnn.glue.oystergardening.net
 +.htpm.glue.oystergardening.net
 +.lfon.glue.oystergardening.net
@@ -104724,7 +104752,6 @@ plausible.joincommunity.xyz
 +.qprbb.glue.oystergardening.net
 +.ucjcs.glue.oystergardening.net
 +.xdpbb.glue.oystergardening.net
-+.zaoqh.glue.oystergardening.net
 +.oyyihttyklfwcgy.xyz
 +.activate.pacificsandiego.com
 +.trk.packagingdigest.com
@@ -109243,6 +109270,7 @@ display.360totalsecurity.com
 +.synchronizerobot.com
 +.somni.synchronycareers.com
 +.analytics.synchronycareers.com
++.synexenergygroup.net
 +.synonymoussticks.com
 +.synovite-scripts.com
 +.syrsple2se8nyu09.com
@@ -114703,6 +114731,7 @@ display.360totalsecurity.com
 +.tracking.adactioninteractive.com
 +.addresshisselephant.com
 +.adsblockersentinel.info
++.adtrafficquality.google
 +.advancinginfinitely.com
 +.advantagesclotblend.com
 +.horse.adventurousmachines.com
@@ -115763,6 +115792,7 @@ display.360totalsecurity.com
 +.ovaleithermansfield.com
 +.overjoyedwithinthin.com
 +.marketing.oxfordcomputergroup.com
++.oysterbywordwishful.com
 +.p90xworkoutdownload.com
 +.painfullyconfession.com
 +.ojm4.palladiumhotelgroup.com
@@ -115832,6 +115862,7 @@ display.360totalsecurity.com
 +.poisonencouragement.com
 +.pokemongocoinhacker.com
 +.policecaravanallure.com
++.polipastosmexico.com.mx
 +.ctr.poppinpearlsoptions.com
 +.porngeneratoraccess.com
 +.lp.portal-saudedohomem.com
@@ -115859,6 +115890,8 @@ display.360totalsecurity.com
 +.presidentialcheaper.com
 +.pretty-sluts-nearby.com
 +.princesinistervirus.com
++.oja.sponsor.printondemandagency.com
++.odtym.sponsor.printondemandagency.com
 +.prisonfirmlyswallow.com
 +.privacynicerresumed.com
 +.producedendorsecamp.com

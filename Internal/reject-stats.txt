@@ -8,7 +8,7 @@ baidu.com                                                                       
 79j68qav2.com                                                                                       71
 openapp.link                                                                                        69
 qq.com                                                                                              67
-amazonaws.com                                                                                       55
+amazonaws.com                                                                                       54
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -51,7 +51,6 @@ naver.com                                                                       
 autovistagroup.com                                                                                  24
 dlcodes.com                                                                                         23
 intuit.com                                                                                          23
-oystergardening.net                                                                                 23
 eucharisticjesus.net                                                                                22
 globalsources.com                                                                                   22
 mcafee.com                                                                                          22
@@ -67,6 +66,7 @@ coca-cola.com                                                                   
 fupa.net                                                                                            20
 jessicabarrett.com                                                                                  20
 moethennessy.com                                                                                    20
+oystergardening.net                                                                                 20
 herokuapp.com                                                                                       19
 informa.com                                                                                         19
 microcloud360.com                                                                                   19
@@ -114,6 +114,7 @@ nba.com                                                                         
 oystergardening.name                                                                                14
 pwc.fr                                                                                              14
 rambler.ru                                                                                          14
+ru.com                                                                                              14
 sogou.com                                                                                           14
 tajawal.com                                                                                         14
 advancedtech.com                                                                                    13
@@ -139,7 +140,6 @@ palladiumhotelgroup.com                                                         
 perkinelmer.com                                                                                     12
 ricoh.de                                                                                            12
 riteaid.com                                                                                         12
-ru.com                                                                                              12
 samsungcloudsolution.com                                                                            12
 smu.edu.sg                                                                                          12
 snssdk.com                                                                                          12
