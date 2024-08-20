@@ -1,22 +1,15 @@
 #########################################
 # Sukka's Ruleset - Proxy
-# Last Updated: 2024-08-20T12:28:14.927Z
-# Size: 13
+# Last Updated: 2024-08-18T13:07:33.770Z
+# Size: 6
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
-DOMAIN,vscodeexperiments.azureedge.net
 DOMAIN,ip.cn
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,mikuclub.xyz
-DOMAIN-SUFFIX,mikuclub.cn
 DOMAIN-SUFFIX,nextdns.io
 DOMAIN-SUFFIX,services.googleapis.cn
-DOMAIN-SUFFIX,coveralls.io
-DOMAIN-SUFFIX,compute.amazonaws.com
-DOMAIN-SUFFIX,compute-1.amazonaws.com
-DOMAIN-SUFFIX,dnsleaktest.com
 ################## EOF ##################

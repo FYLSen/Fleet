@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject (REJECT-DROP)
-# Last Updated: 2024-08-20T12:28:14.928Z
-# Size: 68
+# Last Updated: 2024-08-20T02:53:05.310Z
+# Size: 69
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,parallelskorea.com
 DOMAIN-SUFFIX,myparallels.com
 DOMAIN-SUFFIX,my.parallels.com
 DOMAIN-SUFFIX,adobe.io
+DOMAIN-SUFFIX,adobestats.io
 DOMAIN-KEYWORD,bahoom
 PROCESS-NAME,Tencent Lemon
 PROCESS-NAME,LemonMonitor

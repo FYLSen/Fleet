@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-08-20T12:28:14.823Z
-# Size: 2151
+# Last Updated: 2024-08-20T13:50:07.552Z
+# Size: 2157
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -306,6 +306,7 @@ www-static.ripe.net
 rules.ac
 +.www.s81c.com
 static.scarf.sh
+p.sda1.dev
 +.seadn.io
 +.senja.io
 js.short.io
@@ -464,6 +465,7 @@ cdn01.jotfor.ms
 cdn02.jotfor.ms
 cdn03.jotfor.ms
 static-cdn.jtvnw.net
+img.kemono.su
 media.ra.kroll.com
 +.kwcdn.com
 wandi-6402.kxcdn.com
@@ -600,6 +602,7 @@ signal.cdnbye.com
 tracker.cdnbye.com
 opensignal.cdnbye.com
 signalcloud.cdnbye.com
+static.chaika.moe
 assets.change.org
 static.change.org
 assets-fe.change.org
@@ -1252,6 +1255,7 @@ assets-next.matters.news
 +.cdn.medallia.com
 +.cdn.survey.medallia.com
 static.mendeley.com
+static.mikuclub.fun
 api.mintlify.com
 thumbnailer.mixcloud.com
 dynamic-assets.mobilius.top
@@ -1393,6 +1397,7 @@ claritystatic.azureedge.net
 xpaywalletcdn.azureedge.net
 +.edgestorewebcdn.azureedge.net
 edgeassetservice.azureedge.net
+vscodeexperiments.azureedge.net
 edge-mobile-static.azureedge.net
 edge-consumer-static.azureedge.net
 cdn.babylonjs.com
@@ -1508,6 +1513,7 @@ js.qualified.com
 +.siteintercept.qualtrics.com
 error.rakuten.co.jp
 cdn.rex.contents.rakuten.co.jp
++.randomuser.me
 img.represent.com
 img.riskified.com
 +.runkitcdn.com
