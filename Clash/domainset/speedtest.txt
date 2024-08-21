@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-08-20T02:53:07.628Z
-# Size: 975
+# Last Updated: 2024-08-21T05:57:27.990Z
+# Size: 976
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -372,6 +372,7 @@ speedtest.tinp.net.tw
 speedtest.tushino.com
 speedtest.twds.com.tw
 speedtest.twerion.net
+twincher.ru
 speedtest.twincher.ru
 speedtest.ams14.usenet.farm
 falcon.its.utoronto.ca

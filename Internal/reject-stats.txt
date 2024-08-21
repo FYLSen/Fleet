@@ -1,4 +1,4 @@
-cloudfront.net                                                                                      1221
+cloudfront.net                                                                                      1220
 windows.com                                                                                         118
 weebly.com                                                                                          116
 llnw.net                                                                                            101
@@ -66,7 +66,6 @@ coca-cola.com                                                                   
 fupa.net                                                                                            20
 jessicabarrett.com                                                                                  20
 moethennessy.com                                                                                    20
-oystergardening.net                                                                                 20
 herokuapp.com                                                                                       19
 informa.com                                                                                         19
 microcloud360.com                                                                                   19
@@ -88,6 +87,7 @@ chuathuongxot.org                                                               
 en25.com                                                                                            16
 headlines.pw                                                                                        16
 mynavi.jp                                                                                           16
+oystergardening.net                                                                                 16
 topya.com                                                                                           16
 zing.vn                                                                                             16
 akadns.net                                                                                          15
@@ -114,7 +114,6 @@ nba.com                                                                         
 oystergardening.name                                                                                14
 pwc.fr                                                                                              14
 rambler.ru                                                                                          14
-ru.com                                                                                              14
 sogou.com                                                                                           14
 tajawal.com                                                                                         14
 advancedtech.com                                                                                    13
@@ -127,6 +126,7 @@ groc.press                                                                      
 inhaabit.com                                                                                        13
 mi.com                                                                                              13
 powzers.lol                                                                                         13
+ru.com                                                                                              13
 siemensplmevents.com                                                                                13
 verintsystemsinc.com                                                                                13
 vivo.com.cn                                                                                         13
@@ -136,6 +136,7 @@ cdn77.org                                                                       
 chip.de                                                                                             12
 cigna.com                                                                                           12
 goguardian.com                                                                                      12
+hienphucuanhanloai.org                                                                              12
 palladiumhotelgroup.com                                                                             12
 perkinelmer.com                                                                                     12
 ricoh.de                                                                                            12
@@ -155,7 +156,6 @@ byteoversea.com                                                                 
 coniferhealth.com                                                                                   11
 cresa.com                                                                                           11
 go.com                                                                                              11
-hienphucuanhanloai.org                                                                              11
 hinet.net                                                                                           11
 hismarttv.com                                                                                       11
 informaengage.com                                                                                   11
@@ -186,6 +186,7 @@ insights.md                                                                     
 kugou.com                                                                                           10
 labcorp.com                                                                                         10
 lenovo.com                                                                                          10
+miraclesofeucharisticjesus.org                                                                      10
 morningstar.com                                                                                     10
 now.sh                                                                                              10
 pmu.fr                                                                                              10
