@@ -1,6 +1,6 @@
 <?php
 
-// # Build 2024-08-21T12:27:17.675Z
+// # Build 2024-08-21T12:33:53.116Z
 
 declare(strict_types=1);
 
@@ -394,12 +394,14 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,benghuai.com,Domestic',
         'DOMAIN-SUFFIX,bh3.com,Domestic',
         'DOMAIN-SUFFIX,bosszhipin.com,Domestic',
+        'DOMAIN-SUFFIX,c-t.work,Domestic',
         'DOMAIN-SUFFIX,cailianpress.com,Domestic',
         'DOMAIN-SUFFIX,cls.cn,Domestic',
         'DOMAIN-SUFFIX,camera360.com,Domestic',
         'DOMAIN-SUFFIX,camscanner.com,Domestic',
         'DOMAIN-SUFFIX,cdnjtzy.com,Domestic',
         'DOMAIN-SUFFIX,cowcs.com,Domestic',
+        'DOMAIN-SUFFIX,cowtransfer.com,Domestic',
         'DOMAIN-SUFFIX,changyan.com,Domestic',
         'DOMAIN-SUFFIX,chaoxing.cc,Domestic',
         'DOMAIN-SUFFIX,chaoxing.com,Domestic',
@@ -422,6 +424,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,ctfile.com,Domestic',
         'DOMAIN-SUFFIX,ctrip.com,Domestic',
         'DOMAIN-SUFFIX,c-ctrip.com,Domestic',
+        'DOMAIN-SUFFIX,dancf.com,Domestic',
         'DOMAIN-SUFFIX,dangdang.com,Domestic',
         'DOMAIN-SUFFIX,dewu.com,Domestic',
         'DOMAIN-SUFFIX,dfcfw.com,Domestic',
@@ -473,6 +476,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,ithome.com,Domestic',
         'DOMAIN-SUFFIX,jianshu.com,Domestic',
         'DOMAIN-SUFFIX,jianshu.io,Domestic',
+        'DOMAIN-SUFFIX,jiemian.com,Domestic',
         'DOMAIN-SUFFIX,jiguang.cn,Domestic',
         'DOMAIN-SUFFIX,jb51.net,Domestic',
         'DOMAIN-SUFFIX,jpush.cn,Domestic',
@@ -568,6 +572,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,tripcdn.cn,Domestic',
         'DOMAIN-SUFFIX,tvmao.com,Domestic',
         'DOMAIN-SUFFIX,tvzhe.com,Domestic',
+        'DOMAIN-SUFFIX,udesk.cn,Domestic',
         'DOMAIN-SUFFIX,upyun.com,Domestic',
         'DOMAIN-SUFFIX,vip.com,Domestic',
         'DOMAIN-SUFFIX,weather.com.cn,Domestic',
@@ -1805,6 +1810,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,9gag.com,Global',
         'DOMAIN-SUFFIX,aaa.com,Global',
         'DOMAIN-SUFFIX,abc.net.au,Global',
+        'DOMAIN-SUFFIX,acg.rip,Global',
         'DOMAIN-SUFFIX,afraid.org,Global',
         'DOMAIN-SUFFIX,akamai.net,Global',
         'DOMAIN-SUFFIX,akamaihd.net,Global',
@@ -1826,6 +1832,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,avgle.com,Global',
         'DOMAIN-SUFFIX,bandcamp.com,Global',
         'DOMAIN-SUFFIX,bandwagonhost.com,Global',
+        'DOMAIN-SUFFIX,bangumi.moe,Global',
         'DOMAIN-SUFFIX,bbc.com,Global',
         'DOMAIN-SUFFIX,bbc.co.uk,Global',
         'DOMAIN-SUFFIX,behance.net,Global',
@@ -1999,6 +2006,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,opensea.io,Global',
         'DOMAIN-SUFFIX,openstreetmap.org,Global',
         'DOMAIN-SUFFIX,orbstack.dev,Global',
+        'DOMAIN-SUFFIX,ouo.si,Global',
         'DOMAIN-SUFFIX,packagephobia.com,Global',
         'DOMAIN-SUFFIX,pastebin.com,Global',
         'DOMAIN-SUFFIX,patreon.com,Global',
