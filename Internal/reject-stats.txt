@@ -50,8 +50,8 @@ flourishpath.online                                                             
 naver.com                                                                                           25
 autovistagroup.com                                                                                  24
 dlcodes.com                                                                                         23
+eucharisticjesus.net                                                                                23
 intuit.com                                                                                          23
-eucharisticjesus.net                                                                                22
 globalsources.com                                                                                   22
 mcafee.com                                                                                          22
 princess.com                                                                                        22
@@ -83,16 +83,15 @@ aig.com                                                                         
 almosafer.com                                                                                       16
 arrow.com                                                                                           16
 bestinterestings.com                                                                                16
+borden-carleton.ca                                                                                  16
 chuathuongxot.org                                                                                   16
 en25.com                                                                                            16
 headlines.pw                                                                                        16
 mynavi.jp                                                                                           16
-oystergardening.net                                                                                 16
 topya.com                                                                                           16
 zing.vn                                                                                             16
 akadns.net                                                                                          15
 att.com                                                                                             15
-borden-carleton.ca                                                                                  15
 cisco.com                                                                                           15
 hotdoc.com.au                                                                                       15
 ignite.technology                                                                                   15
@@ -166,6 +165,7 @@ motorolasolutions.com                                                           
 myqcloud.com                                                                                        11
 netapp.com                                                                                          11
 optum.com                                                                                           11
+oystergardening.net                                                                                 11
 quantresear.ch                                                                                      11
 realmadrid.com                                                                                      11
 sedgwick.com                                                                                        11
