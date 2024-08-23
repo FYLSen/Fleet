@@ -8,7 +8,7 @@ baidu.com                                                                       
 79j68qav2.com                                                                                       71
 openapp.link                                                                                        69
 qq.com                                                                                              67
-amazonaws.com                                                                                       54
+amazonaws.com                                                                                       55
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -74,6 +74,7 @@ americanexpress.co.uk                                                           
 focus.de                                                                                            18
 np6.com                                                                                             18
 blackboard.com                                                                                      17
+borden-carleton.ca                                                                                  17
 equifax.com                                                                                         17
 ogrt80r65.com                                                                                       17
 omniture.com                                                                                        17
@@ -83,7 +84,6 @@ aig.com                                                                         
 almosafer.com                                                                                       16
 arrow.com                                                                                           16
 bestinterestings.com                                                                                16
-borden-carleton.ca                                                                                  16
 chuathuongxot.org                                                                                   16
 en25.com                                                                                            16
 headlines.pw                                                                                        16
@@ -106,6 +106,7 @@ younited-credit.com                                                             
 zadn.vn                                                                                             15
 zaloapp.com                                                                                         15
 adp.com                                                                                             14
+cdn77.org                                                                                           14
 hostcontent.li                                                                                      14
 intel.com                                                                                           14
 isnssdk.com                                                                                         14
@@ -131,7 +132,6 @@ verintsystemsinc.com                                                            
 vivo.com.cn                                                                                         13
 zalo.me                                                                                             13
 360safe.com                                                                                         12
-cdn77.org                                                                                           12
 chip.de                                                                                             12
 cigna.com                                                                                           12
 goguardian.com                                                                                      12
@@ -165,7 +165,6 @@ motorolasolutions.com                                                           
 myqcloud.com                                                                                        11
 netapp.com                                                                                          11
 optum.com                                                                                           11
-oystergardening.net                                                                                 11
 quantresear.ch                                                                                      11
 realmadrid.com                                                                                      11
 sedgwick.com                                                                                        11
