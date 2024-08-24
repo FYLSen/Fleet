@@ -1,4 +1,4 @@
-cloudfront.net                                                                                      1220
+cloudfront.net                                                                                      1221
 windows.com                                                                                         118
 weebly.com                                                                                          116
 llnw.net                                                                                            101
@@ -8,7 +8,7 @@ baidu.com                                                                       
 79j68qav2.com                                                                                       71
 openapp.link                                                                                        69
 qq.com                                                                                              67
-amazonaws.com                                                                                       55
+amazonaws.com                                                                                       53
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -26,7 +26,7 @@ m-shop.me                                                                       
 msn.com                                                                                             35
 windows.net                                                                                         35
 cosmicnewspulse.com                                                                                 34
-samsung.com                                                                                         33
+samsung.com                                                                                         32
 thermofisher.com                                                                                    32
 appspot.com                                                                                         31
 microsoft.com                                                                                       31
