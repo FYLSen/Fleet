@@ -8,7 +8,7 @@ baidu.com                                                                       
 79j68qav2.com                                                                                       71
 openapp.link                                                                                        69
 qq.com                                                                                              67
-amazonaws.com                                                                                       53
+amazonaws.com                                                                                       52
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -162,7 +162,6 @@ jll.com                                                                         
 mandg.com                                                                                           11
 mingle.com                                                                                          11
 motorolasolutions.com                                                                               11
-myqcloud.com                                                                                        11
 netapp.com                                                                                          11
 optum.com                                                                                           11
 quantresear.ch                                                                                      11
@@ -187,8 +186,10 @@ labcorp.com                                                                     
 lenovo.com                                                                                          10
 miraclesofeucharisticjesus.org                                                                      10
 morningstar.com                                                                                     10
+myqcloud.com                                                                                        10
 now.sh                                                                                              10
 pmu.fr                                                                                              10
+printondemandagency.com                                                                             10
 ptvgroup.com                                                                                        10
 rakuten.co.jp                                                                                       10
 readingpartners.org                                                                                 10
