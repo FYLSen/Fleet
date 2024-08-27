@@ -30,12 +30,12 @@ windows.net                                                                     
 samsung.com                                                                                         32
 thermofisher.com                                                                                    32
 appspot.com                                                                                         31
+b-cdn.net                                                                                           31
 l5eamr17d.com                                                                                       31
 microsoft.com                                                                                       31
 sina.cn                                                                                             31
 wolterskluwer.com                                                                                   30
 34gwl8v1a.com                                                                                       29
-b-cdn.net                                                                                           29
 newzgames.com                                                                                       29
 aleragroup.com                                                                                      28
 international-med.com                                                                               28
@@ -127,7 +127,6 @@ discoveryplus.com                                                               
 groc.press                                                                                          13
 inhaabit.com                                                                                        13
 mi.com                                                                                              13
-oystergardening.name                                                                                13
 perkinelmer.com                                                                                     13
 powzers.lol                                                                                         13
 siemensplmevents.com                                                                                13
@@ -142,7 +141,6 @@ hienphucuanhanloai.org                                                          
 palladiumhotelgroup.com                                                                             12
 ricoh.de                                                                                            12
 riteaid.com                                                                                         12
-ru.com                                                                                              12
 samsungcloudsolution.com                                                                            12
 snssdk.com                                                                                          12
 thomsonreuters.com                                                                                  12
@@ -169,6 +167,7 @@ optum.com                                                                       
 printondemandagency.com                                                                             11
 quantresear.ch                                                                                      11
 realmadrid.com                                                                                      11
+ru.com                                                                                              11
 sedgwick.com                                                                                        11
 shutterstock.com                                                                                    11
 yandex.ru                                                                                           11
@@ -189,6 +188,7 @@ miraclesofeucharisticjesus.org                                                  
 morningstar.com                                                                                     10
 myqcloud.com                                                                                        10
 now.sh                                                                                              10
+oystergardening.name                                                                                10
 pmu.fr                                                                                              10
 ptvgroup.com                                                                                        10
 rakuten.co.jp                                                                                       10

@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Apple CDN
-# Last Updated: 2024-08-02T08:37:01.003Z
-# Size: 172
+# Last Updated: 2024-08-27T00:02:56.136Z
+# Size: 173
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -60,6 +60,7 @@ this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 +.cn-smp-paymentservices.apple.com
 +.configuration.apple.com.akadns.net
 +.configuration.apple.com
++.crl.apple.com
 +.cstat.apple.com
 +.cstat.cdn-apple.com
 +.dd-cdn.origin-apple.com.akadns.net
