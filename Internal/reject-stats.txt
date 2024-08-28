@@ -71,6 +71,7 @@ herokuapp.com                                                                   
 microcloud360.com                                                                                   19
 sfr.fr                                                                                              19
 americanexpress.co.uk                                                                               18
+cdn77.org                                                                                           18
 focus.de                                                                                            18
 informa.com                                                                                         18
 np6.com                                                                                             18
@@ -108,7 +109,6 @@ younited-credit.com                                                             
 zadn.vn                                                                                             15
 zaloapp.com                                                                                         15
 adp.com                                                                                             14
-cdn77.org                                                                                           14
 hostcontent.li                                                                                      14
 intel.com                                                                                           14
 isnssdk.com                                                                                         14
@@ -167,7 +167,6 @@ optum.com                                                                       
 printondemandagency.com                                                                             11
 quantresear.ch                                                                                      11
 realmadrid.com                                                                                      11
-ru.com                                                                                              11
 sedgwick.com                                                                                        11
 shutterstock.com                                                                                    11
 yandex.ru                                                                                           11
@@ -188,7 +187,6 @@ miraclesofeucharisticjesus.org                                                  
 morningstar.com                                                                                     10
 myqcloud.com                                                                                        10
 now.sh                                                                                              10
-oystergardening.name                                                                                10
 pmu.fr                                                                                              10
 ptvgroup.com                                                                                        10
 rakuten.co.jp                                                                                       10
@@ -197,6 +195,7 @@ ricoh.ch                                                                        
 ricoh.co.uk                                                                                         10
 ricoh.fr                                                                                            10
 ringcentral.com                                                                                     10
+ru.com                                                                                              10
 uc.cn                                                                                               10
 vercel.app                                                                                          10
 westernunion.com                                                                                    10
