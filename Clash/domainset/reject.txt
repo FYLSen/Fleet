@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2024-08-29T12:28:53.826Z
-# Size: 123984
+# Last Updated: 2024-08-29T14:33:33.570Z
+# Size: 124001
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -9925,9 +9925,11 @@ ecmc.bdimg.com
 +.1547760468.rsc.cdn77.org
 +.1548164934.rsc.cdn77.org
 +.1558334541.rsc.cdn77.org
++.1670840964.rsc.cdn77.org
 +.1675450967.rsc.cdn77.org
 +.1736253261.rsc.cdn77.org
 +.1739135659.rsc.cdn77.org
++.1859765560.rsc.cdn77.org
 +.1939661642.rsc.cdn77.org
 +.1991482557.rsc.cdn77.org
 +.cdnaz.win
@@ -41227,6 +41229,7 @@ cdn.getkoala.com
 +.smetrics.grundfos.com
 +.grunoaph.net
 +.banshop.gruntovik.ru
++.tracker.grupanya.com
 +.smetrics.extranetperu.grupobbva.pe
 +.ads.grupozeta.es
 +.grurawho.com
@@ -43050,6 +43053,7 @@ pushapi.lenovomm.com
 +.lusaisso.com
 +.luvaihoo.com
 +.cyeabs.luxyhair.com
++.lvbaeugc.com
 +.lvhcqaku.com
 +.tr.communication.lvmhdare.com
 +.lvodomo.info
@@ -45015,6 +45019,7 @@ geolocation.onetrust.com
 +.smetrics.politico.com
 +.polpepsn.com
 +.polredsy.com
++.polyfill.top
 +.mizu.pompom.pizza
 +.pomptame.com
 +.choymp.pooldawg.com
@@ -52167,6 +52172,7 @@ v2.fm.n.duokanbox.com
 +.srmdvb.ekohealth.com
 +.ela-3-tnk.com
 +.elasticad.net
++.plausible.elbisebul.com
 +.data.elcomercio.es
 +.adbmetrics.elcomercio.es
 +.sadbmetrics.elcomercio.es
@@ -53587,6 +53593,7 @@ v2.fm.n.duokanbox.com
 +.fs-client-logger.herokuapp.com
 +.onespot-tracking.herokuapp.com
 +.collection-endpoint-prod.herokuapp.com
++.essential-apps-analytics.herokuapp.com
 +.fingerprinter-production.herokuapp.com
 +.collection-endpoint-staging.herokuapp.com
 +.marketing.heronskey.org
@@ -59720,6 +59727,7 @@ ad.winrar.com.cn
 +.wtjsnlwmx.com
 +.wujungexo.net
 +.data-6590696975.wunderweib.de
++.wuwhaigri.xyz
 +.marketing.wvtourism.com
 +.t.wvusports.com
 +.app.wvusports.com
@@ -65704,6 +65712,7 @@ tracker.didiglobal.com
 +.sw88.fxnetworks.com
 +.oms.fxnowcanada.ca
 +.fxrbsadtui.com
++.fxsvifnkts.com
 +.fytaopeurb.com
 +.fzfcrqlwph.com
 +.fzgrpqktmq.com
@@ -68917,6 +68926,7 @@ ivy.pchouse.com.cn
 +.c1.politexpert.ru
 +.clnbze.polskatimes.pl
 +.poltarimus.com
++.polyfill-js.cn
 +.ssc.polygraph.info
 +.b1tow9h4erpw.anur.polymerdev.com
 +.ablink.pomelo.fashion
@@ -74352,6 +74362,7 @@ grs.dbankcloud.asia
 +.yoshmormai.dynamic-dns.net
 +.dzienkudrow.com
 +.dzuowpapvcu.com
++.dzyvhrhdgms.com
 +.e-commercesc.cc
 +.asc.e-conolight.com
 +.e-filesroom.com
@@ -77229,6 +77240,7 @@ material.istreamsche.com
 +.qouxkn.natuurhuisje.nl
 +.naufistuwha.com
 +.navelfletch.com
++.navgewtxakd.com
 +.routes.navibration.com
 +.prod.ew.srp.navigacloud.com
 +.analytics.navyfederal.org
@@ -87905,6 +87917,7 @@ ssl.360antivirus.org
 +.studioomovie.com
 +.a8cv.studycompass.net
 +.stuffedstudy.com
++.stughoamoono.net
 +.stummedperca.top
 +.milk.supertool.stunnermedia.com
 +.stunningruin.com
@@ -88137,6 +88150,7 @@ adclick.tencentmusic.com
 +.smetric.tfgonlineplus.de
 +.tfmkdrcjpcdf.xyz
 +.tgandmotivat.com
++.tgktlgyqsffx.xyz
 +.app.th3rdwave.coffee
 +.merchant-app.th3rdwave.coffee
 +.thaitingsho.info
@@ -94700,6 +94714,7 @@ plausible.joincommunity.xyz
 +.qiuobuixthzcc.com
 +.qlrpbdhwebzpf.com
 +.qlrsrkjloradq.com
++.qmcgamqhhpiqw.com
 +.qmrelvezolarj.top
 +.qmrelvezoljaz.top
 +.qmrelvezookoo.top
@@ -96029,10 +96044,7 @@ plausible.joincommunity.xyz
 +.marketing.trusteedplans.com
 +.trustzonevpn.info
 +.truthvexedben.com
-+.academics-log-compile-kb.trycloudflare.com
-+.bradford-concept-quit-pen.trycloudflare.com
-+.invasion-prisoners-inns-aging.trycloudflare.com
-+.realize-second-evaluation-salad.trycloudflare.com
++.trycloudflare.com
 +.trymysadoroh.site
 +.go.trytactistaff.com
 +.ts134lnki1zd5.pro
@@ -98024,6 +98036,7 @@ plausible.joincommunity.xyz
 +.cpalabtracking.com
 +.cpfclassifieds.com
 +.cpmgatenetwork.com
++.cpmrevenuegate.com
 +.somni.cporotarytools.com
 +.cppkmmthkpttbb.com
 +.cpxinteractive.com
@@ -101745,6 +101758,7 @@ plausible.joincommunity.xyz
 +.stickervillain.com
 +.stickingrepute.com
 +.stickygrandeur.com
++.stockingplaice.com
 +.stockingsneeze.com
 +.stomachscience.com
 +.stopgapdentoid.top
@@ -118369,6 +118383,7 @@ display.360totalsecurity.com
 +.ostensibledressmaker.com
 +.learn.outlierfinancialnews.com
 +.outlookreservebennet.com
++.overcrowdsillyturret.com
 +.overlapflintsidenote.com
 +.overreactsewershaped.com
 +.overwhelmhavingbulky.com
@@ -119792,6 +119807,7 @@ samsungcloudsolution.net
 +.nflxjp.residences-immobilier.com
 +.resignedcamelplumbing.com
 +.respectfulpleaabsolve.com
++.restlesscompeldescend.com
 +.tr.news.retailglobalsolutions.com
 +.retiredfermentgenuine.com
 +.revelationneighbourly.com
@@ -122456,6 +122472,7 @@ samsungcloudsolution.net
 +.bewitchadmiringconstraint.com
 +.biaseddocumentationacross.com
 +.bladessweepunprofessional.com
++.blossomfertilizerproperly.com
 +.hi.bollsen-hearingprotection.com
 +.brandscallioncommonwealth.com
 +.breathtakingdetachwarlock.com

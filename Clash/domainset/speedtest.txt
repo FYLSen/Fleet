@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-08-26T00:25:19.461Z
-# Size: 980
+# Last Updated: 2024-08-29T14:33:38.356Z
+# Size: 981
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -766,6 +766,7 @@ istanbul.verinomidns.com
 speedtest3.vodafone.com.tr
 speedtest2.voicehost.co.uk
 speedtest.webdiscount.net
+speedtest.webturbo.net.br
 speedtest.wifitelekom.com
 speed.xpandtec.com.br
 speedtest.yesilnet.com.tr

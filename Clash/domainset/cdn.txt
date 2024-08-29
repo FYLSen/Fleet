@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-08-29T12:28:46.712Z
-# Size: 2163
+# Last Updated: 2024-08-28T15:50:04.759Z
+# Size: 2190
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -32,6 +32,7 @@ eep.io
 +.permaweb.eu.org
 genesis-cdn.ff.com
 +.gcr.io
++.gcr.si
 cdn.registerdisney.go.com
 +.gw3.io
 i.ibb.co
@@ -189,9 +190,11 @@ images.spot.im
 static-cdn.spot.im
 embed.tawk.to
 embed.ted.com
+cdn.tolt.io
 s3.toot.io
 cdn.tuk.dev
 +.cdn.ubi.com
++.ungh.cc
 cdn.usd.fan
 +.v2ex.co
 registry-cdn.wapm.io
@@ -354,10 +357,13 @@ design-system.yext.com
 cdn.ywxi.net
 webfonts.zoho.com
 www.10086.win
+previews.123rf.com
+assets-cdn.123rf.com
+static-cdn.123rf.com
 e3.365dm.com
 pacdn.500px.org
 drscdn.500px.org
-imgcdn.91pic.org
++.91pic.org
 +.img1.acsta.net
 +.img2.acsta.net
 +.img3.acsta.net
@@ -376,6 +382,7 @@ amp.azure.net
 linuxiac.b-cdn.net
 panel-production-libs.b-cdn.net
 +.hits.b3log.org
+images.bfmtv.com
 img.biguz.net
 static.bit.cloud
 assets.bnidx.com
@@ -455,6 +462,7 @@ assets.ifttt.com
 web-assets.ifttt.com
 +.cdn.imgeng.in
 +.imgix.net
++.imgtp.com
 i.imgur.com
 +.stack.imgur.com
 +.ipfs.infura.io
@@ -578,6 +586,8 @@ cdn-yotpo-images-production.yotpo.com
 +.ytimg.com
 +.9cache.com
 res.abc.net.au
++.glass.adidas.com
++.assets.adidas.com
 +.adtidy.org
 akidoo.top
 +.alexdav.id
@@ -617,6 +627,7 @@ assets.codepen.io
 static.codepen.io
 cpwebassets.codepen.io
 cdn.concert.io
+assets.context.ly
 static.cracked.io
 static.cracked.to
 image.crisp.chat
@@ -658,6 +669,7 @@ thumbs.gfycat.com
 raw.github.com
 +.pkg.github.com
 +.gitpage.si
++.registry.gitplac.si
 +.glbimg.com
 cdn.glitch.com
 s3.go2778.com
@@ -688,6 +700,7 @@ images.idgesg.net
 +.cdn.ifixit.com
 +.iggcdn.com
 +.imgbox.com
++.imgtbl.com
 p.inari.site
 +.ipfscdn.io
 cf.javfree.me
@@ -924,6 +937,7 @@ cdn.datdota.com
 +.daumcdn.net
 +.ipfs.denarius.io
 +.denopkg.com
+s1.divhunt.com
 +.dogehls.xyz
 static.doujins.com
 cdn.download.it
@@ -932,6 +946,7 @@ badbits.dwebops.pub
 +.ebayimg.com
 videos.elephas.app
 +.els-cdn.com
+cdn.embedly.com
 +.espncdn.com
 cdn2.ettoday.net
 static.ettoday.net
@@ -971,6 +986,7 @@ static.heavy-r.com
 pics.hentai.name
 js.hsforms.net
 js-eu1.hsforms.net
++.js.hubspot.com
 +.static2cdn.hubspot.com
 +.cdn2.hubspot.net
 avatars.hubspot.net
@@ -1115,6 +1131,7 @@ unlimited-cdn.waifu2x.net
 +.blob.core.windows.net
 +.file.core.windows.net
 +.workers.dev
++.wpmucdn.com
 cdn.writeas.net
 pics.x-n-x-x.pro
 +.xda-cdn.com
@@ -1322,6 +1339,7 @@ cdn.signalfx.com
 resources-live.sketch.cloud
 static1.smartbear.co
 +.smassets.net
++.smushcdn.com
 static.snapchat.com
 static.socratic.org
 useruploads.socratic.org
@@ -1506,6 +1524,7 @@ assets.openshift.com
 assets.openshift.net
 +.packagist.org
 user-uploads.perchance.org
+cdn.permutive.com
 phishing.army
 s3.picacomic.com
 img.picacomic.com
@@ -1567,16 +1586,19 @@ crl.usertrust.com
 crt.usertrust.com
 ocsp.usertrust.com
 widget.uservoice.com
++.ut-assets.com
 +.video-cdn.net
 assets.videowise.com
 waitlisted.co
 +.s3.wasabisys.com
 s3.eu-central-2.wasabisys.com
+image.westinyou.com
 upload.wikimedia.org
 +.wixstatic.com
 +.files.wordpress.com
 +.xdaimages.com
 cdn.yinghuazy.xyz
+static.zaobao.com.sg
 web-assets.zendesk.co.jp
 assets.zerohedge.com
 +.zohostatic.eu
@@ -1753,6 +1775,7 @@ versionbadg.es
 +.ziffstatic.com
 +.zippyshare.com
 +.zohostatic.com
+assets.aboutamazon.com
 showcase.abovemarket.com
 easylist-downloads.adblockplus.org
 +.addons.business
@@ -1960,6 +1983,7 @@ cdn-media-2.freecodecamp.org
 cdn.hongkongcard.com
 cdn1.identitymind.com
 +.images-iherb.com
++.img-dpreview.com
 spcdn.incartupsell.com
 media.infosec.exchange
 +.jinyingimage.com
@@ -2100,6 +2124,8 @@ vscode-sync.trafficmanager.net
 vscode-sync-insiders.trafficmanager.net
 www.typescriptlang.org
 playgroundcdn.typescriptlang.org
+static.global.visioncritical.com
+assets.visioncritical.net
 talk.washingtonpost.com
 +.yourimageshare.com
 +.azurestaticapps.net
@@ -2125,6 +2151,7 @@ logos.speedtestcustom.com
 assets.the-independent.com
 js.braintreegateway.com
 assets.braintreegateway.com
+rawmarkdown.cloudflareaccess.org
 pkg.cloudflareclient.com
 +.cloudflarestream.com
 +.hscollectedforms.net
