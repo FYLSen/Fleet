@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2024-08-29T14:33:33.570Z
-# Size: 124001
+# Last Updated: 2024-08-30T12:28:18.978Z
+# Size: 124025
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -2395,7 +2395,6 @@ union.dbba.cn
 +.dhlsupplychain.dhl.com
 +.bd.dhsz.cn
 +.1j2n061x3td.www.digi.no
-+.buscascolegios.diit.cl
 +.jelr1.dili.fr
 +.metrics.dish.co
 +.smetrics.dish.co
@@ -4648,6 +4647,7 @@ match.p4p.1688.com
 +.data-0420d605d9.90min.de
 +.track.91app.io
 +.business.92wy.com
++.cdn.ly.9377.com
 +.94lm.com
 +.1.95ye.com
 +.5fm.985fm.ca
@@ -14786,6 +14786,7 @@ img.auction-ads.wpscdn.cn
 +.wrfiwa.ru
 +.wsadad.cn
 +.wsbnk.com
++.soft.wsyhn.com
 +.wtrep.xyz
 +.wty46.com
 +.rwfkzw.wuerth.it
@@ -15944,6 +15945,7 @@ adcloud.jp
 +.t.ajrkm.link
 +.ajrkm1.com
 +.avlcc.ajscdn.com
++.lunse.ajscdn.com
 +.xlvul.ajscdn.com
 +.adright.fs.ak-is2.net
 +.adright.xml.ak-is2.net
@@ -17201,6 +17203,7 @@ fc-feed.cdn.bcebos.com
 +.marketinginfo.clutch.com
 +.clywws.xyz
 +.cmcore.com
++.cmcxmh.com
 +.cmfads.com
 +.cmiega.top
 +.intent.cmo.com.au
@@ -20116,6 +20119,7 @@ events.jianshu.io
 +.kyplpw.com
 +.kytbxcl.cn
 +.t-s.kytril.com
++.kyuxym.xyz
 +.se.kzong.club
 +.kzpizjp.cn
 +.l-agent.me
@@ -21948,6 +21952,7 @@ adres.myaora.net
 +.applink.podimo.com
 +.asp.podlist.de
 +.poflix.com
++.pofmnj.xyz
 +.poinct.com
 +.poined.com
 +.poiwer.com
@@ -22196,6 +22201,7 @@ web.data.pplive.com
 +.qbcmws.xyz
 +.qbhmz3.com
 +.qboywc.xyz
++.qbsday.xyz
 +.media.wave.qburst.com
 +.qcepqj.icu
 +.bd1.qcjslm.com
@@ -22707,6 +22713,7 @@ access-sngapm.qcloud.com
 +.saf-oil.ru
 +.ads.safarme.ir
 +.config.safedk.com
++.ddl.safone.dev
 +.csp.prod.saga.co.uk
 +.collection.saga.co.uk
 +.l.sagafan.jp
@@ -25053,6 +25060,7 @@ migrate.driveapi.micloud.xiaomi.net
 weatherapi.market.xioami.com
 +.xipteq.com
 +.xitesa.uno
++.xiuska.top
 +.xjpmlf.xyz
 +.xketil.com
 +.xkjmjj.com
@@ -32083,6 +32091,7 @@ ad.bn.netease.com
 +.google.trk.oeremil.com
 +.quokka.oeshome.org
 +.oeubqjx.com
++.oewrutk.top
 +.ofclans.com
 +.ofdnkro.xyz
 +.trac.oferting.es
@@ -32418,6 +32427,7 @@ ad.bn.netease.com
 +.get.peoople.app
 +.metric.pepboys.com
 +.metrics.pepboys.com
++.peraarae.nl
 +.marketing.perfarm.com
 +.tr.mail.perial.info
 +.t.perjeta.com
@@ -37014,6 +37024,7 @@ hot.m.shouji.360tpcdn.com
 +.addynamo.net
 +.adelixir.com
 +.beacon.adelphic.com
++.adelphic.net
 +.ademails.com
 +.adengage.com
 +.adentifi.com
@@ -40011,6 +40022,7 @@ jobs.date-fns.org
 +.strack.entegris.com
 +.entterto.com
 +.marketing.envylabs.com
++.epanpano.com
 +.epdcaabh.com
 +.epickeys.com
 +.epitrack.com
@@ -45805,6 +45817,7 @@ click.qianqian.com
 +.sffyrc.ruparupa.com
 +.ruranews.com
 +.rurdauth.net
++.rustmacro.ru
 +.rutebuxe.xyz
 +.ruthwoof.com
 +.ruttwind.com
@@ -46828,6 +46841,7 @@ inte.sogoucdn.com
 +.link.supermama.io
 +.armadillo.superpeak.dk
 +.link.superviz.com
++.collector.superwall.me
 +.a8clk.sure-i.co.jp
 +.surefile.org
 +.analytics.surfline.com
@@ -48947,7 +48961,6 @@ stat.10jqka.com.cn
 +.smetrics.10play.com.au
 +.ablink.media.10play.com.au
 +.123-movies.bz
-+.f.123654987.xyz
 +.12ezo5v60.com
 +.browsermine.12finance.com
 +.browsersurf.12finance.com
@@ -49246,6 +49259,7 @@ stat.10jqka.com.cn
 +.abskursin.com
 +.kbighx.absolventa.de
 +.data-af9f3dfb33.academics.com
++.acasadf112.cn
 +.acbvnliin.com
 +.accecmtrk.com
 +.somni.accenture.com
@@ -56246,6 +56260,7 @@ i1.services.social.microsoft.com
 +.orbengine.com
 +.marketing.orbograph.com
 +.orcjagpox.com
++.orcnakokt.com
 +.a8clk.order-box.net
 +.orest-vlv.com
 +.oreyeshe.info
@@ -59842,6 +59857,7 @@ ad.winrar.com.cn
 +.xtremline.com
 +.mnwor.xuanlishi.com
 +.t1.xuefen.com.cn
++.dedecms.xueshenit.com
 +.a.xuezizhai.com
 +.xukpqemfs.com
 +.xuyanlong1.cn
@@ -61047,6 +61063,7 @@ ad.winrar.com.cn
 +.admanmedia.com
 +.admatic.com.tr
 +.admediatex.net
++.hi.admini.website
 +.info.admtech.com.au
 +.trk.admtoronto.com
 +.adnimation.com
@@ -61335,6 +61352,7 @@ ad.winrar.com.cn
 +.altsforyou.org
 +.altynamoan.com
 +.aluhutmafia.de
++.soulivan.alwaysdata.net
 +.alwingulla.com
 +.am-schedule.ru
 +.a8.amairo-sky.com
@@ -65839,7 +65857,6 @@ tracker.didiglobal.com
 +.info.genialklick.ch
 +.a8clk.geo-arekore.jp
 +.ffrmel.gerryweber.com
-+.get-bundle.fun
 +.log.getadblock.com
 +.ping.getadblock.com
 +.getcdnpix.name
@@ -65886,6 +65903,7 @@ tracker.didiglobal.com
 +.gghmyocmyl.com
 +.ggttbe961.shop
 +.ggttmu853.shop
++.ghjedashb6.fun
 +.ghostshack.net
 +.ghosttardy.com
 +.ghyktyahsb.com
@@ -70213,7 +70231,6 @@ samsungqbe.com
 +.evhvza.sodimac.com.br
 +.soeverbabi.com
 +.mqhuzk.soffadirekt.se
-+.softcatalog.ru
 +.tech.softchoice.com
 +.images.response.softchoice.com
 +.smetrics.softcrylic.com
@@ -70859,7 +70876,6 @@ analytics3.starschina.com
 +.metrics.timberland.com
 +.smetrics.timberland.com
 +.time4gifts.com
-+.53rf.l.time4vps.cloud
 +.ugdcxl.timeout.com.hk
 +.tracker.timesgroup.com
 +.smetrics.timeshares.com
@@ -78309,6 +78325,7 @@ ad-analysis.pconline.com.cn
 +.qoijertneio.com
 +.qokesjxpbds.com
 +.qpmsybxqvlje.ru
++.down.qqfarmer.com.cn
 +.qqfelxqmhoc.com
 +.qqkzjpupluv.com
 +.img1.qqwangming6.com
@@ -81384,6 +81401,7 @@ ssl.360antivirus.org
 +.ajjkmoyjlbjj.top
 +.ajvkakodvgpe.com
 +.invite.ak-ecosystem.com
++.akaroafrypan.com
 +.akgltsptchpq.com
 +.stat-ssl.akiba-souken.com
 +.akjasjanwhif.com
@@ -81710,6 +81728,7 @@ ssl.360antivirus.org
 +.avengeghosts.com
 +.aversionmast.com
 +.avglfookdjuj.com
++.avhduwvirosl.com
 +.pgs.aviationweek.com
 +.trk.aviationweek.com
 +.metrics.aviationweek.com
@@ -96114,6 +96133,7 @@ plausible.joincommunity.xyz
 +.umvibwqrumfqk.com
 +.unamplespalax.com
 +.unazumarillan.com
++.unbeardgorraf.top
 +.unbouncepages.com
 +.e.unchealthcare.org
 +.siewmi.uncommongoods.com
@@ -100570,7 +100590,6 @@ plausible.joincommunity.xyz
 +.opeanresultanc.com
 +.openlysideline.com
 +.openweatherapi.com
-+.tracker.openwebtorrent.com
 +.opponenteaster.com
 +.optidownloader.com
 +.optimizesocial.com
@@ -106512,6 +106531,7 @@ plausible.joincommunity.xyz
 +.tracking-receiver.prod-general.stocard-backend.com
 +.stopaggregation.com
 +.storyrelatively.com
++.storystaffrings.com
 +.strainemergency.com
 +.news.strategiccfo360.com
 +.news.strategiccio360.com
@@ -109540,7 +109560,6 @@ display.360totalsecurity.com
 +.kyb.sticky.oystergardening.name
 +.xkv.sticky.oystergardening.name
 +.alwmu.sticky.oystergardening.name
-+.bfmgw.sticky.oystergardening.name
 +.cczyw.sticky.oystergardening.name
 +.naaok.sticky.oystergardening.name
 +.ozationsuchasric.org
@@ -110022,6 +110041,7 @@ display.360totalsecurity.com
 +.sinceresubstance.com
 +.singulardisplace.com
 +.sixcombatberries.com
++.sjlyasociados.com.ar
 +.skatingpenitence.com
 +.sketchystairwell.com
 +.skilleadservices.com
@@ -117098,6 +117118,7 @@ display.360totalsecurity.com
 +.abp.fans.smalladventureguide.com
 +.wbs.fans.smalladventureguide.com
 +.awod.fans.smalladventureguide.com
++.brva.fans.smalladventureguide.com
 +.ftzc.fans.smalladventureguide.com
 +.nbjo.fans.smalladventureguide.com
 +.yzvg.fans.smalladventureguide.com
@@ -119171,7 +119192,6 @@ samsungcloudsolution.net
 +.tr.cyprusparadiseestates.com
 +.d8acddffe978b5dfcae6.date
 +.daggerwantedliterally.com
-+.dailynewspagechannels.com
 +.darkercoincidentsword.com
 +.z89yxner8h.datsumou-beauty-times.com
 +.daughtersarbourbarrel.com
@@ -120080,6 +120100,7 @@ samsungcloudsolution.net
 +.watchexcellentvids.online
 +.waterfallblessregards.com
 +.wavermerchandiseweird.com
++.websphonedevprivacy.autos
 +.webxacnhankhoanvay247.com
 +.webxacnhankhoanvay24h.com
 +.smetrics.buytickets.westmidlandsrailway.co.uk
@@ -122195,13 +122216,16 @@ samsungcloudsolution.net
 +.preoccupycorrecttalented.com
 +.princessdazzlepeacefully.com
 +.agu.contest.printondemandmerchandise.com
++.aho.contest.printondemandmerchandise.com
 +.vrh.contest.printondemandmerchandise.com
 +.zrs.contest.printondemandmerchandise.com
 +.lgbt.contest.printondemandmerchandise.com
 +.ndwk.contest.printondemandmerchandise.com
 +.oxvs.contest.printondemandmerchandise.com
++.dmglw.contest.printondemandmerchandise.com
 +.ipoil.contest.printondemandmerchandise.com
 +.pllcj.contest.printondemandmerchandise.com
++.wcarw.contest.printondemandmerchandise.com
 +.privateappealingsymphony.com
 +.profitablecreativeformat.com
 +.profitabledisplaycontent.com
