@@ -9,7 +9,7 @@ baidu.com                                                                       
 79j68qav2.com                                                                                       73
 openapp.link                                                                                        69
 qq.com                                                                                              67
-amazonaws.com                                                                                       51
+amazonaws.com                                                                                       52
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -139,6 +139,8 @@ findyourtest.site                                                               
 goguardian.com                                                                                      12
 hienphucuanhanloai.org                                                                              12
 palladiumhotelgroup.com                                                                             12
+printondemandagency.com                                                                             12
+printondemandmerchandise.com                                                                        12
 ricoh.de                                                                                            12
 riteaid.com                                                                                         12
 samsungcloudsolution.com                                                                            12
@@ -163,8 +165,6 @@ mingle.com                                                                      
 motorolasolutions.com                                                                               11
 netapp.com                                                                                          11
 optum.com                                                                                           11
-printondemandagency.com                                                                             11
-printondemandmerchandise.com                                                                        11
 quantresear.ch                                                                                      11
 realmadrid.com                                                                                      11
 sedgwick.com                                                                                        11

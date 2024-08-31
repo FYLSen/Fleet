@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-08-30T12:28:12.448Z
-# Size: 981
+# Last Updated: 2024-08-31T12:26:46.345Z
+# Size: 983
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -423,6 +423,7 @@ speedtest-mel0.encoo.com.au
 speedtest-syd0.encoo.com.au
 speedtest.msk.ertelecom.ru
 speedtest.execulink.ca
+fiberim.site
 speed2.fiberlink.pl
 +.speedtest.frontier.com
 speedtest5.fybercom.net
@@ -858,6 +859,7 @@ srvteste.edntelecom.net.br
 velocidade.exytelecom.com.br
 spd-01.thn.fullfibre.systems
 speedtest.fra01.fusionflare.cloud
+hiztesti.mehmetakif.edu.tr
 teste.mwhtelecom.com.br
 speedtest.myrepublic.com.sg
 medidor.nortelecom.com.br
