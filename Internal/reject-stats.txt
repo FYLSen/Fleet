@@ -1,4 +1,4 @@
-cloudfront.net                                                                                      1219
+cloudfront.net                                                                                      1220
 aomg5bzv7.com                                                                                       275
 windows.com                                                                                         118
 weebly.com                                                                                          116
@@ -122,7 +122,6 @@ alicdn.com                                                                      
 apple.com                                                                                           13
 avaya.com                                                                                           13
 chip.de                                                                                             13
-com.se                                                                                              13
 discoveryplus.com                                                                                   13
 groc.press                                                                                          13
 inhaabit.com                                                                                        13
@@ -135,6 +134,7 @@ vivo.com.cn                                                                     
 zalo.me                                                                                             13
 360safe.com                                                                                         12
 cigna.com                                                                                           12
+com.se                                                                                              12
 findyourtest.site                                                                                   12
 goguardian.com                                                                                      12
 hienphucuanhanloai.org                                                                              12
