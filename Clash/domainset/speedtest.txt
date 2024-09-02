@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Speedtest Domains
-# Last Updated: 2024-09-02T12:29:59.138Z
-# Size: 983
+# Last Updated: 2024-09-02T15:13:34.136Z
+# Size: 988
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -767,6 +767,7 @@ istanbul.verinomidns.com
 speedtest3.vodafone.com.tr
 speedtest2.voicehost.co.uk
 speedtest.webdiscount.net
+speedtestmacapa.webflash.net.br
 speedtest.webturbo.net.br
 speedtest.wifitelekom.com
 speed.xpandtec.com.br
@@ -894,6 +895,7 @@ ber.wsqm.telekom-dienste.de
 ffm.wsqm.telekom-dienste.de
 tkconnectrr.com.br
 ank1speedtest.turktelekom.com.tr
+ant1speedtest.turktelekom.com.tr
 bur1speedtest.turktelekom.com.tr
 esk1speedtest.turktelekom.com.tr
 gay1speedtest.turktelekom.com.tr
@@ -947,6 +949,7 @@ suntechspeedtest.com
 teste.suprainternet.com.br
 teste.tstelecomltda.com.br
 speedtest.visiontelecom.com.br
+speedtest.americatelecom.net.br
 velocidade.conectstelecom.com.br
 teste.ddlsuprimentos.com.br
 speedtest.mirror.digitalpacific.com.au
@@ -959,6 +962,7 @@ st.jnettelecom-am.com.br
 speedtest2.lightningfibre.net.uk
 teste.newsolutionnet.com.br
 speedteste.newsolutionnet.com.br
+speedtest.pinguimtelecom.net.br
 speedtest.absolutevalidation.com
 speedtest.sea.accretive-networks.net
 speedtest.albatroznetwork.com.br
@@ -987,6 +991,7 @@ velocidade.impertechtelecom.com.br
 speedtest.mirror.serversaustralia.com.au
 speedtest.globalfiberbrasil.com.br
 teste.mundialnettelecom.com.br
+aragonnetspeedtest.com.br
 speedtest.centralnetprovedor.net.br
 test.infoconnecttelecom.com.br
 ookla.jgainterlinktelecom.com.br

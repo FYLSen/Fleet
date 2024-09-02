@@ -46,9 +46,9 @@ akamaihd.net                                                                    
 ni.com                                                                                              27
 833enmhob.com                                                                                       26
 flourishpath.online                                                                                 26
+naver.com                                                                                           26
 hsbc.com                                                                                            25
 international-med.com                                                                               25
-naver.com                                                                                           25
 autovistagroup.com                                                                                  24
 intuit.com                                                                                          24
 dlcodes.com                                                                                         23
@@ -198,6 +198,7 @@ ricoh.co.uk                                                                     
 ricoh.fr                                                                                            10
 ringcentral.com                                                                                     10
 ru.com                                                                                              10
+tiktokv.com                                                                                         10
 uc.cn                                                                                               10
 westernunion.com                                                                                    10
 xhamster.com                                                                                        10

@@ -1,6 +1,6 @@
 <?php
 
-// # Build 2024-09-02T12:29:59.158Z
+// # Build 2024-09-02T12:37:48.566Z
 
 declare(strict_types=1);
 
@@ -1834,6 +1834,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,9gag.com,Global',
         'DOMAIN-SUFFIX,aaa.com,Global',
         'DOMAIN-SUFFIX,abc.net.au,Global',
+        'DOMAIN-SUFFIX,acg.mn,Global',
         'DOMAIN-SUFFIX,acg.rip,Global',
         'DOMAIN-SUFFIX,afraid.org,Global',
         'DOMAIN-SUFFIX,akamai.net,Global',
@@ -1887,6 +1888,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,cloudfront.net,Global',
         'DOMAIN-SUFFIX,clubhouse.com,Global',
         'DOMAIN-SUFFIX,clubhouseapi.com,Global',
+        'DOMAIN-SUFFIX,codecov.io,Global',
         'DOMAIN-SUFFIX,codepen.io,Global',
         'DOMAIN-SUFFIX,codesandbox.io,Global',
         'DOMAIN-SUFFIX,coinex.com,Global',
@@ -1903,6 +1905,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,deezer.com,Global',
         'DOMAIN-SUFFIX,deviantart.com,Global',
         'DOMAIN-SUFFIX,deviantart.net,Global',
+        'DOMAIN-SUFFIX,dev.to,Global',
         'DOMAIN-SUFFIX,digitalocean.com,Global',
         'DOMAIN-SUFFIX,dish.com,Global',
         'DOMAIN-SUFFIX,disqus.com,Global',
@@ -1947,6 +1950,8 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,getchu.com,Global',
         'DOMAIN-SUFFIX,gettyimages.com,Global',
         'DOMAIN-SUFFIX,ghostery.com,Global',
+        'DOMAIN-SUFFIX,gitkraken.com,Global',
+        'DOMAIN-SUFFIX,gitkraken.dev,Global',
         'DOMAIN-SUFFIX,godaddy.com,Global',
         'DOMAIN-SUFFIX,go.dev,Global',
         'DOMAIN-SUFFIX,gofundme.com,Global',
@@ -2004,6 +2009,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,mega.co.nz,Global',
         'DOMAIN-SUFFIX,mega.io,Global',
         'DOMAIN-SUFFIX,missav.com,Global',
+        'DOMAIN-SUFFIX,missav.ws,Global',
         'DOMAIN-SUFFIX,misskey.io,Global',
         'DOMAIN-SUFFIX,moegirl.uk,Global',
         'DOMAIN-SUFFIX,mojang.com,Global',
@@ -2064,6 +2070,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,redditmail.com,Global',
         'DOMAIN-SUFFIX,redditmedia.com,Global',
         'DOMAIN-SUFFIX,redditstatic.com,Global',
+        'DOMAIN-SUFFIX,redditspace.com,Global',
         'DOMAIN-SUFFIX,redtube.com,Global',
         'DOMAIN-SUFFIX,redtubepremium.com,Global',
         'DOMAIN-SUFFIX,render.com,Global',
@@ -2091,6 +2098,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,sleazyfork.org,Global',
         'DOMAIN-SUFFIX,slideshare.net,Global',
         'DOMAIN-SUFFIX,sm.ms,Global',
+        'DOMAIN-SUFFIX,softonic.com,Global',
         'DOMAIN-SUFFIX,solidot.org,Global',
         'DOMAIN-SUFFIX,soundcloud.com,Global',
         'DOMAIN-SUFFIX,south-plus.org,Global',
@@ -2101,6 +2109,7 @@ $_ENV['Clash_Group_Config'] = [
         'DOMAIN-SUFFIX,stackblitz.com,Global',
         'DOMAIN-SUFFIX,stackexchange.com,Global',
         'DOMAIN-SUFFIX,stackoverflow.com,Global',
+        'DOMAIN-SUFFIX,startpage.com,Global',
         'DOMAIN-SUFFIX,steamcommunity.com,Global',
         'DOMAIN-SUFFIX,stripchat.com,Global',
         'DOMAIN-SUFFIX,substack.com,Global',

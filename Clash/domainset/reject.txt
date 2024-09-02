@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2024-09-02T12:30:06.248Z
-# Size: 123442
+# Last Updated: 2024-09-02T15:13:28.680Z
+# Size: 123463
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -12657,6 +12657,7 @@ adui.tg.meitu.com
 +.ma.news.naver.com
 +.webtoons.naver.com
 +.er.search.naver.com
++.l.premium.naver.com
 +.logapi.tv.naver.com
 +.bnc-papago.naver.com
 +.shopsquare.naver.com
@@ -31718,8 +31719,7 @@ ads.mojicdn.com
 +.n0gge40o.de
 +.n0v1cdn.com
 +.n2major.com
-+.a.n4m5x60.com
-+.s.n4m5x60.com
++.n4m5x60.com
 +.n9s74npl.de
 +.uhiyvr.na-well.com
 +.naanalle.pl
@@ -34668,6 +34668,7 @@ susapi.dev.surepush.cn
 +.mon.us.tiktokv.com
 +.xlog-va.tiktokv.com
 +.rtc-logger-va.tiktokv.com
++.mcs-va-useast2a.tiktokv.com
 +.tjnffp.tilebar.com
 +.tilttrk.com
 +.tiltwin.com
@@ -39415,6 +39416,7 @@ jobs.date-fns.org
 +.dclfuniv.com
 +.dcommerc.cfd
 +.intranet.dcorp.com.vn
++.stream-log.dditscdn.com
 +.cdn.ddmanager.ru
 +.track.ddmanager.ru
 +.ddnslive.com
@@ -47018,6 +47020,7 @@ inte.sogoucdn.com
 +.static.terratraf.io
 +.link.testbook.com
 +.testda.homes
++.stat.testme.cloud
 +.tet2023.shop
 +.water.tetrapak.com
 +.smetrics.tetrapak.com
@@ -53233,6 +53236,7 @@ v2.fm.n.duokanbox.com
 +.watchtower.graindata.com
 +.grainmass.com
 +.grainshen.com
++.data.grammarly.com
 +.gnar.grammarly.com
 +.treatment.grammarly.com
 +.cms.grandcloud.cn
@@ -64000,6 +64004,7 @@ analytics.bytegiftia.top
 +.a8.cocomeister.jp
 +.dtnmyp.cocotorico.com
 +.codbetakeys.us
++.codeanyapp.com
 +.codeforpsn.com
 +.codeheaven.org
 +.jyuicr.codemonkey.com
@@ -73284,6 +73289,7 @@ applogapi.autohome.com.cn
 +.maliva-mcs.byteoversea.com
 +.byvhtcpfoom.com
 +.native-ads-events-api.c4s-rd.services
++.native-ads-events-api2.c4s-rd.services
 +.pcnphysio-com.ca-eulerian.net
 +.ca-nhan-vpb.com
 +.caanalytics.com
@@ -75359,6 +75365,7 @@ grs.dbankcloud.asia
 +.groupyammer.top
 +.grousanttrk.com
 +.groutsfaham.top
++.groutsukooh.net
 +.growthbuddy.app
 +.llama.growthinkers.nl
 +.grtarpcf963.top
@@ -76562,6 +76569,7 @@ material.istreamsche.com
 +.luckyzombie.com
 +.ludabmanros.com
 +.lugansk-info.ru
++.luhhcodutax.com
 +.metrics.lululemon.co.jp
 +.smetrics.lululemon.co.jp
 +.metrics.lululemon.co.kr
@@ -80962,6 +80970,7 @@ ad-analysis.pconline.com.cn
 +.zouemtjzuae.com
 +.zoxkljeicxi.com
 +.zphgadwnjro.com
++.zpilkesyasa.com
 +.zprelanding.com
 +.zpvsuniqkhj.com
 +.zqdprrzjpcf.com
@@ -84695,6 +84704,7 @@ ssl.360antivirus.org
 +.jjahvmjatfpj.com
 +.jjrhriavdyyp.com
 +.jkwxaryiaoof.com
++.jkyawbabvjeq.top
 +.jkyawbabvrjl.top
 +.jlbgyksbvdqj.com
 +.jlcvoastmbsk.com
@@ -86552,6 +86562,7 @@ ssl.360antivirus.org
 +.t.powerreviews.com
 +.metrics.powerreviews.com
 +.poxcgxylozny.com
++.ppnnnuluvyaj.com
 +.ppoommhizazn.com
 +.pqotwscxucvn.com
 +.pr-linktausch.de
@@ -88200,6 +88211,7 @@ adclick.tencentmusic.com
 +.adebis.toitoitoi.clinic
 +.aznmpb.tokyu-land.co.jp
 +.tolverhyple.info
++.tomcodlachsa.com
 +.t.tommiesports.com
 +.a8cv.tomodachi-my.com
 +.toneincludes.com
@@ -88617,6 +88629,7 @@ adclick.tencentmusic.com
 +.uvipbmrzlram.com
 +.uvrecussing.shop
 +.uvzomxvbpbgo.com
++.uyoeybufozsp.com
 +.dkrxls.uzaktangelir.com
 +.v100homemade.com
 +.sloth.vaalinstudio.com
@@ -91695,6 +91708,7 @@ stat.zuimeitianqi.com
 +.flickerbridge.com
 +.flickerworlds.com
 +.flickyoutsail.top
++.fliffusparaph.com
 +.smetrics.flightnetwork.com
 +.flimsythought.com
 +.flippantguilt.com
@@ -93602,6 +93616,7 @@ plausible.joincommunity.xyz
 +.asd.my-downloader.com
 +.track.my-gardenshop.com
 +.app.nissan.my-nissan-usa.com
++.myaceaeudist.shop
 +.xml.myadcampaigns.com
 +.static.myadcampaigns.com
 +.cdn.myadmessenger.com
@@ -96890,6 +96905,7 @@ plausible.joincommunity.xyz
 +.info.ascassociation.org
 +.img.ascontentcloud.com
 +.tools.ascontentcloud.com
++.asdidmakingby.info
 +.asgorebysschan.com
 +.campaigns.ashfieldengage.com
 +.ashionismscol.info
@@ -105079,6 +105095,7 @@ plausible.joincommunity.xyz
 +.partner.nejlepsi-darecky.cz
 +.nenectedithcon.info
 +.www.nepinplainsight.com
++.neropolicycreat.com
 +.nesfspublicate.info
 +.netapplications.com
 +.netcrew-analysis.jp
@@ -107086,6 +107103,7 @@ display.360totalsecurity.com
 +.tkr.americanhealthy.site
 +.images.excellence.americanregistry.com
 +.amicleara.amicleardeals.online
++.aminitymilling.click
 +.amountdonutproxy.com
 +.amplayeranydwou.info
 +.amplitudesheriff.com
@@ -109114,6 +109132,7 @@ display.360totalsecurity.com
 +.content.palighttrimboard.com
 +.sstats.paloaltonetworks.com
 +.panowiesnarled.click
++.pantheatincted.click
 +.pantomimecattish.com
 +.paperclipservice.com
 +.papilio3glauecus.com
@@ -109647,6 +109666,7 @@ display.360totalsecurity.com
 +.spaceshipgenuine.com
 +.spannercopyright.com
 +.sparklespaghetti.com
++.sparklingfailure.com
 +.go.spartansolutions.com
 +.specialoffersnow.net
 +.specialstatement.com
@@ -109821,6 +109841,7 @@ display.360totalsecurity.com
 +.tastednavigation.com
 +.tastesnlynotqui.info
 +.content.tatatelebusiness.com
++.tatsmanoculate.click
 +.taxiconsiderable.com
 +.teachingcosmetic.com
 +.teamspeakplugins.com
