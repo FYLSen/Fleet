@@ -1,4 +1,4 @@
-cloudfront.net                                                                                      1220
+cloudfront.net                                                                                      1219
 aomg5bzv7.com                                                                                       275
 windows.com                                                                                         118
 weebly.com                                                                                          116
@@ -9,7 +9,7 @@ baidu.com                                                                       
 79j68qav2.com                                                                                       74
 openapp.link                                                                                        69
 qq.com                                                                                              67
-amazonaws.com                                                                                       52
+amazonaws.com                                                                                       51
 eccocar.com                                                                                         51
 taobao.com                                                                                          47
 youku.com                                                                                           47
@@ -48,7 +48,6 @@ ni.com                                                                          
 flourishpath.online                                                                                 26
 naver.com                                                                                           26
 hsbc.com                                                                                            25
-international-med.com                                                                               25
 autovistagroup.com                                                                                  24
 intuit.com                                                                                          24
 dlcodes.com                                                                                         23
@@ -66,6 +65,7 @@ aon.com                                                                         
 coca-cola.com                                                                                       20
 fupa.net                                                                                            20
 herokuapp.com                                                                                       20
+international-med.com                                                                               20
 jessicabarrett.com                                                                                  20
 moethennessy.com                                                                                    20
 microcloud360.com                                                                                   19
@@ -151,6 +151,7 @@ yandex.net                                                                      
 53.com                                                                                              11
 averydennison.com                                                                                   11
 byteoversea.com                                                                                     11
+cdn77.org                                                                                           11
 coniferhealth.com                                                                                   11
 cresa.com                                                                                           11
 go.com                                                                                              11
@@ -176,7 +177,6 @@ aotter.net                                                                      
 auction.co.kr                                                                                       10
 azureedge.net                                                                                       10
 blogspot.com                                                                                        10
-cdn77.org                                                                                           10
 engie.fr                                                                                            10
 fastly.net                                                                                          10
 gloriadeicr.com                                                                                     10
