@@ -15,7 +15,7 @@ export interface DNSMapping {
   domains: string[]
 }
 
-export const DIRECTS: Record<string, DNSMapping> = {
+export const DIRECTS = {
   HOTSPOT_CAPTIVE_PORTAL: {
     dns: 'system',
     hosts: {},
@@ -26,6 +26,25 @@ export const DIRECTS: Record<string, DNSMapping> = {
       '$hotspot.cslwifi.com'
     ]
   },
+  SYSTEM: {
+    dns: 'system',
+    hosts: {},
+    realip: true,
+    domains: [
+      '+m2m',
+      // '+ts.net', // TailScale Magic DNS
+      // AdGuard
+      '$injections.adguard.org',
+      '$local.adguard.org',
+      // Auto Discovery
+      '+_tcp',
+      '+bogon',
+      '+_msdcs'
+    ]
+  }
+} as const satisfies Record<string, DNSMapping>;
+
+export const LAN = {
   ROUTER: {
     dns: 'system',
     hosts: {},
@@ -83,22 +102,6 @@ export const DIRECTS: Record<string, DNSMapping> = {
       // 'web.setup'
     ]
   },
-  SYSTEM: {
-    dns: 'system',
-    hosts: {},
-    realip: true,
-    domains: [
-      '+m2m',
-      // '+ts.net', // TailScale Magic DNS
-      // AdGuard
-      '$injections.adguard.org',
-      '$local.adguard.org',
-      // Auto Discovery
-      '+_tcp',
-      '+bogon',
-      '+_msdcs'
-    ]
-  },
   LAN: {
     dns: 'system',
     hosts: {
@@ -134,4 +137,4 @@ export const DIRECTS: Record<string, DNSMapping> = {
       '254.169.in-addr.arpa'
     ]
   }
-};
+} as const satisfies Record<string, DNSMapping>;
