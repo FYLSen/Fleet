@@ -258,7 +258,7 @@ const FOX_NOW: StreamService = {
 const FOX_PLUS: StreamService = {
   name: 'Fox+',
   rules: [
-    'DOMAIN,dashasiafox.akamaized.netflix',
+    'DOMAIN,dashasiafox.akamaized.net',
     'DOMAIN,staticasiafox.akamaized.net',
 
     'DOMAIN-SUFFIX,foxplus.com',
@@ -281,8 +281,8 @@ const HBO: StreamService = {
     'DOMAIN-SUFFIX,hbomax.com',
     'DOMAIN-SUFFIX,hbomaxcdn.com',
 
-    'USER-AGENT,Max',
-    'PROCESS-NAME,com.wbd.stream',
+    // 'USER-AGENT,Max',
+    // 'PROCESS-NAME,com.wbd.stream',
     'DOMAIN-SUFFIX,max.com',
     'DOMAIN-SUFFIX,discomax.com'
   ]
@@ -297,25 +297,24 @@ const HBO_ASIA: StreamService = {
     'DOMAIN-KEYWORD,.hbogoasia.',
 
     'DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com',
-    'DOMAIN,bcbolthboa-a.akamaihd.net',
-    'DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net',
-    'DOMAIN,dai3fd1oh325y.cloudfront.net',
-    'DOMAIN,hboasia1-i.akamaihd.net',
-    'DOMAIN,hboasia2-i.akamaihd.net',
-    'DOMAIN,hboasia3-i.akamaihd.net',
-    'DOMAIN,hboasia4-i.akamaihd.net',
-    'DOMAIN,hboasia5-i.akamaihd.net',
-    'DOMAIN,hbogoprod-vod.akamaized.net',
+    // 'DOMAIN,bcbolthboa-a.akamaihd.net',
+    // 'DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net',
+    // 'DOMAIN,dai3fd1oh325y.cloudfront.net',
+    // 'DOMAIN,hboasia1-i.akamaihd.net',
+    // 'DOMAIN,hboasia2-i.akamaihd.net',
+    // 'DOMAIN,hboasia3-i.akamaihd.net',
+    // 'DOMAIN,hboasia4-i.akamaihd.net',
+    // 'DOMAIN,hboasia5-i.akamaihd.net',
+    // 'DOMAIN,hbogoprod-vod.akamaized.net',
     'DOMAIN,manifest.prod.boltdns.net',
     'DOMAIN,players.brightcove.net',
-    'DOMAIN,s3-ap-southeast-1.amazonaws.com',
-    'DOMAIN,hboasialive.akamaized.net',
+    // 'DOMAIN,hboasialive.akamaized.net',
     'DOMAIN,hbounify-prod.evergent.com',
-    'DOMAIN,hbolb.onwardsmg.com',
+    'DOMAIN,hbolb.onwardsmg.com'
 
-    'USER-AGENT,HBO GO PROD HKG*',
+    // 'USER-AGENT,HBO GO PROD HKG*',
 
-    'USER-AGENT,HBO*'
+    // 'USER-AGENT,HBO*'
   ]
 };
 
