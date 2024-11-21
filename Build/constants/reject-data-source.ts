@@ -1,5 +1,7 @@
 import { TTL } from '../lib/cache-filesystem';
 
+export const DEBUG_DOMAIN_TO_FIND: string | null = null; // example.com | null
+
 type HostsSource = [main: string, mirrors: string[] | null, includeAllSubDomain: boolean, ttl: number];
 
 export const HOSTS: HostsSource[] = [
@@ -405,5 +407,6 @@ export const PREDEFINED_WHITELIST = [
   '.host.secureserver.net', // rDNS .64.149.167.72.host.secureserver.net,
   '.ip.linodeusercontent.com', // rDNS 45-79-169-153.ip.linodeusercontent.com
   '.shoppy.gg', // Spam404
-  'transcend-cdn.com' // AdGuard Annoyances
+  'transcend-cdn.com', // AdGuard Annoyances
+  'store1.gofile.io' // Dandelion Sprout's Annoyances List
 ];
