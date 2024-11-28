@@ -46,9 +46,8 @@ process.on('unhandledRejection', (reason) => {
   console.log(`V8: ${process.versions.v8}`);
 
   const cpus = os.cpus()
-    .map(cpu => cpu.model)
-    .reduce<Record<string, number>>((o, model) => {
-      o[model] = (o[model] || 0) + 1;
+    .reduce<Record<string, number>>((o, cpu) => {
+      o[cpu.model] = (o[cpu.model] || 0) + 1;
       return o;
     }, {});
 
@@ -114,9 +113,10 @@ process.on('unhandledRejection', (reason) => {
       downloadMockAssetsPromise
     ]);
 
-    await buildDeprecateFiles(rootSpan);
-    await buildPublic(rootSpan);
-    await cacheGc(rootSpan);
+    await Promise.all([
+      buildDeprecateFiles(rootSpan).then(() => buildPublic(rootSpan)),
+      cacheGc(rootSpan)
+    ]);
 
     rootSpan.stop();
 
