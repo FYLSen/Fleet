@@ -1,13 +1,13 @@
 import { merge } from 'fast-cidr-tools';
 import type { Span } from '../../trace';
-import createKeywordFilter from '../aho-corasick';
+import { createAhoCorasick as createKeywordFilter } from 'foxts/ahocorasick';
 import { appendArrayInPlace } from '../append-array-in-place';
 import { appendSetElementsToArray } from 'foxts/append-set-elements-to-array';
 import type { SingboxSourceFormat } from '../singbox';
 import { RuleOutput } from './base';
 import picocolors from 'picocolors';
 import { normalizeDomain } from '../normalize-domain';
-import { isProbablyIpv4, isProbablyIpv6 } from '../is-fast-ip';
+import { isProbablyIpv4, isProbablyIpv6 } from 'foxts/is-probably-ip';
 
 type Preprocessed = [domain: string[], domainSuffix: string[], sortedDomainRules: string[]];
 
@@ -23,13 +23,13 @@ export class RulesetOutput extends RuleOutput<Preprocessed> {
     const domainSuffixes: string[] = [];
     const sortedDomainRules: string[] = [];
 
-    this.domainTrie.dump((domain) => {
+    this.domainTrie.dumpWithoutDot((domain, includeAllSubdomain) => {
       if (kwfilter(domain)) {
         return;
       }
-      if (domain[0] === '.') {
-        domainSuffixes.push(domain.slice(1));
-        sortedDomainRules.push(`DOMAIN-SUFFIX,${domain.slice(1)}`);
+      if (includeAllSubdomain) {
+        domainSuffixes.push(domain);
+        sortedDomainRules.push(`DOMAIN-SUFFIX,${domain}`);
       } else {
         domains.push(domain);
         sortedDomainRules.push(`DOMAIN,${domain}`);

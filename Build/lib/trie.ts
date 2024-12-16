@@ -4,9 +4,9 @@
 
 import { fastStringCompare } from './misc';
 import util from 'node:util';
-import { noop } from 'foxact/noop';
+import { noop } from 'foxts/noop';
 import { fastStringArrayJoin } from 'foxts/fast-string-array-join';
-import FIFO from './fifo';
+import FIFO from 'fast-fifo';
 
 type TrieNode<Meta = any> = [
   boolean, /** end */
@@ -38,12 +38,12 @@ function deepTrieNodeToJSON(node: TrieNode,
 
 const createNode = <Meta = any>(allSubdomain = false, parent: TrieNode | null = null): TrieNode => [false, allSubdomain, parent, new Map<string, TrieNode>(), null] as TrieNode<Meta>;
 
-export function hostnameToTokens(hostname: string): string[] {
+export function hostnameToTokens(hostname: string, hostnameFromIndex: number): string[] {
   const tokens = hostname.split('.');
   const results: string[] = [];
   let token = '';
 
-  for (let i = 0, l = tokens.length; i < l; i++) {
+  for (let i = hostnameFromIndex, l = tokens.length; i < l; i++) {
     token = tokens[i];
     if (token.length > 0) {
       results.push(token);
@@ -53,7 +53,7 @@ export function hostnameToTokens(hostname: string): string[] {
   return results;
 }
 
-function walkHostnameTokens(hostname: string, onToken: (token: string) => boolean | null): boolean | null {
+function walkHostnameTokens(hostname: string, onToken: (token: string) => boolean | null, hostnameFromIndex: number): boolean | null {
   const tokens = hostname.split('.');
 
   const l = tokens.length - 1;
@@ -61,7 +61,7 @@ function walkHostnameTokens(hostname: string, onToken: (token: string) => boolea
   // we are at the first of hostname, no splitor there
   let token = '';
 
-  for (let i = l; i >= 0; i--) {
+  for (let i = l; i >= hostnameFromIndex; i--) {
     token = tokens[i];
     if (token.length > 0) {
       const t = onToken(token);
@@ -104,7 +104,7 @@ abstract class Triebase<Meta = any> {
     }
   }
 
-  public abstract add(suffix: string, includeAllSubdomain?: boolean, meta?: Meta): void;
+  public abstract add(suffix: string, includeAllSubdomain?: boolean, meta?: Meta, hostnameFromIndex?: number): void;
 
   protected walkIntoLeafWithTokens(
     tokens: string[],
@@ -138,6 +138,7 @@ abstract class Triebase<Meta = any> {
 
   protected walkIntoLeafWithSuffix(
     suffix: string,
+    hostnameFromIndex: number,
     onLoop: (node: TrieNode, parent: TrieNode, token: string) => void = noop
   ) {
     let node: TrieNode = this.$root;
@@ -161,7 +162,7 @@ abstract class Triebase<Meta = any> {
       return false;
     };
 
-    if (walkHostnameTokens(suffix, onToken) === null) {
+    if (walkHostnameTokens(suffix, onToken, hostnameFromIndex) === null) {
       return null;
     }
 
@@ -169,10 +170,9 @@ abstract class Triebase<Meta = any> {
   };
 
   public contains(suffix: string, includeAllSubdomain = suffix[0] === '.'): boolean {
-    if (suffix[0] === '.') {
-      suffix = suffix.slice(1);
-    }
-    const res = this.walkIntoLeafWithSuffix(suffix);
+    const hostnameFromIndex = suffix[0] === '.' ? 1 : 0;
+
+    const res = this.walkIntoLeafWithSuffix(suffix, hostnameFromIndex);
     if (!res) return false;
     if (includeAllSubdomain) return res.node[1];
     return true;
@@ -181,14 +181,14 @@ abstract class Triebase<Meta = any> {
   private static bfsResults: [node: TrieNode | null, suffix: string[]] = [null, []];
 
   private static bfs<Meta>(this: void, nodeStack: FIFO<TrieNode<Meta>>, suffixStack: FIFO<string[]>) {
-    const node = nodeStack.dequeue()!;
-    const suffix = suffixStack.dequeue()!;
+    const node = nodeStack.shift()!;
+    const suffix = suffixStack.shift()!;
 
     node[3].forEach((childNode, k) => {
       // Pushing the child node to the stack for next iteration of DFS
-      nodeStack.enqueue(childNode);
+      nodeStack.push(childNode);
 
-      suffixStack.enqueue([k, ...suffix]);
+      suffixStack.push([k, ...suffix]);
     });
 
     Triebase.bfsResults[0] = node;
@@ -198,8 +198,8 @@ abstract class Triebase<Meta = any> {
   }
 
   private static bfsWithSort<Meta>(this: void, nodeStack: FIFO<TrieNode<Meta>>, suffixStack: FIFO<string[]>) {
-    const node = nodeStack.dequeue()!;
-    const suffix = suffixStack.dequeue()!;
+    const node = nodeStack.shift()!;
+    const suffix = suffixStack.shift()!;
 
     if (node[3].size) {
       const keys = Array.from(node[3].keys()).sort(Triebase.compare);
@@ -209,8 +209,8 @@ abstract class Triebase<Meta = any> {
         const childNode = node[3].get(key)!;
 
         // Pushing the child node to the stack for next iteration of DFS
-        nodeStack.enqueue(childNode);
-        suffixStack.enqueue([key, ...suffix]);
+        nodeStack.push(childNode);
+        suffixStack.push([key, ...suffix]);
       }
     }
 
@@ -229,11 +229,11 @@ abstract class Triebase<Meta = any> {
     const bfsImpl = withSort ? Triebase.bfsWithSort : Triebase.bfs;
 
     const nodeStack = new FIFO<TrieNode<Meta>>();
-    nodeStack.enqueue(initialNode);
+    nodeStack.push(initialNode);
 
     // Resolving initial string (begin the start of the stack)
     const suffixStack = new FIFO<string[]>();
-    suffixStack.enqueue(initialSuffix);
+    suffixStack.push(initialSuffix);
 
     let node: TrieNode<Meta> = initialNode;
     let r;
@@ -247,7 +247,7 @@ abstract class Triebase<Meta = any> {
       if (node[0]) {
         onMatches(suffix, node[1], node[4]);
       }
-    } while (nodeStack.size);
+    } while (nodeStack.length);
   };
 
   static compare(this: void, a: string, b: string) {
@@ -261,17 +261,17 @@ abstract class Triebase<Meta = any> {
     initialSuffix: string[] = []
   ) {
     const nodeStack = new FIFO<TrieNode<Meta>>();
-    nodeStack.enqueue(initialNode);
+    nodeStack.push(initialNode);
 
     // Resolving initial string (begin the start of the stack)
     const suffixStack = new FIFO<string[]>();
-    suffixStack.enqueue(initialSuffix);
+    suffixStack.push(initialSuffix);
 
     let node: TrieNode<Meta> = initialNode;
 
     do {
-      node = nodeStack.dequeue()!;
-      const suffix = suffixStack.dequeue()!;
+      node = nodeStack.shift()!;
+      const suffix = suffixStack.shift()!;
 
       if (node[3].size) {
         const keys = Array.from(node[3].keys()).sort(Triebase.compare);
@@ -281,8 +281,8 @@ abstract class Triebase<Meta = any> {
           const childNode = node[3].get(key)!;
 
           // Pushing the child node to the stack for next iteration of DFS
-          nodeStack.enqueue(childNode);
-          suffixStack.enqueue([key, ...suffix]);
+          nodeStack.push(childNode);
+          suffixStack.push([key, ...suffix]);
         }
       }
 
@@ -290,7 +290,7 @@ abstract class Triebase<Meta = any> {
       if (node[0]) {
         onMatches(suffix, node[1], node[4]);
       }
-    } while (nodeStack.size);
+    } while (nodeStack.length);
   };
 
   protected getSingleChildLeaf(tokens: string[]): FindSingleChildLeafResult<Meta> | null {
@@ -330,14 +330,11 @@ abstract class Triebase<Meta = any> {
    */
   public find(
     inputSuffix: string,
-    subdomainOnly = inputSuffix[0] === '.'
+    subdomainOnly = inputSuffix[0] === '.',
+    hostnameFromIndex = inputSuffix[0] === '.' ? 1 : 0
     // /** @default true */ includeEqualWithSuffix = true
   ): string[] {
-    if (inputSuffix[0] === '.') {
-      inputSuffix = inputSuffix.slice(1);
-    }
-
-    const inputTokens = hostnameToTokens(inputSuffix);
+    const inputTokens = hostnameToTokens(inputSuffix, hostnameFromIndex);
     const res = this.walkIntoLeafWithTokens(inputTokens);
     if (res === null) return [];
 
@@ -346,7 +343,7 @@ abstract class Triebase<Meta = any> {
     const onMatches = subdomainOnly
       ? (suffix: string[], subdomain: boolean) => { // fast path (default option)
         const d = fastStringArrayJoin(suffix, '.');
-        if (!subdomain && d === inputSuffix) return;
+        if (!subdomain && subStringEqual(inputSuffix, d, 1)) return;
 
         results.push(subdomain ? '.' + d : d);
       }
@@ -368,7 +365,7 @@ abstract class Triebase<Meta = any> {
    * Method used to delete a prefix from the trie.
    */
   public remove(suffix: string): boolean {
-    const res = this.getSingleChildLeaf(hostnameToTokens(suffix));
+    const res = this.getSingleChildLeaf(hostnameToTokens(suffix, 0));
     if (res === null) return false;
 
     if (!res.node[0]) return false;
@@ -392,17 +389,27 @@ abstract class Triebase<Meta = any> {
    * Method used to assert whether the given prefix exists in the Trie.
    */
   public has(suffix: string, includeAllSubdomain = suffix[0] === '.'): boolean {
-    if (suffix[0] === '.') {
-      suffix = suffix.slice(1);
-    }
+    const hostnameFromIndex = suffix[0] === '.' ? 1 : 0;
 
-    const res = this.walkIntoLeafWithSuffix(suffix);
+    const res = this.walkIntoLeafWithSuffix(suffix, hostnameFromIndex);
 
     if (res === null) return false;
     if (!res.node[0]) return false;
     if (includeAllSubdomain) return res.node[1];
     return true;
   };
+
+  public dumpWithoutDot(onSuffix: (suffix: string, subdomain: boolean) => void, withSort = false) {
+    const handleSuffix = (suffix: string[], subdomain: boolean) => {
+      onSuffix(fastStringArrayJoin(suffix, '.'), subdomain);
+    };
+
+    if (withSort) {
+      this.walkWithSort(handleSuffix);
+    } else {
+      this.walk(handleSuffix);
+    }
+  }
 
   public dump(onSuffix: (suffix: string) => void, withSort?: boolean): void;
   public dump(onSuffix?: null, withSort?: boolean): string[];
@@ -485,13 +492,9 @@ abstract class Triebase<Meta = any> {
 export class HostnameSmolTrie<Meta = any> extends Triebase<Meta> {
   public smolTree = true;
 
-  add(suffix: string, includeAllSubdomain = suffix[0] === '.', meta?: Meta): void {
+  add(suffix: string, includeAllSubdomain = suffix[0] === '.', meta?: Meta, hostnameFromIndex = suffix[0] === '.' ? 1 : 0): void {
     let node: TrieNode<Meta> = this.$root;
     let curNodeChildren: Map<string, TrieNode<Meta>> = node[3];
-
-    if (suffix[0] === '.') {
-      suffix = suffix.slice(1);
-    }
 
     const onToken = (token: string) => {
       curNodeChildren = node[3];
@@ -512,7 +515,7 @@ export class HostnameSmolTrie<Meta = any> extends Triebase<Meta> {
     };
 
     // When walkHostnameTokens returns true, we should skip the rest
-    if (walkHostnameTokens(suffix, onToken)) {
+    if (walkHostnameTokens(suffix, onToken, hostnameFromIndex)) {
       return;
     }
 
@@ -539,12 +542,8 @@ export class HostnameSmolTrie<Meta = any> extends Triebase<Meta> {
     node[4] = meta!;
   }
 
-  public whitelist(suffix: string, includeAllSubdomain = suffix[0] === '.') {
-    if (suffix[0] === '.') {
-      suffix = suffix.slice(1);
-    }
-
-    const tokens = hostnameToTokens(suffix);
+  public whitelist(suffix: string, includeAllSubdomain = suffix[0] === '.', hostnameFromIndex = suffix[0] === '.' ? 1 : 0) {
+    const tokens = hostnameToTokens(suffix, hostnameFromIndex);
     const res = this.getSingleChildLeaf(tokens);
 
     if (res === null) return;
@@ -579,7 +578,7 @@ export class HostnameTrie<Meta = any> extends Triebase<Meta> {
     return this.$size;
   }
 
-  add(suffix: string, includeAllSubdomain = suffix[0] === '.', meta?: Meta): void {
+  add(suffix: string, includeAllSubdomain = suffix[0] === '.', meta?: Meta, hostnameFromIndex = suffix[0] === '.' ? 1 : 0): void {
     let node: TrieNode<Meta> = this.$root;
 
     const onToken = (token: string) => {
@@ -594,12 +593,8 @@ export class HostnameTrie<Meta = any> extends Triebase<Meta> {
       return false;
     };
 
-    if (suffix[0] === '.') {
-      suffix = suffix.slice(1);
-    }
-
     // When walkHostnameTokens returns true, we should skip the rest
-    if (walkHostnameTokens(suffix, onToken)) {
+    if (walkHostnameTokens(suffix, onToken, hostnameFromIndex)) {
       return;
     }
 
@@ -615,17 +610,6 @@ export class HostnameTrie<Meta = any> extends Triebase<Meta> {
   }
 }
 
-export function createTrie<Meta = any>(from: string[] | Set<string> | null, smolTree: true): HostnameSmolTrie<Meta>;
-export function createTrie<Meta = any>(from?: string[] | Set<string> | null, smolTree?: false): HostnameTrie<Meta>;
-export function createTrie<_Meta = any>(from?: string[] | Set<string> | null, smolTree = true) {
-  if (smolTree) {
-    return new HostnameSmolTrie(from);
-  }
-  return new HostnameTrie(from);
-};
-
-export type Trie = ReturnType<typeof createTrie>;
-
 // function deepEqualArray(a: string[], b: string[]) {
 //   let len = a.length;
 //   if (len !== b.length) return false;
@@ -634,3 +618,10 @@ export type Trie = ReturnType<typeof createTrie>;
 //   }
 //   return true;
 // };
+
+function subStringEqual(needle: string, haystack: string, needleIndex = 0) {
+  for (let i = 0, l = haystack.length; i < l; i++) {
+    if (needle[i + needleIndex] !== haystack[i]) return false;
+  }
+  return true;
+}

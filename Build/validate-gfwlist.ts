@@ -7,7 +7,7 @@ import { readFileByLine } from './lib/fetch-text-by-line';
 import path from 'node:path';
 import { OUTPUT_SURGE_DIR } from './constants/dir';
 import { $fetch } from './lib/make-fetch-happen';
-import createKeywordFilter from './lib/aho-corasick';
+import { createAhoCorasick as createKeywordFilter } from 'foxts/ahocorasick';
 
 export async function parseGfwList() {
   const whiteSet = new Set<string>();
@@ -64,7 +64,7 @@ export async function parseGfwList() {
     trie.add(l);
   }
 
-  const res = await (await $fetch('https://litter.catbox.moe/wed48e.csv', {
+  const res = await (await $fetch('https://litter.catbox.moe/sqmgyn.csv', {
     headers: {
       accept: '*/*',
       'user-agent': 'curl/8.9.1'
@@ -129,7 +129,7 @@ export async function parseGfwList() {
     }
   }
 
-  console.log(JSON.stringify(Array.from(missingTop10000Gfwed)), null, 2);
+  console.log(JSON.stringify(Array.from(missingTop10000Gfwed), null, 2));
 
   return [
     whiteSet,

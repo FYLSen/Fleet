@@ -4,7 +4,7 @@ import { HostnameSmolTrie } from '../trie';
 import stringify from 'json-stringify-pretty-compact';
 import path from 'node:path';
 import { withBannerArray } from '../misc';
-import { invariant } from 'foxact/invariant';
+import { invariant } from 'foxts/guard';
 import picocolors from 'picocolors';
 import fs from 'node:fs';
 import { writeFile } from '../misc';
@@ -100,14 +100,14 @@ export abstract class RuleOutput<TPreprocessed = unknown> {
     for (let i = 0, len = domains.length; i < len; i++) {
       d = domains[i];
       if (d !== null) {
-        this.addDomain(d);
+        this.domainTrie.add(d, false, null, 0);
       }
     }
     return this;
   }
 
-  addDomainSuffix(domain: string) {
-    this.domainTrie.add(domain, true);
+  addDomainSuffix(domain: string, lineFromDot = domain[0] === '.') {
+    this.domainTrie.add(domain, true, lineFromDot ? 1 : 0);
     return this;
   }
 
@@ -126,9 +126,9 @@ export abstract class RuleOutput<TPreprocessed = unknown> {
   private async addFromDomainsetPromise(source: AsyncIterable<string> | Iterable<string> | string[]) {
     for await (const line of source) {
       if (line[0] === '.') {
-        this.addDomainSuffix(line);
+        this.addDomainSuffix(line, true);
       } else {
-        this.addDomain(line);
+        this.domainTrie.add(line, false, null, 0);
       }
     }
   }
@@ -147,10 +147,10 @@ export abstract class RuleOutput<TPreprocessed = unknown> {
 
       switch (type) {
         case 'DOMAIN':
-          this.addDomain(value);
+          this.domainTrie.add(value, false, null, 0);
           break;
         case 'DOMAIN-SUFFIX':
-          this.addDomainSuffix(value);
+          this.addDomainSuffix(value, false);
           break;
         case 'DOMAIN-KEYWORD':
           this.addDomainKeyword(value);
@@ -242,7 +242,7 @@ export abstract class RuleOutput<TPreprocessed = unknown> {
     return this;
   }
 
-  protected abstract preprocess(): NonNullable<TPreprocessed>;
+  protected abstract preprocess(): TPreprocessed extends null ? null : NonNullable<TPreprocessed>;
 
   async done() {
     await this.pendingPromise;
@@ -258,13 +258,17 @@ export abstract class RuleOutput<TPreprocessed = unknown> {
   }
 
   private $$preprocessed: TPreprocessed | null = null;
-  get $preprocessed() {
+  protected runPreprocess() {
     if (this.$$preprocessed === null) {
       this.guardPendingPromise();
 
       this.$$preprocessed = this.span.traceChildSync('preprocess', () => this.preprocess());
     }
-    return this.$$preprocessed;
+  }
+
+  get $preprocessed(): TPreprocessed extends null ? null : NonNullable<TPreprocessed> {
+    this.runPreprocess();
+    return this.$$preprocessed as any;
   }
 
   async writeClash(outputDir?: null | string) {
