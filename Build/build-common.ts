@@ -23,13 +23,6 @@ export const buildCommon = task(require.main === module, __filename)(async (span
 
   const paths = await new Fdir()
     .withRelativePaths()
-    // .exclude((dirName, dirPath) => {
-    //   if (dirName === 'domainset' || dirName === 'ip' || dirName === 'non_ip') {
-    //     return false;
-    //   }
-    //   console.error(picocolors.red(`[build-comman] Unknown dir: ${dirPath}`));
-    //   return true;
-    // })
     .filter((filepath, isDirectory) => {
       if (isDirectory) return true;
 
@@ -152,7 +145,7 @@ async function transformRuleset(parentSpan: Span, sourcePath: string, relativePa
       if (res === $skip) return;
 
       const id = basename;
-      const [type] = relativePath.slice(0, -extname.length).split(path.sep);
+      const type = relativePath.slice(0, -extname.length).split(path.sep)[0];
 
       if (type !== 'ip' && type !== 'non_ip') {
         throw new TypeError(`Invalid type: ${type}`);
