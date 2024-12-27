@@ -146,7 +146,7 @@ function generateHtml(tree: TreeTypeArray) {
         <main class="container">
           <h1>Sukka Ruleset Server</h1>
           <p>
-            Made by <a href="https://skk.moe">Sukka</a> | <a href="https://github.com/SukkaW/Surge/">Source @ GitHub</a> | Licensed under <a href="/LICENSE" target="_blank">AGPL-3.0</a>
+            Made by <a href="https://skk.moe">Sukka</a> | <a href="https://github.com/SukkaW/Surge/">Source @ GitHub</a> | Licensed under <a href="/LICENSE" target="_blank">AGPL-3.0</a> | Server by <a href="https://fylsen.com">FYLSen</a>
           </p>
           <p>Last Build: ${new Date().toISOString()}</p>
           <br>
