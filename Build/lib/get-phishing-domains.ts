@@ -7,7 +7,7 @@ import { appendArrayInPlaceCurried } from './append-array-in-place';
 import { DEBUG_DOMAIN_TO_FIND, PHISHING_DOMAIN_LISTS_EXTRA, PHISHING_HOSTS_EXTRA } from '../constants/reject-data-source';
 import { loosTldOptWithPrivateDomains } from '../constants/loose-tldts-opt';
 import picocolors from 'picocolors';
-import { createAhoCorasick as createKeywordFilter } from 'foxts/ahocorasick';
+import { createRetrieKeywordFilter as createKeywordFilter } from 'foxts/retrie';
 import { createCacheKey, deserializeArray, serializeArray } from './cache-filesystem';
 import { cache } from './fs-memo';
 import { isCI } from 'ci-info';
@@ -218,8 +218,6 @@ export function getPhishingDomains(parentSpan: Span) {
 
       return domainArr;
     });
-
-    console.log({ len: domainArr.length });
 
     return span.traceChildAsync(
       'process phishing domain set',
