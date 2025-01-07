@@ -30,25 +30,25 @@ export const HOSTS_EXTRA: HostsSource[] = [
 export const DOMAIN_LISTS: HostsSource[] = [
   // CoinBlockerList
   // Although the hosts file is still actively maintained, the hosts_browser file is not updated since 2024-03, so we set a 14 days cache ttl
-  [
-    'https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt',
-    [
-      'https://proxy.cdn.skk.moe/?https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt'
-    ],
-    true,
-    TTL.TWO_WEEKS()
-  ]
+  // [
+  //   'https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt',
+  //   [
+  //     'https://proxy.cdn.skk.moe/?https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt'
+  //   ],
+  //   true,
+  //   TTL.TWO_WEEKS()
+  // ]
 ];
 
 export const DOMAIN_LISTS_EXTRA: HostsSource[] = [
   // CoinBlockerList - Full
   // Lat update 10 months ago, so we set a 14 days cache ttl
-  [
-    'https://zerodot1.gitlab.io/CoinBlockerLists/list.txt',
-    ['https://proxy.cdn.skk.moe/?https://zerodot1.gitlab.io/CoinBlockerLists/list.txt'],
-    true,
-    TTL.TWO_WEEKS()
-  ],
+  // [
+  //   'https://zerodot1.gitlab.io/CoinBlockerLists/list.txt',
+  //   ['https://proxy.cdn.skk.moe/?https://zerodot1.gitlab.io/CoinBlockerLists/list.txt'],
+  //   true,
+  //   TTL.TWO_WEEKS()
+  // ],
 
   // BarbBlock
   // The barbblock list has never been updated since 2019-05, so we set a 14 days cache ttl
@@ -465,6 +465,7 @@ export const PREDEFINED_WHITELIST = [
   '.host.secureserver.net', // rDNS .64.149.167.72.host.secureserver.net,
   '.ip.linodeusercontent.com', // rDNS 45-79-169-153.ip.linodeusercontent.com
   '.static.akamaitechnologies.com', // rDNS a23-57-90-107.deploy.static.akamaitechnologies.com
+  '.compute.amazonaws.com', // rDNS ec2-3-22-96-128.us-east-2.compute.amazonaws.com
   '.shoppy.gg', // Spam404
   'transcend-cdn.com', // AdGuard Annoyances
   'store1.gofile.io', // Dandelion Sprout's Annoyances List
