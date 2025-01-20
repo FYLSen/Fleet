@@ -1,9 +1,9 @@
 import picocolors from 'picocolors';
 import type { Span } from '../../trace';
-import { fetchAssetsWithout304 } from '../fetch-assets';
+import { fetchAssets } from '../fetch-assets';
 import { onBlackFound, onWhiteFound } from './shared';
 import { createRetrieKeywordFilter as createKeywordFilter } from 'foxts/retrie';
-import { normalizeDomain } from '../normalize-domain';
+import { fastNormalizeDomain } from '../normalize-domain';
 import { looseTldtsOpt } from '../../constants/loose-tldts-opt';
 import tldts from 'tldts-experimental';
 import { NetworkFilter } from '@ghostery/adblocker';
@@ -20,6 +20,102 @@ const enum ParseType {
 
 export { type ParseType };
 
+export function processFilterRulesWithPreload(
+  filterRulesUrl: string,
+  fallbackUrls?: string[] | null,
+  allowThirdParty = false
+) {
+  const downloadPromise = fetchAssets(filterRulesUrl, fallbackUrls);
+
+  return (span: Span) => span.traceChildAsync<{ white: string[], black: string[] }>(`process filter rules: ${filterRulesUrl}`, async (span) => {
+    const text = await span.traceChildPromise('download', downloadPromise);
+
+    const whitelistDomainSets = new Set<string>();
+    const blacklistDomainSets = new Set<string>();
+
+    const warningMessages: string[] = [];
+
+    const MUTABLE_PARSE_LINE_RESULT: [string, ParseType] = ['', ParseType.NotParsed];
+    /**
+       * @param {string} line
+       */
+    const lineCb = (line: string) => {
+      const result = parse(line, MUTABLE_PARSE_LINE_RESULT, allowThirdParty);
+      const flag = result[1];
+
+      if (flag === ParseType.NotParsed) {
+        throw new Error(`Didn't parse line: ${line}`);
+      }
+      if (flag === ParseType.Null) {
+        return;
+      }
+
+      const hostname = result[0];
+
+      if (flag === ParseType.WhiteIncludeSubdomain || flag === ParseType.WhiteAbsolute) {
+        onWhiteFound(hostname, filterRulesUrl);
+      } else {
+        onBlackFound(hostname, filterRulesUrl);
+      }
+
+      switch (flag) {
+        case ParseType.WhiteIncludeSubdomain:
+          if (hostname[0] === '.') {
+            whitelistDomainSets.add(hostname);
+          } else {
+            whitelistDomainSets.add(`.${hostname}`);
+          }
+          break;
+        case ParseType.WhiteAbsolute:
+          whitelistDomainSets.add(hostname);
+          break;
+        case ParseType.BlackIncludeSubdomain:
+          if (hostname[0] === '.') {
+            blacklistDomainSets.add(hostname);
+          } else {
+            blacklistDomainSets.add(`.${hostname}`);
+          }
+          break;
+        case ParseType.BlackAbsolute:
+          blacklistDomainSets.add(hostname);
+          break;
+        case ParseType.ErrorMessage:
+          warningMessages.push(hostname);
+          break;
+        default:
+          break;
+      }
+    };
+
+    const filterRules = text.split('\n');
+
+    span.traceChild('parse adguard filter').traceSyncFn(() => {
+      for (let i = 0, len = filterRules.length; i < len; i++) {
+        lineCb(filterRules[i]);
+      }
+    });
+
+    for (let i = 0, len = warningMessages.length; i < len; i++) {
+      console.warn(
+        picocolors.yellow(warningMessages[i]),
+        picocolors.gray(picocolors.underline(filterRulesUrl))
+      );
+    }
+
+    console.log(
+      picocolors.gray('[process filter]'),
+      picocolors.gray(filterRulesUrl),
+      picocolors.gray(`white: ${whitelistDomainSets.size}`),
+      picocolors.gray(`black: ${blacklistDomainSets.size}`)
+    );
+
+    return {
+      white: Array.from(whitelistDomainSets),
+      black: Array.from(blacklistDomainSets)
+    };
+  });
+}
+
 export async function processFilterRules(
   parentSpan: Span,
   filterRulesUrl: string,
@@ -27,7 +123,7 @@ export async function processFilterRules(
   allowThirdParty = false
 ): Promise<{ white: string[], black: string[] }> {
   const [white, black, warningMessages] = await parentSpan.traceChild(`process filter rules: ${filterRulesUrl}`).traceAsyncFn(async (span) => {
-    const text = await span.traceChildAsync('download', () => fetchAssetsWithout304(filterRulesUrl, fallbackUrls));
+    const text = await span.traceChildAsync('download', () => fetchAssets(filterRulesUrl, fallbackUrls));
 
     const whitelistDomainSets = new Set<string>();
     const blacklistDomainSets = new Set<string>();
@@ -227,7 +323,7 @@ export function parse($line: string, result: [string, ParseType], allowThirdPart
       && filter.isPlain() // isPlain() === !isRegex()
       && (!filter.isFullRegex())
     ) {
-      const hostname = normalizeDomain(filter.hostname);
+      const hostname = fastNormalizeDomain(filter.hostname);
       if (!hostname) {
         result[1] = ParseType.Null;
         return result;
@@ -421,6 +517,11 @@ export function parse($line: string, result: [string, ParseType], allowThirdPart
   }
 
   const sliced = (sliceStart > 0 || sliceEnd < 0) ? line.slice(sliceStart, sliceEnd === 0 ? undefined : sliceEnd) : line;
+  if (sliced.length === 0 || sliced.includes('/')) {
+    result[1] = ParseType.Null;
+    return result;
+  }
+
   if (sliced.charCodeAt(0) === 45 /* - */) {
     // line.startsWith('-') is not a valid domain
     result[1] = ParseType.ErrorMessage;
@@ -437,7 +538,7 @@ export function parse($line: string, result: [string, ParseType], allowThirdPart
     return result;
   }
 
-  const domain = normalizeDomain(sliced);
+  const domain = fastNormalizeDomain(sliced);
 
   if (domain && domain === sliced) {
     result[0] = domain;

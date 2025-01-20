@@ -34,7 +34,7 @@ export abstract class RuleOutput<TPreprocessed = unknown> {
   protected destPort = new Set<string>();
 
   protected otherRules: string[] = [];
-  protected abstract type: 'domainset' | 'non_ip' | 'ip';
+  protected abstract type: 'domainset' | 'non_ip' | 'ip' | (string & {});
 
   private pendingPromise: Promise<any> | null = null;
 
@@ -295,13 +295,29 @@ export abstract class RuleOutput<TPreprocessed = unknown> {
     );
   }
 
-  write(): Promise<void> {
+  write({
+    surge = true,
+    clash = true,
+    singbox = true,
+    surgeDir = OUTPUT_SURGE_DIR,
+    clashDir = OUTPUT_CLASH_DIR,
+    singboxDir = OUTPUT_SINGBOX_DIR
+  }: {
+    surge?: boolean,
+    clash?: boolean,
+    singbox?: boolean,
+    surgeDir?: string,
+    clashDir?: string,
+    singboxDir?: string
+  } = {}): Promise<void> {
     return this.done().then(() => this.span.traceChildAsync('write all', async () => {
       invariant(this.title, 'Missing title');
       invariant(this.description, 'Missing description');
 
-      const promises = [
-        compareAndWriteFile(
+      const promises: Array<Promise<void>> = [];
+
+      if (surge) {
+        promises.push(compareAndWriteFile(
           this.span,
           withBannerArray(
             this.title,
@@ -309,9 +325,11 @@ export abstract class RuleOutput<TPreprocessed = unknown> {
             this.date,
             this.surge()
           ),
-          path.join(OUTPUT_SURGE_DIR, this.type, this.id + '.conf')
-        ),
-        compareAndWriteFile(
+          path.join(surgeDir, this.type, this.id + '.conf')
+        ));
+      }
+      if (clash) {
+        promises.push(compareAndWriteFile(
           this.span,
           withBannerArray(
             this.title,
@@ -319,14 +337,16 @@ export abstract class RuleOutput<TPreprocessed = unknown> {
             this.date,
             this.clash()
           ),
-          path.join(OUTPUT_CLASH_DIR, this.type, this.id + '.txt')
-        ),
-        compareAndWriteFile(
+          path.join(clashDir, this.type, this.id + '.txt')
+        ));
+      }
+      if (singbox) {
+        promises.push(compareAndWriteFile(
           this.span,
           this.singbox(),
-          path.join(OUTPUT_SINGBOX_DIR, this.type, this.id + '.json')
-        )
-      ];
+          path.join(singboxDir, this.type, this.id + '.json')
+        ));
+      }
 
       if (this.mitmSgmodule) {
         const sgmodule = this.mitmSgmodule();
@@ -361,35 +381,51 @@ export abstract class RuleOutput<TPreprocessed = unknown> {
   abstract mitmSgmodule?(): string[] | null;
 }
 
-export async function fileEqual(linesA: string[], source: AsyncIterable<string>): Promise<boolean> {
+export async function fileEqual(linesA: string[], source: AsyncIterable<string> | Iterable<string>): Promise<boolean> {
   if (linesA.length === 0) {
     return false;
   }
+
+  const linesABound = linesA.length - 1;
 
   let index = -1;
   for await (const lineB of source) {
     index++;
 
-    if (index > linesA.length - 1) {
-      return (index === linesA.length && lineB === '');
+    if (index > linesABound) {
+      return (index === linesA.length && lineB.length === 0);
     }
 
     const lineA = linesA[index];
 
-    if (lineA[0] === '#' && lineB[0] === '#') {
+    if (lineA.length === 0 && lineB.length === 0) {
+      continue;
+    }
+
+    // not both line are empty
+    if (lineA.length === 0 || lineB.length === 0) {
+      return false;
+    }
+
+    const firstCharA = lineA.charCodeAt(0);
+    const firstCharB = lineB.charCodeAt(0);
+
+    if (firstCharA !== firstCharB) {
+      return false;
+    }
+
+    if (firstCharA === 35 /* # */ && firstCharB === 35 /* # */) {
       continue;
     }
     // adguard conf
-    if (lineA[0] === '!' && lineB[0] === '!') {
+    if (firstCharA === 33 /* ! */ && firstCharB === 33 /* ! */) {
       continue;
     }
+
     if (
-      lineA[0] === '/'
-      && lineA[1] === '/'
-      && lineB[0] === '/'
-      && lineB[1] === '/'
-      && lineA[3] === '#'
-      && lineB[3] === '#'
+      firstCharA === 47 /* / */ && firstCharB === 47 /* / */
+      && lineA[1] === '/' && lineB[1] === '/'
+      && lineA[3] === '#' && lineB[3] === '#'
     ) {
       continue;
     }
@@ -400,7 +436,7 @@ export async function fileEqual(linesA: string[], source: AsyncIterable<string>)
   }
 
   // The file becomes larger
-  return !(index < linesA.length - 1);
+  return !(index < linesABound);
 }
 
 export async function compareAndWriteFile(span: Span, linesA: string[], filePath: string) {
